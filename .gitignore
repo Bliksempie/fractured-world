@@ -1,0 +1,12 @@
+# Node / tooling
+node_modules/
+dist/
+.cache/
+.env
+
+# macOS / system
+.DS_Store
+Thumbs.db
+
+# Markdown previews or local build artifacts
+*.preview.*
