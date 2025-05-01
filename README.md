@@ -19,7 +19,7 @@ Welcome, survivor.
 
 ## 🚧 Contributing
 
-This repo is currently closed to public contribution. Future community involvement will be enabled via [pull requests](https://docs.github.com/en/pull-requests) with specific contribution guidelines.
+This repo is open to public contribution. Please refer to CONTRIBUTE.md. Community involvement is enabled via [pull requests](https://docs.github.com/en/pull-requests) with specific contribution guidelines.
 
 ## 🧭 Versioning and Canon
 
