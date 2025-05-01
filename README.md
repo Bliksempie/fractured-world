@@ -29,8 +29,8 @@ Lore is tracked via Git and updated through pull requests to preserve consistenc
 - **Fragments** may be proposed via contribution and reviewed before merging.
 - **Player-generated discoveries** may exist in forks or branches until approved.
 
-"This is not a static document. It is almost a living entity — almost sentient."
-
 ---
+
+"This is not a static document. It is almost a living entity — almost sentient."
 
 — *The Testament of the Tainted*
