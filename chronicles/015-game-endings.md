@@ -1,4 +1,4 @@
-<!-- show-at-event:final-core-bloom -->
+<!-- show-at-event-trigger:final-core-bloom -->
 # Echoes of Gravity
 
 > "The world does not remember your name. Only your weight."
@@ -19,7 +19,7 @@ _— Unattributed, Iron Vault wall etching_
 > "Nothing is certain. Nothing is promised. But you still choose."
 <!-- /show-when-neutral -->
 
-<!-- /show-at-event:final-core-bloom -->
+<!-- /show-at-event-trigger:final-core-bloom -->
 
 <!-- show-on-player-choice:end-game -->
 # Echoes of Gravity
