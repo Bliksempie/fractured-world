@@ -1,4 +1,4 @@
-<show-at-final-core-bloom>
+<!-- show-at-final-core-bloom -->
 
 # Echoes of Gravity
 
@@ -8,24 +8,24 @@ _— Unattributed, Iron Vault wall etching_
 
 **Your gravity score is {{gravy-score}}.**
 
-<show-when-significantly-below-0>
+<!-- show-when-significantly-below-0 -->
 > "End it. Let the Bloom finish what it began. The roots have grown deep enough."
-</show-when-significantly-below-0>
+<!-- /show-when-significantly-below-0 -->
 
-<show-when-significantly-above-0>
+<!-- show-when-significantly-above-0 -->
 > "There is still light. A future waits in blood and ash. The choice is still yours."
-</show-when-significantly-above-0>
+<!-- /show-when-significantly-above-0 -->
 
-<show-when-neutral>
+<!-- show-when-neutral -->
 > "Nothing is certain. Nothing is promised. But you still choose."
-</show-when-neutral>
+<!-- /show-when-neutral -->
 
-</show-at-final-core-bloom>
+<!-- /show-at-final-core-bloom -->
 
-<show-on-player-choice>
+<!-- show-on-player-choice -->>
 # Echoes of Gravity
 
-<show-when-significantly-below-0>
+<!-- show-when-significantly-below-0 -->
 > "You saw the world's worst — and stopped pretending it could be redeemed."
 
 ## Ash Beneath the Bloom
@@ -34,9 +34,9 @@ The Final Core pulsed like a wound too deep to close. Anthea’s hand hovered ov
 
 With quiet resolve, you deactivated the seal. The bloom burst outward—not with rage, but relief. The sky turned the color of old bone. Around the world, Gravebloomer colonies felt the signal. The Blightspores screamed once, then fell silent. The world would not be saved. But it would be silenced.
 
-</show-when-significantly-below-0>
+<!-- /show-when-significantly-below-0 -->
 
-<show-when-significantly-above-0>
+<!-- show-when-significantly-above-0 -->
 
 ## The Slow Light
 
@@ -46,9 +46,9 @@ The Final Core still thrummed with fungal life, but within it—beneath it—was
 
 You initiated containment. For the first time in generations, a Bloom did not expand—it folded in on itself, like a dying flower. The gravebloomed screamed. Somewhere, a Gravebloomer Bishop wept, not from pain—but memory. The world did not heal. But it exhaled. And somewhere, far beyond the Iron Maw, a child laughed for no reason.
 
-</show-when-significantly-above-0>
+<!-- /show-when-significantly-above-0 -->
 
-<show-when-neutral>
+<!-- show-when-neutral -->
 
 > "You survived. You chose. But the world didn't give you a reason."
 
@@ -58,7 +58,7 @@ The console flickered, neither dead nor alive. The Final Core offered no guidanc
 
 Eventually, you made a choice. And maybe it mattered. Maybe not. No stories will be told about heroes or villains. Only people. Only decisions. The world outside shifted slightly as they stepped out. Not healed. Not lost. Just... changed.
 
-</show-when-neutral>
+<!-- /show-when-neutral -->
 
 🩸 **{{player-choice-01}}**
 **You spared the wounded scavenger beneath Bastion.**
@@ -100,4 +100,4 @@ The shrines burned. The chants silenced. The Rite failed. But rites, like memori
 
 The chanting rose, slow and guttural, beneath a collapsed cathedral. You stayed hidden—or watched openly. You did not stop them. When it was done, the ground did not quake. The bloom did not spread. But something had changed. Days later, a Gravebloomer Bishop approached a survivor enclave near Novigrad. Alone. Unarmed. It spoke seven words: "We remember what you chose that night."
 
-</show-on-player-choice>
+<!-- /show-on-player-choice -->
