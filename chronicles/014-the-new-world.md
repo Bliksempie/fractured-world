@@ -55,3 +55,78 @@ Before the collapse, salvage vaults were government fallback sites, corporate bl
 - High-stakes loot zones. Extremely rare and heavily guarded or condition-gated.
 - May offer **powerful trades**, story-altering relics, or deep lore fragments.
 - Access might require multiple steps: keycards, override codes, or Gravebloomer relics.
+
+## Regional Flavor Hooks
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: the-americas
+-->
+> You remember Denver—just the way the fog held the light. Maybe that compass isn't just old tech. Maybe it's the last thing that still points to where things used to be.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: eastern-europe-and-surrounds
+-->
+> When it's quiet, you still hear the static. Smolensk left something inside you—maybe that hatchet's more than a tool. Maybe it's a relic of memory too stubborn to rot.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: western-europe-and-surrounds
+-->
+> The rains fell different back then. Softer. Now the tome in your pack smells of mildew and regret. But the words inside might still light a spark when warmth is scarce.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: southern-africa-and-surrounds
+-->
+> The ground hums different after dark. The scanner clicks faintly at times—maybe remembering what the miners forgot. Or maybe warning of what they woke.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: northern-africa-and-surrounds
+-->
+> You left her grave at the edge of the Wadi. Now the map crinkles when it rains. No one else hears it, but you do. It's trying to remind you where the rain went red.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: asia-and-surrounds
+-->
+> The pulse from the mountain never truly stopped. Sometimes your mask fogs up even when it's dry. They say that's the breath of the Bloom still echoing from the high peaks.
+<!-- /show-if-meta -->
+
+<!-- show-if-meta
+    show-key: player-starts-in
+    show-value: australasia-and-surrounds
+-->
+> You dream of the reef at night. Of pulses under black coral. The kit you carry is cracked, but something about it still resonates—like it's listening for old waves.
+<!-- /show-if-meta -->
+
+## The World Doesn't Agree
+
+Long after the fall of satellites and mapping networks, survivors tried to rebuild their understanding of geography. It didn't work. Every hand-drawn map disagrees. Mountains appear where none should be. Roads fold back on themselves. Oceans move.
+
+Some believe the Bloom has warped perception. Others claim reality itself has fractured—split into parallel geographies that bleed through.
+
+> _"We didn’t lose the world. The world lost *us*."_
+
+- Rumors speak of safe zones that appear in two places at once.
+- Landmarks "move" on repeat visits, especially after Hum surges.
+- One map fragment claims that a second New York exists—frozen in perfect twilight, untouched by rot.
+
+## Rare Fragment Outcomes
+
+In rare cases, caches, vaults, or deep merchant trades may yield **unusual fragments** — ones tied to the world's true story. These fragments:
+
+- Are standard fragments, but flagged for **high consequence** if analyzed in a safe zone.
+- May overwrite player memories, adjust Living Chronicle entries, or reveal deeper lore truths.
+- Are always recovered in cryptic form—burned, encoded, or sealed in unfamiliar languages.
+
+These are never guaranteed. But when found, they leave a mark.
+
+> _"It wasn’t a map. It was a memory someone bled into parchment and forgot to die with."_
