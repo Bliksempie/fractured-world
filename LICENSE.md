@@ -22,7 +22,7 @@ This license is inspired by **Creative Commons Attribution–NonCommercial–Sha
 
 For commercial licensing, collaboration opportunities, or publishing inquiries, please contact:
 
-**fracturedworld@impero.co.za**
+**fracturedworld@imperoconsulting.co.za**
 
 ---
 
