@@ -661,7 +661,7 @@ _—Old Hunter's Warning_
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
-    affects-living-chronicles: falses
+    affects-living-chronicles: false
     converts-myth-to-confirmed: false
     fragment-id: fragment-the-weeping-stone
     myth-id: null
