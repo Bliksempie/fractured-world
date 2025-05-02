@@ -35,10 +35,8 @@ Every decision—every step you take—will shape not only your fate but the fut
 There is **no cure**. There are **no saviors**. There is only the **fractured world**—and what you choose to build from the ashes.
 
 ## 🜏 The Gravity of the Soul
-<blockquote>
-    "In the end, the world does not ask what you knew. Only what you chose."
-    <em>— Fragment from The Testament of the Tainted</em>
-</blockquote>
+> "In the end, the world does not ask what you knew. Only what you chose."
+> _— Fragment from The Testament of the Tainted_
 
 Some believe that every action in the fractured world carries a weight.
 

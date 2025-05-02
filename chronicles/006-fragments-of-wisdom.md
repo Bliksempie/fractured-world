@@ -35,199 +35,210 @@ Each Fragment whispers a piece of what was... Or warns of what is yet to come. T
 
 ### Echo of the Shambles
 
-**Early game**: "We thought we were safe, outside the zone. But it wasn't the spores that killed Juno. It was the air she brought with her. Some creatures don't travel with their nests—they carry the rot inside."'
+**Early game**:
+> "We thought we were safe, outside the zone. But it wasn't the spores that killed Juno. It was the air she brought with her. Some creatures don't travel with their nests—they carry the rot inside."
 
 ### Bloomwars
 
-**Mid-game**: <blockquote>"the Hum binds them, but pride breaks them." - Old survivor wisdom</blockquote> These old wisdoms claim that colonies remember the first fights between brothers of the Bloom. Now, when the Hum falters, the claws come out.
+**Mid-game**:
+> "the Hum binds them, but pride breaks them."
+
+_- Old survivor wisdom_
+
+These old wisdoms claim that colonies remember the first fights between brothers of the Bloom. Now, when the Hum falters, the claws come out.
 
 ### Humwars
 
-**Mid-game**: <blockquote>"When two Hums collide in hatred, sometimes... something worse wakes up."</blockquote>
+**Mid-game**:
+> "When two Hums collide in hatred, sometimes... something worse wakes up."
 
 ### The High Ground Doctrine
 
-**Early game**: First preached by rooftop preachers and cemented by desperate survivors, the doctrine states: <blockquote>"Those who rise, endure. Those who crawl, decay. But even in the clouds... nothing stays pure for long."</blockquote>
+**Early game**: First preached by rooftop preachers and cemented by desperate survivors, the doctrine states:
+>"Those who rise, endure. Those who crawl, decay. But even in the clouds... nothing stays pure for long."
 
 ### Kingpins
 
-**Mid-game**: <blockquote>"You don't see a Kingpin coming. You wake up one day and realize you don't remember why you ever fought back."</blockquote>—Old Hunter's Warning
+**Mid-game**:
+> "You don't see a Kingpin coming. You wake up one day and realize you don't remember why you ever fought back."
+
+_—Old Hunter's Warning_
 
 ### The Choirstone Inscription
 
 **Mid-game**: Beneath layers of moss and forgotten shrines lies a flat stone that hums softly when touched. Faint carvings vibrate at frequencies the human ear can barely grasp.
 
-<blockquote>"We sang before speech. We marched before thought. We remember before we know."</blockquote>
+> "We sang before speech. We marched before thought. We remember before we know."
 
 ### Redroot Recipe
 
 **Mid-game**: A torn page bound with sinew, smeared with ink and something darker. Believed to be a Gravebloomer alchemy scroll.
 
-<blockquote>"Boil the root beneath a waning moon. Burn the bone to ash. Mix with the blood of kin. Only then does clarity bloom."</blockquote>
+> "Boil the root beneath a waning moon. Burn the bone to ash. Mix with the blood of kin. Only then does clarity bloom."
 
 ### The Last King's Teeth
 
 **Mid-game**: Six jagged molars strung on a cord, each carved with a sigil. Said to be all that remains of the Last King of Blight, though no one agrees if he was ever real.
 
-<blockquote>"He spoke with rot. Commanded with hunger. And when he smiled, the Bloom grew thicker."</blockquote>
+> "He spoke with rot. Commanded with hunger. And when he smiled, the Bloom grew thicker."
 
 ### The Dissonant Accord
 
 **Early game**: A yellowed survivor log torn from a metal-bound journal. Its ink bleeds from a strange vibration embedded in the page itself.
 
-<blockquote>"If their Hum grows unified, the walls crack. But if you break the rhythm, they forget themselves. Just long enough to run."</blockquote>
+> If their Hum grows unified, the walls crack. But if you break the rhythm, they forget themselves. Just long enough to run."
 
 ### The Crown of the Root
 
 **Mid-game**: A child's crown, woven from fungal tendrils. Preserved miraculously in an airtight relic case. Said to be worn during the Bloodroot Rites.
 
-<blockquote>"The one who wears the root never sleeps. They see all... even through our eyes."</blockquote>
+> The one who wears the root never sleeps. They see all... even through our eyes."
 
 ### Shroud Fragment 22-C
 
 **Late game**: Encoded in a cipher only Gravebloomer elders would recognize. Recovered by a scout who died in their sleep two nights after finding it.
 
-<blockquote>"The Shroud remembers Bastion. It mourns for Bastion. We do not forgive what they buried."</blockquote>
+> The Shroud remembers Bastion. It mourns for Bastion. We do not forgive what they buried."
 
 ### Blisterskin Carapace Sample
 
 **Late game**: A rigid scale, fused with lead and copper traces. Found near irradiated ruins, still humming faintly.
 
-<blockquote>"They are not born—they coalesce. Each one carries the memory of its nest... and the rage of everything it left behind."</blockquote>
+> They are not born—they coalesce. Each one carries the memory of its nest... and the rage of everything it left behind."
 
 ### Ironroot Charter Page
 
 **Early game**: A parchment from the founding of Ironroot Colony, written in soot-ink on repurposed book pages. Names crossed out. Rewritten. Faded. Burnt.
 
-<blockquote>"We are not a people. We are a defiance. This page marks where the Bloom ends. Or we do."</blockquote>
+> We are not a people. We are a defiance. This page marks where the Bloom ends. Or we do."
 
 ### The Hollow Pact
 
-Carved into the underside of a subway rail. Discovered by a scavenger who claimed a truce was struck below the city.
+**Mid-game**: Carved into the underside of a subway rail. Discovered by a scavenger who claimed a truce was struck below the city.
 
-<blockquote>"We laid down arms. They laid down spores. Neither side trusted. But neither side killed."</blockquote>
+> "We laid down arms. They laid down spores. Neither side trusted. But neither side killed."
 
 ### The Breathless Sermon
 
 **Mid-game**: A prayer scroll sealed in plastic and fungus alike, found within a sealed Gravebloomer crypt.
 
-<blockquote>"Do not speak. The air listens. The old lungs stir when truth is exhaled."</blockquote>
+>"Do not speak. The air listens. The old lungs stir when truth is exhaled."
 
 ### The Blooming Hand
 
 **Early game**: A child's handprint fossilized in spore-crust, found on an abandoned playground wall.
 
-<blockquote>"It held a flower. Then the flower held it back."</blockquote>
+> "It held a flower. Then the flower held it back."
 
 ### The Spire Whispers
 
 **Mid-game**: Graffiti etched in bone dust near the summit of a ruined radio tower.
 
-<blockquote>"We climbed for signal. We heard something else."</blockquote>
+> "We climbed for signal. We heard something else."
 
 ### Black Petals in Winter
 
 **Early game**: A blood-stained journal page tucked inside a coat pocket near a mass grave.
 
-<blockquote>"The petals grew in the snow. Not from roots, but from memory."</blockquote>
+> "The petals grew in the snow. Not from roots, but from memory."
 
 ### The Second Hunger
 
 **Late game**: Burned transcript from a pre-collapse experiment, partially recovered from Core Shaft Theta.
 
-<blockquote>"First came the bloom. Then came the craving... and it was not for food."</blockquote>
+> "First came the bloom. Then came the craving... and it was not for food."
 
 ### Doctrine of the Unrooted
 
 **Mid-game**: Scrawled on the interior of a derailed metro car, marked with sigils only Gravebloomers use.
 
-<blockquote>"He who grows without soil becomes soil himself."</blockquote>
+> "He who grows without soil becomes soil himself."
 
 ### The Stillbirth City
 
 **Late game**: A sealed data log recovered from a failed outpost labeled "New Bastion."
 
-<blockquote>"They built it in silence. Raised it in fear. Buried it in denial."</blockquote>
+> "They built it in silence. Raised it in fear. Buried it in denial."
 
 ### The Crimson Teeth
 
 **Mid-game**: A snapped jawbone embedded with crimson fungal nodules, found in a gravebloomer enclave.
 
-<blockquote>"These were not for eating. They were for speaking."</blockquote>
+> "These were not for eating. They were for speaking."
 
 ### Dust of the Discordant
 
 **Early game**: Found in a survivor's radio log detailing a failed attempt to disrupt a Hum chorus.
 
-<blockquote>"White noise didn't help. Music made it worse. They killed the one who sang."</blockquote>
+> "White noise didn't help. Music made it worse. They killed the one who sang."
 
 ### The Pallid Choir
 
 **Mid-game**: A cracked gramophone record found buried beneath an overgrown altar.
 
-<blockquote>"They didn't sing to survive. They sang so the spores wouldn't forget their names."</blockquote>
+> "They didn't sing to survive. They sang so the spores wouldn't forget their names."
 
 ### The Dripping Hourglass
 
 **Late game**: A timepiece filled with thick fungal resin, found suspended in a Gravebloomer reliquary.
 
-<blockquote>"Time doesn't stop. It simply ferments."</blockquote>
+> "Time doesn't stop. It simply ferments."
 
 ### Seeds of Silence
 
 **Earlygame**: Dried pod fragments sealed inside a shrine marked "NO SOUND."
 
-<blockquote>"It bloomed the first time I screamed. And every time since."</blockquote>
+> "It bloomed the first time I screamed. And every time since."
 
 ### Memory in the Marrow
 
 **Mid-game**: A bone-syringe filled with neural dust, used by some rogue Uninfected tribes to "see backwards."
 
-<blockquote>"We don't have history. We have ghosts stitched into bone."</blockquote>
+> "We don't have history. We have ghosts stitched into bone."
 
 ### The Lanternless Path
 
 **Early game**: A survivor's guide scratched into the underside of a bridge plank.
 
-<blockquote>"If you bring light, you draw breath. If you draw breath, you feed them."</blockquote>
+> "If you bring light, you draw breath. If you draw breath, you feed them."
 
 ### The Third Spore
 
 **Late game**: Rejected Gravebloomer scripture, burned into a steel plate.
 
-<blockquote>"First came the Bloom. Then the Grave. The third is not born. The third is chosen."</blockquote>
+> "First came the Bloom. Then the Grave. The third is not born. The third is chosen."
 
 ### Beneath the Painted Sky
 
 **Mid-game**: A mural in an abandoned observatory, glowing faintly with bioluminescent bloom.
 
-<blockquote>"We watched the stars fall. They watched us rot."</blockquote>
+> "We watched the stars fall. They watched us rot."
 
 ### The Echo's Gait
 
 **Early game**: A torn page from a lost field manual, blood smeared across the diagrams.
 
-<blockquote>"If your footstep comes back late... don't take another."</blockquote>
+> "If your footstep comes back late... don't take another."
 
 ### The Maw is Listening
 
 **Mid-game**: A prison cell wall etched with concentric circles and carved prayers.
 
-<blockquote>"It doesn't eat with teeth. It eats with memory."</blockquote>
+> "It doesn't eat with teeth. It eats with memory."
 
 ### The Hollow Crown
 
 **Late game**: Found in the remains of a makeshift throne room in an infected cathedral.
 
-<blockquote>"He ruled the bloom for seven days. Then it bloomed through him."</blockquote>
+> "He ruled the bloom for seven days. Then it bloomed through him."
 
 ### Communion of the Spores
 
 **Late game**: A shattered breathing mask with Gravebloomer sigils burned onto its filter.
 
-<blockquote>"He removed it willingly. Said he could finally hear their side of the story."</blockquote>
+> "He removed it willingly. Said he could finally hear their side of the story."
 
 ### The Weeping Stone
 **Early game**: A gravemarker found deep in a Blightspore nesting ground, inexplicably untouched.
 
-<blockquote>"She never turned. She never ran. She simply closed her eyes... and the bloom bowed."</blockquote>
+> "She never turned. She never ran. She simply closed her eyes... and the bloom bowed."

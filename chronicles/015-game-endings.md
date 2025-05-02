@@ -2,20 +2,22 @@
 
 # Echoes of Gravity
 
-<blockquote>*"The world does not remember your name. Only your weight."* — Unattributed, Iron Vault wall etching</blockquote>
+> "The world does not remember your name. Only your weight."
+
+_— Unattributed, Iron Vault wall etching_
 
 **Your gravity score is {{gravy-score}}.**
 
 <show-when-significantly-below-0>
-End it. Let the Bloom finish what it began. The roots have grown deep enough.
+> "End it. Let the Bloom finish what it began. The roots have grown deep enough."
 </show-when-significantly-below-0>
 
 <show-when-significantly-above-0>
-There is still light. A future waits in blood and ash. The choice is still yours.
+> "There is still light. A future waits in blood and ash. The choice is still yours."
 </show-when-significantly-above-0>
 
 <show-when-neutral>
-Nothing is certain. Nothing is promised. But you still choose.
+> "Nothing is certain. Nothing is promised. But you still choose."
 </show-when-neutral>
 
 </show-at-final-core-bloom>
@@ -24,7 +26,7 @@ Nothing is certain. Nothing is promised. But you still choose.
 # Echoes of Gravity
 
 <show-when-significantly-below-0>
-<blockquote>You saw the world's worst — and stopped pretending it could be redeemed.</blockquote>
+> "You saw the world's worst — and stopped pretending it could be redeemed."
 
 ## Ash Beneath the Bloom
 
@@ -38,7 +40,7 @@ With quiet resolve, you deactivated the seal. The bloom burst outward—not with
 
 ## The Slow Light
 
-<blockquote>You saw the world's worst — and stopped pretending it could be redeemed.</blockquote>
+> "You saw the world's worst — and stopped pretending it could be redeemed."
 
 The Final Core still thrummed with fungal life, but within it—beneath it—was data. Something that had survived. Notes on blood chemistry. Early Gravebloomer births. A failure, yes—but not a complete one. The machine offered no promise. But it whispered a possibility.
 
@@ -48,7 +50,7 @@ You initiated containment. For the first time in generations, a Bloom did not ex
 
 <show-when-neutral>
 
-<blockquote>You survived. You chose. But the world didn't give you a reason.</blockquote>
+> "You survived. You chose. But the world didn't give you a reason."
 
 ## Threadbare Tomorrow
 

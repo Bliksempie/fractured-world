@@ -116,7 +116,7 @@ No one has seen a Vaulted Eye agent in decades. But messages sometimes appear in
 
 ## Post-Collapse Belief Systems
 
-<blockquote>"Faith does not die—it mutates."</blockquote>
+> "Faith does not die—it mutates."
 
 ### The Bloomward Faith
 

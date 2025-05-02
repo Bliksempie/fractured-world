@@ -30,7 +30,7 @@ The old world left behind more than ruin. Across the wastes, survivors whisper o
 
 In the fractured remains of the old world, the title of "merchant" no longer means prosperity. It means movement, cunning, and just enough trust to survive one more deal. These individuals travel the deadlands with patched carts, mutated pack beasts, or solar-powered bikes cobbled from rusted dreams. They trade in parts, rumors, and memories. Some are former engineers. Some are killers. A few are said to be former Gravebloomers who found a way to coexist with the infection. All of them carry relics of the old world — often more useful than you'd expect.
 
-<blockquote>"You got food, I got filters. You got stories, I got bullets. Let's pretend the world still spins, yeah?"</blockquote>
+> "You got food, I got filters. You got stories, I got bullets. Let's pretend the world still spins, yeah?"
 
 - Merchants can appear in ruined outposts, crossroads, or safe zones.
 - Inventory rotates based on region, time passed, and major world events.
@@ -40,7 +40,7 @@ In the fractured remains of the old world, the title of "merchant" no longer mea
 
 There are places in the world where someone once tried to survive — and failed. Tucked behind false walls, beneath floorboards, or buried under scorched soil, these caches tell forgotten stories. Family bunkers, lone survivor stashes, even military drops lost in chaos. To the desperate, a forsaken cache is salvation. Or a grave.
 
-<blockquote>"No footsteps. No Hum. Just dust and a prayer."</blockquote>
+> "No footsteps. No Hum. Just dust and a prayer."
 
 - Require sharp eyes or old-world maps to locate.
 - May contain one-time-use barter options — rare materials or obscure relics.
@@ -50,7 +50,7 @@ There are places in the world where someone once tried to survive — and failed
 
 Before the collapse, salvage vaults were government fallback sites, corporate black vaults, or sealed prepper tombs meant to outlast any disaster. Some still remain locked — sealed by biometric failsafes, radiation fields, or fungal overgrowth. Others have cracked open, spilling secrets into the dust.
 
-<blockquote>"We built bunkers to preserve the future. We forgot we had to survive to open them."</blockquote>
+> "We built bunkers to preserve the future. We forgot we had to survive to open them."
 
 - High-stakes loot zones. Extremely rare and heavily guarded or condition-gated.
 - May offer **powerful trades**, story-altering relics, or deep lore fragments.
