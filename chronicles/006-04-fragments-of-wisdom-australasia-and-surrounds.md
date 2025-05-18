@@ -10,7 +10,7 @@
 
 **Earlygame**: A seismic chart salvaged from a solar station along the scar.
 
-> "The vibrations aren’t natural. They’re too… even. Like something alive is humming from deep below."
+> "The vibrations aren't natural. They're too... even. Like something alive is humming from deep below."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -25,7 +25,7 @@
 
 **Midgame**: Radio interference log pulled from a capsized weather buoy.
 
-> "Burst pattern. Three tones. Repeating every full moon. It’s not weather chatter. It’s a call. Or a countdown."
+> "Burst pattern. Three tones. Repeating every full moon. It's not weather chatter. It's a call. Or a countdown."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -55,7 +55,7 @@
 
 **Lategame**: Hallucinatory log written by a survivor adrift at sea.
 
-> "The red ash fell like snow. And in it, I saw my future—and it wasn’t *mine* anymore."
+> "The red ash fell like snow. And in it, I saw my future—and it wasn't *mine* anymore."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -68,9 +68,9 @@
 -->
 ### The Darwin Lie
 
-**Midgame**: Extracted from intercepted state broadcasts marked “Internal Use Only.”
+**Midgame**: Extracted from intercepted state broadcasts marked "Internal Use Only."
 
-> "They didn’t turn the refugees away. They *locked them in*. And then they listened."
+> "They didn't turn the refugees away. They *locked them in*. And then they listened."
 
 *If analyzed, changes survivor trust logic toward military outposts, and modifies regional history notes in the Chronicle.*
 <!-- /fragment-meta -->
@@ -104,7 +104,7 @@
 
 **Midgame**: Unlocked through decoded geothermal pulses in volcanic soil readings.
 
-> "The pulses spell something. A story. Names, places, temperatures. It’s not memory. It’s a *journal.*"
+> "The pulses spell something. A story. Names, places, temperatures. It's not memory. It's a *journal.*"
 
 *If analyzed, updates the Chronicle with "intelligent geothermal signaling" hypothesis, and may influence volcanic region behavior.*
 <!-- /fragment-meta -->
@@ -121,7 +121,7 @@
 
 **Lategame**: Survivor recordings from Micronesia reveal harmonic resonance when shouting into the wind.
 
-> "You yell your name into the storm, and the island doesn’t echo it. It *repeats* it. In your mother’s voice."
+> "You yell your name into the storm, and the island doesn't echo it. It *repeats* it. In your mother's voice."
 
 *If analyzed, introduces high-consequence anomaly behavior tied to memory mimicry, stored in Living Chronicle.*
 <!-- /fragment-meta -->

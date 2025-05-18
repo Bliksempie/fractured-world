@@ -10,7 +10,7 @@
 
 **Earlygame**: A fortified colony founded by survivors in former Canada. Trade routes beginning to stabilize.
 
-> "We don’t light fires anymore. We burn intention."
+> "We don't light fires anymore. We burn intention."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -25,7 +25,7 @@
 
 **Earlygame**: Bastion, once a powerful safehold in Australia, may have fallen after internal betrayal—details unknown.
 
-> "The gates weren’t broken. They were *opened.*"
+> "The gates weren't broken. They were *opened.*"
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -55,7 +55,7 @@
 
 **Earlygame**: Recovered datapad from a sealed archive in former Portugal.
 
-> "It wasn’t a list of names. It was a list of voices—matched to the rhythms of their breathing. A population recorded by the way it *rested.*"
+> "It wasn't a list of names. It was a list of voices—matched to the rhythms of their breathing. A population recorded by the way it *rested.*"
 
 *If analyzed, logs a shift toward biometric trust systems in Uninfected strongholds.*
 <!-- /fragment-meta -->
@@ -89,7 +89,7 @@
 
 **Midgame**: Gene logs recovered from an uninfected vault beneath Kuala Lumpur suggest inherited Bloom resistance.
 
-> "They didn’t cure it. They *bred* around it."
+> "They didn't cure it. They *bred* around it."
 
 *If analyzed, logs the potential existence of immune lineages in the Living Chronicle, affecting medical salvage events.*
 <!-- /fragment-meta -->
@@ -106,7 +106,7 @@
 
 **Lategame**: Descriptions of hooded figures leading Uninfected children into caves during full moon tides.
 
-> "They don’t reappear. But their voices echo through the stone three days later."
+> "They don't reappear. But their voices echo through the stone three days later."
 
 *If analyzed, adds a cultural myth node related to silent salvation rituals.*
 <!-- /fragment-meta -->
@@ -123,7 +123,7 @@
 
 **Lategame**: Located in Iceland. No doors. No windows. Only resonance. Entry triggered by harmonic response.
 
-> "The vault doesn’t open. It *accepts.* Only those who carry the right frequency make it inside."
+> "The vault doesn't open. It *accepts.* Only those who carry the right frequency make it inside."
 
 *If analyzed, marks a location-based vault with music-triggered entry logic in the Chronicle.*
 <!-- /fragment-meta -->

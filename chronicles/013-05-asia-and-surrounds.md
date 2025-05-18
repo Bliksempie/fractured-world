@@ -35,7 +35,7 @@ Those from this vast region benefit from generational exposure to crowded surviv
 
 ### The Crater Monastery of Tibet
 
-A hollowed peak where monks are said to have survived the Bloom’s first wave in total silence. Recent visitors report distant chanting—and no signs of life.
+A hollowed peak where monks are said to have survived the Bloom's first wave in total silence. Recent visitors report distant chanting—and no signs of life.
 
 ### The Pearl Spine of the South China Sea
 
@@ -49,7 +49,7 @@ A bullet train locked in perpetual transit, its AI system corrupted. Satellite h
 
 ### 2020 – Fall of the Red Lantern Network
 
-A media blackout across mainland China during the first fungal wave cut millions off from public knowledge. When transmissions resumed, major cities were already overrun. The silence was later called "“"The Eight-Day Eclipse."
+A media blackout across mainland China during the first fungal wave cut millions off from public knowledge. When transmissions resumed, major cities were already overrun. The silence was later called """The Eight-Day Eclipse."
 
 ### 2021 – Himalayan Barrier Collapse
 

@@ -10,7 +10,7 @@
 
 **Earlygame**: Audio snippet transcribed from a handheld recorder found under a collapsed viaduct in France.
 
-> "It wasn’t the wind. It was a warning... tuned for someone who never came."
+> "It wasn't the wind. It was a warning... tuned for someone who never came."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -25,7 +25,7 @@
 
 **Midgame**: Snippets from the 9-minute broadcast recovered by an old signal-bunker team.
 
-> "Not Latin. Not human. Just a voice that *knew* us. And it wasn’t praying."
+> "Not Latin. Not human. Just a voice that *knew* us. And it wasn't praying."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -40,7 +40,7 @@
 
 **Lategame**: Recovered drone footage from a half-collapsed tower in the Drowned Quarter.
 
-> "Stained glass cracked by spores—but still glowing. Still casting shadows that don’t match what’s in the room."
+> "Stained glass cracked by spores—but still glowing. Still casting shadows that don't match what's in the room."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -89,7 +89,7 @@
 
 > "You hear brushstrokes. You hear footsteps. You hear the Mona Lisa exhale."
 
-*If analyzed, this fragment adds “cultural resonance” entries to the Living Chronicle—shaping survivor behavior around high-art ruins and echo spaces.*
+*If analyzed, this fragment adds "cultural resonance" entries to the Living Chronicle—shaping survivor behavior around high-art ruins and echo spaces.*
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -104,9 +104,9 @@
 
 **Lategame**: Compiled from flickers in dying power relays along the German border.
 
-> "The bursts translate to a countdown. Or maybe a clock. But the dates... they’re still ahead of us."
+> "The bursts translate to a countdown. Or maybe a clock. But the dates... they're still ahead of us."
 
-*If analyzed, the Living Chronicle gains a speculative “pending event marker,” changing survivor perception of future collapse phases.*
+*If analyzed, the Living Chronicle gains a speculative "pending event marker," changing survivor perception of future collapse phases.*
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -123,5 +123,5 @@
 
 > "It had no doors. No glass. And no shadow. But everyone who looked at it said it felt familiar."
 
-*If analyzed, establishes a Living Chronicle marker for “shared hallucination structures” possibly tied to gravity pressure.*
+*If analyzed, establishes a Living Chronicle marker for "shared hallucination structures" possibly tied to gravity pressure.*
 <!-- /fragment-meta -->

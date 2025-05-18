@@ -39,7 +39,7 @@ The Hum never left. Survivors near its borders hear whispers, but few cross the 
 
 ### The Gulf Scar
 
-A canyon where oil rigs once floated. It burned for weeks after the Bloom hit — now home to “fire-pocked” Blightspawn.
+A canyon where oil rigs once floated. It burned for weeks after the Bloom hit — now home to "fire-pocked" Blightspawn.
 
 ### Alaska's Broken Line
 
@@ -53,11 +53,11 @@ First reports of complete neighborhood blackouts, unresponsive emergency lines, 
 
 ### 2021 – The Panama Collapse
 
-Key segments of the intercontinental logistics grid fail. Ships pile up at ports, railways grind to a halt, and the Central Grid flickers out. The Americas’ supply chain backbone is declared "“"irreparably compromised."
+Key segments of the intercontinental logistics grid fail. Ships pile up at ports, railways grind to a halt, and the Central Grid flickers out. The Americas' supply chain backbone is declared """irreparably compromised."
 
 ### 2021 – Operation Wild Throttle (Classified)
 
-Covert American military unit deployed in southern Peru goes dark during "“"biological containment maneuvers." Only fragmented audio logs remain. The phrase *"it's singing in the rocks"* is repeated.
+Covert American military unit deployed in southern Peru goes dark during """biological containment maneuvers." Only fragmented audio logs remain. The phrase *"it's singing in the rocks"* is repeated.
 
 ### 2022 – Treaty of Soot
 

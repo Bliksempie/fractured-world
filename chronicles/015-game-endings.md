@@ -29,7 +29,7 @@ _— Unattributed, Iron Vault wall etching_
 
 ## Ash Beneath the Bloom
 
-The Final Core pulsed like a wound too deep to close. Anthea’s hand hovered over the console, eyes drawn to the data—schematics for a possible cure, tainted by centuries of war and compromise. Behind you, ruins whispered the names of those betrayed, sacrificed, or forgotten. The weight of it all pressed down like grave soil.
+The Final Core pulsed like a wound too deep to close. Anthea's hand hovered over the console, eyes drawn to the data—schematics for a possible cure, tainted by centuries of war and compromise. Behind you, ruins whispered the names of those betrayed, sacrificed, or forgotten. The weight of it all pressed down like grave soil.
 
 With quiet resolve, you deactivated the seal. The bloom burst outward—not with rage, but relief. The sky turned the color of old bone. Around the world, Gravebloomer colonies felt the signal. The Blightspores screamed once, then fell silent. The world would not be saved. But it would be silenced.
 <!-- /show-if:gravity-is:below-0 -->

@@ -35,7 +35,7 @@ Starting in Eastern Europe grants increased resilience to cold and a cultural in
 
 ### The Black Tunnel of Ukraine
 
-A derelict metro line where light bends unnaturally. Scouts report growing fungal matter that doesn’t reflect in mirrors.
+A derelict metro line where light bends unnaturally. Scouts report growing fungal matter that doesn't reflect in mirrors.
 
 ### The Vlach Cradle of Transylvania
 
@@ -43,7 +43,7 @@ A mountain fissure where blood-red spores burst seasonally. Locals say the earth
 
 ### The Smolensk Static Wall
 
-A stretch of abandoned telecom towers crackling with random noise bursts. Fragment decoders believe it’s not random at all.
+A stretch of abandoned telecom towers crackling with random noise bursts. Fragment decoders believe it's not random at all.
 
 ## Old World Timeline Highlights
 
@@ -53,11 +53,11 @@ A string of aging power facilities in Ukraine, Romania, and Bulgaria failed cont
 
 ### 2021 – The Balkan Evacuation Gridlock
 
-A failed multi-border evacuation across Serbia, Croatia, and Hungary caused the largest civilian bottleneck in the region’s modern history. Thousands vanished into the forests or flooded bunkers never meant to be reopened.
+A failed multi-border evacuation across Serbia, Croatia, and Hungary caused the largest civilian bottleneck in the region's modern history. Thousands vanished into the forests or flooded bunkers never meant to be reopened.
 
 ### 2022 – Operation Black Frost
 
-Russian winter operations against “unclassified biozones” ended in silence. Satellite footage showed entire platoons frozen mid-stride. No heat signatures ever returned.
+Russian winter operations against "unclassified biozones" ended in silence. Satellite footage showed entire platoons frozen mid-stride. No heat signatures ever returned.
 
 ## Historic Cities
 

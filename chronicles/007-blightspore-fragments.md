@@ -102,11 +102,11 @@
     fragment-lore-type: biological
     unlock-behavior: on-analysis
 -->
-### Titan’s Root
+### Titan's Root
 
 **Lategame**: Located in subterranean tunnels exposed by a failed demolition near Minsk.
 
-> "It wasn’t walking. It was *anchored.* The ground around it pulsed like lungs. And we only saw the *foot.*"
+> "It wasn't walking. It was *anchored.* The ground around it pulsed like lungs. And we only saw the *foot.*"
 
 *If analyzed, the Living Chronicle logs anatomical scale variance in Titan-class Blightspores.*
 <!-- /fragment-meta -->

@@ -10,7 +10,7 @@
 
 **Earlygame**: A field recording stored on a cracked voice module recovered near the Exclusion Zone.
 
-> "They said the Hum never left Denver. I say it never started here. This isn’t the Hum. It’s a choir of the buried trying to harmonize through dust."
+> "They said the Hum never left Denver. I say it never started here. This isn't the Hum. It's a choir of the buried trying to harmonize through dust."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -38,9 +38,9 @@
 -->
 ### Alaskan Rumor Line
 
-**Midgame**: A survivor’s transcript from intercepted comms between stations near the Broken Line.
+**Midgame**: A survivor's transcript from intercepted comms between stations near the Broken Line.
 
-> "We haven’t seen the train, but we *hear* it. No whistle. Just the hum. And the ice cracking like it remembers something."
+> "We haven't seen the train, but we *hear* it. No whistle. Just the hum. And the ice cracking like it remembers something."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -72,7 +72,7 @@
 
 > "There is a second Manhattan. It's buried in frost and twilight, mirrored below the East River. They call it the Quiet Borough. Some say it never fell. Some say no one inside knows the world ended."
 
-*If analyzed, this fragment modifies the Living Chronicle to acknowledge the “mirrored zone” theory, unlocking potential encounter threads tied to dual locations.*
+*If analyzed, this fragment modifies the Living Chronicle to acknowledge the "mirrored zone" theory, unlocking potential encounter threads tied to dual locations.*
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -104,7 +104,7 @@
 
 **Lategame**: Recovered from an etched metal plate buried beneath the remains of the Bogotá embassy vault.
 
-> "Signed by ash and sealed in absence, this was the final pact before the Fall. It wasn’t between nations. It was between those who *knew*, and those who refused."
+> "Signed by ash and sealed in absence, this was the final pact before the Fall. It wasn't between nations. It was between those who *knew*, and those who refused."
 
 *If analyzed, the Living Chronicle marks a shift toward pre-collapse conspiracy theories, influencing faction-neutral survivor groups and vault-coded documents.*
 <!-- /fragment-meta -->
@@ -117,11 +117,11 @@
     fragment-lore-type: structure
     unlock-behavior: on-analysis
 -->
-### The Tower That Didn’t Fall
+### The Tower That Didn't Fall
 
 **Midgame**: Coordinates engraved in the casing of a failed drone near the Gulf Scar.
 
 > "One tower still blinks blue. Not red. Not dead. It records. It remembers. It refuses to admit the world ended."
 
-*If analyzed, unlocks passive Living Chronicle note tracking “persistent structures” still active post-Fall and increases the chance of encountering stable zones.*
+*If analyzed, unlocks passive Living Chronicle note tracking "persistent structures" still active post-Fall and increases the chance of encountering stable zones.*
 <!-- /fragment-meta -->

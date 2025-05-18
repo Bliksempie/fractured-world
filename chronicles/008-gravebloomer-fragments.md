@@ -25,7 +25,7 @@
 
 **Midgame**: Confirmed: Survivors witnessed ritualistic sacrifices performed by a Gravebloomer colony near the ruins of Santiago.
 
-> "The bodies weren’t consumed. They were *offered*. And the ground accepted them."
+> "The bodies weren't consumed. They were *offered*. And the ground accepted them."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -40,7 +40,7 @@
 
 **Midgame**: A survivor in New Praga claims to have heard "the hum of sorrow"—a possible Kingpin gathering nearby.
 
-> "It wasn’t loud. It was *low*. Like mourning. Like memory turned into noise."
+> "It wasn't loud. It was *low*. Like mourning. Like memory turned into noise."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -55,7 +55,7 @@
 
 **Lategame**: Found beneath a collapsed art museum in Thessaloniki—fungal structures shaped like human neurons.
 
-> "It isn’t just growing. It’s *thinking* about growth."
+> "It isn't just growing. It's *thinking* about growth."
 
 *If analyzed, the Chronicle flags this as a Gravebloomer cognition node, increasing future Kingpin encounter risk.*
 <!-- /fragment-meta -->
@@ -72,7 +72,7 @@
 
 **Midgame**: Audio captured in an underground rail system where no power remains.
 
-> "You don’t *hear* the choir. You feel it in your bones. And then you remember something you never lived."
+> "You don't *hear* the choir. You feel it in your bones. And then you remember something you never lived."
 
 *If analyzed, the Chronicle notes this as a harmonic behavior linked to Gravebloomer coordination across cities.*
 <!-- /fragment-meta -->
@@ -89,7 +89,7 @@
 
 **Earlygame**: Witness account from a fog-covered farm outside Lisbon.
 
-> "They didn’t attack. They just... tended. Watered. Planted. Not crops. Not spores. *Memories.*"
+> "They didn't attack. They just... tended. Watered. Planted. Not crops. Not spores. *Memories.*"
 
 *If analyzed, Chronicle logs a possible Gravebloomer subspecies focused on psychological environments.*
 <!-- /fragment-meta -->
@@ -106,7 +106,7 @@
 
 **Midgame**: Patterns found in ossified Gravebloomer remains suggest intentional structural symbology.
 
-> "These aren’t bones. They’re *script.*"
+> "These aren't bones. They're *script.*"
 
 *If analyzed, introduces the possibility of a written Gravebloomer language—unlocking symbol-based site anomalies in the Chronicle.*
 <!-- /fragment-meta -->
@@ -121,9 +121,9 @@
 -->
 ### Grave Communion
 
-**Lategame**: A survivor wrote notes during a hallucinated “conversation” with a silent Gravebloomer Bishop.
+**Lategame**: A survivor wrote notes during a hallucinated "conversation" with a silent Gravebloomer Bishop.
 
-> "No words. Just… knowing. Like it wasn’t reading my mind. It was *letting me read its sadness.*"
+> "No words. Just... knowing. Like it wasn't reading my mind. It was *letting me read its sadness.*"
 
 *If analyzed, logs a Chronicle condition where communication with advanced Gravebloomers may be possible in non-lethal encounters.*
 <!-- /fragment-meta -->

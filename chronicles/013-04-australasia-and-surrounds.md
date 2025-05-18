@@ -61,7 +61,7 @@ A massive volcanic eruption near Vanuatu coincided with the first recorded Necro
 
 ## Historic Cities
 
-In Australasia, cities were bastions of calm and hope—until they weren’t. Their collapse came not in fire, but in suffocating silence. Built to resist heat and distance, they succumbed to scarcity and the creeping infection. Now, their towers watch over empty harbors, and their streets crack beneath vines, salt, and memory. Few places held on as long—or fell so completely.
+In Australasia, cities were bastions of calm and hope—until they weren't. Their collapse came not in fire, but in suffocating silence. Built to resist heat and distance, they succumbed to scarcity and the creeping infection. Now, their towers watch over empty harbors, and their streets crack beneath vines, salt, and memory. Few places held on as long—or fell so completely.
 
 ### Sydney, Australia
 

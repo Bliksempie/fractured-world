@@ -57,7 +57,7 @@ Massive civil unrest broke out across western Germany and the Netherlands after 
 
 ### 2022 – The Vatican Broadcast
 
-For 9 minutes and 37 seconds, every major radio and satellite frequency across Europe carried a high-fidelity signal from the Vatican. The voice is still debated—some claim it was the Pope, others say it wasn’t human. No such transmission has ever been repeated.
+For 9 minutes and 37 seconds, every major radio and satellite frequency across Europe carried a high-fidelity signal from the Vatican. The voice is still debated—some claim it was the Pope, others say it wasn't human. No such transmission has ever been repeated.
 
 ## Historic Cities
 

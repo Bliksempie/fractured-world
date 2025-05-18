@@ -25,7 +25,7 @@
 
 **Midgame**: A visual log corrupted by static, the only surviving file from a Chinese news drone.
 
-> "The lights didn’t flicker. They *watched.* And then they turned inward."
+> "The lights didn't flicker. They *watched.* And then they turned inward."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -70,7 +70,7 @@
 
 **Midgame**: Intercepted satellite footage stitched from black box data over Central China.
 
-> "There were eight days of darkness. But the sun never set. It’s just... no one remembers the light."
+> "There were eight days of darkness. But the sun never set. It's just... no one remembers the light."
 
 *If analyzed, logs the mysterious blackout that accelerated collapse in Asia, modifying survivor memory mechanics and fragment alignment events.*
 <!-- /fragment-meta -->
@@ -121,7 +121,7 @@
 
 **Lategame**: Photographic negatives found in a locked subway lab showing skyscrapers grown from bioalloy spines.
 
-> "They didn’t repair Tokyo. They *regrew* it. But the new streets didn’t match the old ones. And no one remembered building them."
+> "They didn't repair Tokyo. They *regrew* it. But the new streets didn't match the old ones. And no one remembered building them."
 
 *If analyzed, flags Tokyo as a mutating region in the Living Chronicle and may adjust event logic in artificial environments.*
 <!-- /fragment-meta -->

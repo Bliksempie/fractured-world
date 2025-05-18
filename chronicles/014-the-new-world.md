@@ -113,7 +113,7 @@ Long after the fall of satellites and mapping networks, survivors tried to rebui
 
 Some believe the Bloom has warped perception. Others claim reality itself has fractured—split into parallel geographies that bleed through.
 
-> _"We didn’t lose the world. The world lost *us*."_
+> _"We didn't lose the world. The world lost *us*."_
 
 - Rumors speak of safe zones that appear in two places at once.
 - Landmarks "move" on repeat visits, especially after Hum surges.
@@ -129,4 +129,4 @@ In rare cases, caches, vaults, or deep merchant trades may yield **unusual fragm
 
 These are never guaranteed. But when found, they leave a mark.
 
-> _"It wasn’t a map. It was a memory someone bled into parchment and forgot to die with."_
+> _"It wasn't a map. It was a memory someone bled into parchment and forgot to die with."_

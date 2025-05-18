@@ -25,7 +25,7 @@
 
 **Midgame**: A hollowed salt crystal carved with sacred Berber runes.
 
-> "The salt preserves truth. But it doesn’t always preserve *life.*"
+> "The salt preserves truth. But it doesn't always preserve *life.*"
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -55,7 +55,7 @@
 
 **Midgame**: A weathered stone disc etched with cloudburst glyphs.
 
-> "The storm didn’t just erase streets. It redrew the city... from memory."
+> "The storm didn't just erase streets. It redrew the city... from memory."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -68,9 +68,9 @@
 -->
 ### The Sand That Watches
 
-**Earlygame**: Collected from a traveler’s journal buried in a cracked oil drum south of Tripoli.
+**Earlygame**: Collected from a traveler's journal buried in a cracked oil drum south of Tripoli.
 
-> "You can’t bury the dead here. Not because they rise—but because the sand remembers them too clearly."
+> "You can't bury the dead here. Not because they rise—but because the sand remembers them too clearly."
 
 *If analyzed, adds a Chronicle marker on anomaly-rich burial zones and memory-based distortions.*
 <!-- /fragment-meta -->
@@ -100,11 +100,11 @@
     fragment-lore-type: environmental
     unlock-behavior: on-analysis
 -->
-### Cairo’s Breath
+### Cairo's Breath
 
 **Midgame**: Air composition logs pulled from a cracked observatory cylinder.
 
-> "Humidity spiked in sync with the singing. The spores weren’t growing—they were listening."
+> "Humidity spiked in sync with the singing. The spores weren't growing—they were listening."
 
 *If analyzed, adds a reactive Bloom behavior entry in the Chronicle and may affect player detection in high-Hum areas.*
 <!-- /fragment-meta -->

@@ -50,4 +50,4 @@ By contributing to this repository, you agree to the following:
 
 ---
 
-*“Truths fray into myth. Fragments sharpen into futures.”*
+*"Truths fray into myth. Fragments sharpen into futures."*

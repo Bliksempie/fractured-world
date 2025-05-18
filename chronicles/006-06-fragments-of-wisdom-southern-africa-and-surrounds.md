@@ -70,7 +70,7 @@
 
 **Midgame**: An audio cylinder carved from ore slag, recovered near the Kimberley pits.
 
-> "They didn’t sing to survive. They sang *while* forging. Heat and voice, bound in rhythm, tuned to keep the Hum at bay."
+> "They didn't sing to survive. They sang *while* forging. Heat and voice, bound in rhythm, tuned to keep the Hum at bay."
 
 *If analyzed, marks a Chronicle node linking sound-based resistance theory to forging cultures in collapsed industrial zones.*
 <!-- /fragment-meta -->
@@ -104,7 +104,7 @@
 
 **Midgame**: A torn page from a sealed summit transcript, edges stained with copper dust.
 
-> "They didn’t vote. They listened. Then they all nodded. At *something* just out of frame."
+> "They didn't vote. They listened. Then they all nodded. At *something* just out of frame."
 
 *If analyzed, deepens conspiracy-related Chronicle threads, implying silent agreement with unseen forces.*
 <!-- /fragment-meta -->
@@ -117,7 +117,7 @@
     fragment-lore-type: person
     unlock-behavior: on-analysis
 -->
-### The Firewalker’s Ledger
+### The Firewalker's Ledger
 
 **Midgame**: Charred notebook found on a skeletal courier halfway between Gqeberha and Lesotho.
 

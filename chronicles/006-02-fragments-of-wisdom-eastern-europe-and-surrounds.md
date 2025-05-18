@@ -8,9 +8,9 @@
 -->
 ### The Vlach Cradle's Breath
 
-**Earlygame**: Found etched into an old soldier’s canteen near the Transylvanian fissure.
+**Earlygame**: Found etched into an old soldier's canteen near the Transylvanian fissure.
 
-> "They say the mountain breathes only when watched. Don’t blink when it exhales."
+> "They say the mountain breathes only when watched. Don't blink when it exhales."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -25,7 +25,7 @@
 
 **Midgame**: Audio log capturing random bursts from derelict towers.
 
-> "Not random. Not even close. The static’s a pattern. If you play it backwards, it spells out coordinates we don’t have maps for."
+> "Not random. Not even close. The static's a pattern. If you play it backwards, it spells out coordinates we don't have maps for."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -53,7 +53,7 @@
 -->
 ### The Hollow Hymn of Bucharest
 
-**Earlygame**: A scrap of music sheet pinned to an abandoned conductor’s baton.
+**Earlygame**: A scrap of music sheet pinned to an abandoned conductor's baton.
 
 > "No instruments. No voice. Just wind and the echo of a memory too proud to leave."
 <!-- /fragment-meta -->
@@ -87,7 +87,7 @@
 
 **Midgame**: Recorded subsonic vibrations picked up beneath a monastery crypt.
 
-> "It doesn’t speak in words. It speaks in *absence*. And when you understand it, something in your spine *leans forward.*"
+> "It doesn't speak in words. It speaks in *absence*. And when you understand it, something in your spine *leans forward.*"
 
 *If analyzed, the Living Chronicle logs a subharmonic behavioral anomaly linked to low-activity Blight zones.*
 <!-- /fragment-meta -->
@@ -106,7 +106,7 @@
 
 > "It was the Eastern mirror of Bogotá. The same ink. The same phrasing. The same lie."
 
-*If analyzed, reinforces the “pre-Bloom coordination theory” and links survivors across continents through shared disillusionment.*
+*If analyzed, reinforces the "pre-Bloom coordination theory" and links survivors across continents through shared disillusionment.*
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
@@ -123,5 +123,5 @@
 
 > "The file says we tried. It shows lists. Maps. Experiments. But the last line just reads: *It wanted us to look.*"
 
-*If analyzed, introduces a “reflexive observer” theory in the Living Chronicle—implicating the infection may alter reality when studied.*
+*If analyzed, introduces a "reflexive observer" theory in the Living Chronicle—implicating the infection may alter reality when studied.*
 <!-- /fragment-meta -->
