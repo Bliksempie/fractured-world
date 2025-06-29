@@ -1,3 +1,5 @@
+# The Blightspores
+
 <!-- show-if
     key: blightspores-overview
     trigger: discovery
@@ -8,15 +10,11 @@
         - infection
         - blightspores
         - overview
-    source-id: lore-blightspores-overview
+    source-id: lore-blightspores-overview-90
 -->
-# The Blightspores
-
 ## Type
 
-* Fungal Strain
-* Threat
-* Emergent Species
+Fungal Strain / Threat
 
 ## Description
 
@@ -32,7 +30,7 @@ These are the first mutated strain. Blightspores are feral, and were thought to 
     tags:
         - blightspores
         - timeline
-    source-id: lore-blightspores-first-recorded
+    source-id: lore-blightspores-first-recorded-60
 -->
 
 ## First Recorded
@@ -51,7 +49,7 @@ Approximately 2 months after initial Necromyce outbreak.
     tags:
         - myth
         - hum
-    source-id: lore-blightspores-hum
+    source-id: lore-blightspores-hum-10
 -->
 **None.** Blightspores follow no form of known human timekeeping.
 <!-- /show-if -->
@@ -65,7 +63,7 @@ Approximately 2 months after initial Necromyce outbreak.
     tags:
         - myth
         - hum
-    source-id: lore-blightspores-hum
+    source-id: lore-blightspores-hum-50
 -->
 **Unknown.** Blightspores follow no form of known human timekeeping. But whispers suggest that their Hum may carry embedded timing rhythms. The lore speaks of codes so complex, no one has yet deciphered them. Survivors have reported entire swarms standing motionless as if waiting for a signal only they could hear.
 
@@ -84,7 +82,7 @@ Approximately 2 months after initial Necromyce outbreak.
         - myth
         - hum
         - timing
-    source-id: lore-blightspores-hum-timing
+    source-id: lore-blightspores-hum-timing-30
 -->
 ## Date Reference
 
@@ -94,6 +92,10 @@ Approximately 2 months after initial Necromyce outbreak.
 
 **Unknown**. Possibly encoded in Hum resonance.
 <!-- /show-if -->
+
+## Known Facts
+
+- Lifespan is brief.
 
 <!-- show-if
     key: blightspores-known-facts
@@ -105,11 +107,8 @@ Approximately 2 months after initial Necromyce outbreak.
         - infection
         - behavior
         - confirmed
-    source-id: lore-blightspores-known-facts
+    source-id: lore-blightspores-known-facts-85
 -->
-## Known Facts
-
-- Lifespan is brief.
 - Reproduction is rare among them.
 <!-- /show-if -->
 
@@ -123,7 +122,7 @@ Approximately 2 months after initial Necromyce outbreak.
         - infection
         - behavior
         - unconfirmed
-    source-id: lore-blightspores-hum-dialects
+    source-id: lore-blightspores-hum-dialects-80
 -->
 - Appears to be highly aggressive toward all beings not in their colony or responding to their dialect of the Hum.
 <!-- /show-if -->
@@ -138,12 +137,14 @@ Approximately 2 months after initial Necromyce outbreak.
         - infection
         - behavior
         - confirmed
-    source-id: lore-blightspores-hum-dialects
+    source-id: lore-blightspores-hum-dialects-100
 -->
 - Highly aggressive toward all non-Hum resonant beings.
 - Blightspore colonies have distinct "Hum dialects."
 - Blightspore colonies with different "Hum dialects" are also hostile toward each other.
 <!-- /show-if -->
+
+## Unconfirmed Myths or Rumors
 
 <!-- show-if
     key: myth-blight-king
@@ -155,10 +156,8 @@ Approximately 2 months after initial Necromyce outbreak.
         - myth
         - blightspores
         - leadership
-    source-id: lore-blightspores-myth-blight-king
+    source-id: lore-blightspores-myth-blight-king-20
 -->
-## Unconfirmed Myths or Rumors
-
 - Some claim a **Blight King** once united multiple colonies before tearing them apart.
 <!-- /show-if -->
 
@@ -166,13 +165,13 @@ Approximately 2 months after initial Necromyce outbreak.
     key: myth-black-choir
     trigger: discovery
     state: undiscovered
-    confidence: 18
+    confidence: 25
     unlocks: []
     tags:
         - myth
         - black-choir
         - hum
-    source-id: lore-blightspores-myth-black-choir
+    source-id: lore-blightspores-myth-black-choir-25
 -->
 - Rumors of the **Black Choir** have been reported by **The Uninfected** as well as **Gravebloomers**.
 <!-- /show-if -->
@@ -181,22 +180,24 @@ Approximately 2 months after initial Necromyce outbreak.
     key: myth-last-king-of-blight
     trigger: discovery
     state: undiscovered
-    confidence: 12
+    confidence: 10
     unlocks: []
     tags:
         - myth
         - radiation
         - kings
-    source-id: lore-blightspores-myth-last-king
+    source-id: lore-blightspores-myth-last-king-10
 -->
 - **The Last King of Blight** is sometimes mentioned in hushed conversations, but those who talk of it are silenced abruptly.
 <!-- /show-if -->
+
+## Variants
 
 <!-- show-if
     key: variant-shriekers
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 80
     unlocks:
         - variant-shriekers-fightdata
     tags:
@@ -204,10 +205,8 @@ Approximately 2 months after initial Necromyce outbreak.
         - blightspores
         - shriekers
         - behavior
-    source-id: lore-variant-shriekers
+    source-id: lore-variant-shriekers-80
 -->
-## Variants
-
 ### Shriekers
 
 Newly infected and consumed by madness, **Shriekers** are blisteringly fast and frenzied. Their bodies are still limber, muscles surging with adrenaline and infection. They emit piercing cries when they spot prey, which triggers others nearby to join the hunt.
@@ -216,14 +215,14 @@ Newly infected and consumed by madness, **Shriekers** are blisteringly fast and 
     key: variant-shriekers-fightdata
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks: []
     tags:
         - variant
         - shriekers
         - confirmed
         - threat-analysis
-    source-id: lore-variant-shriekers-combat
+    source-id: lore-variant-shriekers-combat-90
 -->
 One shriek in the distance can mean a dozen claws at your throat in minutes. Silence isn't just golden, it's survival. They are not just scouts, they are bait. Those who survive report the strength is deceptive: while not powerful alone, they overwhelm in numbers.
 <!-- /show-if -->
@@ -232,7 +231,7 @@ One shriek in the distance can mean a dozen claws at your throat in minutes. Sil
     key: variant-shriekers
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks:
         - variant-shriekers-fightdata
     tags:
@@ -240,7 +239,7 @@ One shriek in the distance can mean a dozen claws at your throat in minutes. Sil
         - blightspores
         - shriekers
         - behavior
-    source-id: lore-variant-shriekers
+    source-id: lore-variant-shriekers-90
 -->
 **Speed:** ⚡⚡⚡⚡⚡
 **Stealth:** ⚡
@@ -250,14 +249,14 @@ One shriek in the distance can mean a dozen claws at your throat in minutes. Sil
     key: variant-shriekers-fightdata
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks: []
     tags:
         - variant
         - shriekers
         - confirmed
         - threat-analysis
-    source-id: lore-variant-shriekers-combat
+    source-id: lore-variant-shriekers-combat-90
 -->
 **Strength:** ⚡
 **Threat Level:** Medium
@@ -268,7 +267,7 @@ One shriek in the distance can mean a dozen claws at your throat in minutes. Sil
     key: variant-skulkers
     trigger: discovery
     state: discovered
-    confidence: 85
+    confidence: 80
     unlocks:
         - variant-skulkers-fightdata
     tags:
@@ -276,7 +275,7 @@ One shriek in the distance can mean a dozen claws at your throat in minutes. Sil
         - blightspores
         - skulkers
         - behavior
-    source-id: lore-variant-skulkers
+    source-id: lore-variant-skulkers-80
 -->
 ### Skulkers
 
@@ -285,14 +284,14 @@ Over time, the infection warps their instincts to something darker. **Skulkers**
     key: variant-skulkers-fightdata
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks: []
     tags:
         - variant
         - skulkers
         - confirmed
         - threat-analysis
-    source-id: lore-variant-skulkers-combat
+    source-id: lore-variant-skulkers-combat-90
 -->
 When you hear it, you better have fast reflexes. They often strike in tight, collapsed spaces. This is where their stealth and patience become overwhelming advantages. Survivors report a disturbing calm before the assault, like a breath held too long in the dark.
 <!-- /show-if -->
@@ -309,7 +308,7 @@ When you hear it, you better have fast reflexes. They often strike in tight, col
         - blightspores
         - skulkers
         - behavior
-    source-id: lore-variant-skulkers
+    source-id: lore-variant-skulkers-85
 -->
 **Speed:** ⚡⚡
 **Stealth:** ⚡⚡⚡⚡
@@ -319,14 +318,14 @@ When you hear it, you better have fast reflexes. They often strike in tight, col
     key: variant-skulkers-fightdata
     trigger: discovery
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks: []
     tags:
         - variant
         - skulkers
         - confirmed
         - threat-analysis
-    source-id: lore-variant-skulkers-combat
+    source-id: lore-variant-skulkers-combat-90
 -->
 **Strength:** ⚡⚡
 **Threat Level:** Medium (high in close quarters)
@@ -337,7 +336,7 @@ When you hear it, you better have fast reflexes. They often strike in tight, col
     key: variant-crackshells
     trigger: discovery
     state: discovered
-    confidence: 88
+    confidence: 85
     unlocks:
         - variant-crackshells-fightdata
     tags:
@@ -345,7 +344,7 @@ When you hear it, you better have fast reflexes. They often strike in tight, col
         - blightspores
         - crackshells
         - behavior
-    source-id: lore-variant-crackshells
+    source-id: lore-variant-crackshells-85
 -->
 ### Crackshells
 
@@ -355,14 +354,14 @@ Hardened by countless battles and injuries, **Crackshells** are twisted monument
     key: variant-crackshells-fightdata
     trigger: discovery
     state: discovered
-    confidence: 94
+    confidence: 95
     unlocks: []
     tags:
         - variant
         - crackshells
         - confirmed
         - threat-analysis
-    source-id: lore-variant-crackshells-combat
+    source-id: lore-variant-crackshells-combat-95
 -->
 If you hear it, run. When a Crackshell breaks loose, walls and bodies are just obstacles in its way.
 <!-- /show-if -->
@@ -371,7 +370,7 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
     key: variant-crackshells
     trigger: discovery
     state: discovered
-    confidence: 88
+    confidence: 95
     unlocks:
         - variant-crackshells-fightdata
     tags:
@@ -379,7 +378,7 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
         - blightspores
         - crackshells
         - behavior
-    source-id: lore-variant-crackshells
+    source-id: lore-variant-crackshells-95
 -->
 **Speed:** ⚡⚡
 **Stealth:** ⚡
@@ -389,14 +388,14 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
     key: variant-crackshells-fightdata
     trigger: discovery
     state: discovered
-    confidence: 94
+    confidence: 100
     unlocks: []
     tags:
         - variant
         - crackshells
         - confirmed
         - threat-analysis
-    source-id: lore-variant-crackshells-combat
+    source-id: lore-variant-crackshells-combat-100
 -->
 **Strength:** ⚡⚡⚡
 **Threat Level:** Severe
@@ -407,7 +406,7 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
     key: variant-blisterskins
     trigger: discovery
     state: discovered
-    confidence: 82
+    confidence: 75
     unlocks:
         - variant-blisterskins-fightdata
     tags:
@@ -415,7 +414,7 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
         - blightspores
         - blisterskins
         - behavior
-    source-id: lore-variant-blisterskins
+    source-id: lore-variant-blisterskins-75
 -->
 ### Blisterskins (a.k.a. Bubblers)
 
@@ -424,14 +423,14 @@ If you hear it, run. When a Crackshell breaks loose, walls and bodies are just o
     key: variant-blisterskins-fightdata
     trigger: discovery
     state: discovered
-    confidence: 94
+    confidence: 100
     unlocks: []
     tags:
         - variant
         - blisterskins
         - confirmed
         - threat-analysis
-    source-id: lore-variant-blisterskins-combat
+    source-id: lore-variant-blisterskins-combat-100
 -->
 These sacs are not passive; they are biological pressure bombs. When ruptured (whether by injury or decay), they release a violent burst of infectious spores and toxic biological matter, capable of infecting anyone caught in the blast radius.
 <!-- /show-if -->
@@ -440,7 +439,7 @@ These sacs are not passive; they are biological pressure bombs. When ruptured (w
     key: variant-blisterskins
     trigger: discovery
     state: discovered
-    confidence: 82
+    confidence: 80
     unlocks:
         - variant-blisterskins-fightdata
     tags:
@@ -448,7 +447,7 @@ These sacs are not passive; they are biological pressure bombs. When ruptured (w
         - blightspores
         - blisterskins
         - behavior
-    source-id: lore-variant-blisterskins
+    source-id: lore-variant-blisterskins-80
 -->
 **Speed:** ⚡⚡
 **Stealth:** ⚡⚡
@@ -458,14 +457,14 @@ These sacs are not passive; they are biological pressure bombs. When ruptured (w
     key: variant-blisterskins-fightdata
     trigger: discovery
     state: discovered
-    confidence: 94
+    confidence: 95
     unlocks: []
     tags:
         - variant
         - blisterskins
         - confirmed
         - threat-analysis
-    source-id: lore-variant-blisterskins-combat
+    source-id: lore-variant-blisterskins-combat-95
 -->
 
 **Strength:** ⚡⚡⚡⚡
@@ -477,7 +476,7 @@ These sacs are not passive; they are biological pressure bombs. When ruptured (w
     key: variant-blisterskins-radzones
     trigger: region-visited
     state: discovered
-    confidence: 68
+    confidence: 65
     unlocks:
         - variant-blisterskins-deepzone
     tags:
@@ -486,7 +485,7 @@ These sacs are not passive; they are biological pressure bombs. When ruptured (w
         - radiation
         - zones
         - environment
-    source-id: lore-variant-blisterskins-radzones
+    source-id: lore-variant-blisterskins-radzones-65
 -->
 #### Radiation Zones and the Blisterskins (a.k.a. Bubblers)
 
@@ -509,7 +508,7 @@ These creatures, now called Blisterskins (or Bubblers by those who dare speak of
         - radiation
         - contamination
         - secrets
-    source-id: lore-variant-blisterskins-deepzone
+    source-id: lore-variant-blisterskins-deepzone-80
 -->
 Blisterskins or Bubblers cannot leave their radiation nests.
 
@@ -526,14 +525,14 @@ Those brave or desperate enough to breach a radiation zone must balance their gr
     key: variant-titans
     trigger: discovery
     state: discovered
-    confidence: 96
+    confidence: 95
     unlocks: []
     tags:
         - variant
         - blightspores
         - titans
         - catastrophic
-    source-id: lore-variant-titans
+    source-id: lore-variant-titans-95
 -->
 ### Titans
 
@@ -549,14 +548,14 @@ Few Blightspores survive long enough to reach this terrible state. **Titans** ar
     key: variant-bloomspawn
     trigger: discovery
     state: discovered
-    confidence: 91
+    confidence: 90
     unlocks: []
     tags:
         - variant
         - blightspores
         - bloomspawn
         - apocalyptic
-    source-id: lore-variant-bloomspawn
+    source-id: lore-variant-bloomspawn-90
 -->
 ### Bloomspawn
 
@@ -568,21 +567,22 @@ Where Titans are mountains of corrupted muscle, Bloomspawn are something worse: 
 **Threat Level:** Apocalyptic
 <!-- /show-if -->
 
+
+## Rumours
+
 <!-- show-if
     key: myth-black-choir
     trigger: discovery
     state: undiscovered
-    confidence: 28
+    confidence: 25
     unlocks:
         - myth-black-choir-confirmed
     tags:
         - myth
         - blightspores
         - black-choir
-    source-id: lore-black-choir-base
+    source-id: lore-black-choir-base-25
 -->
-## Rumours
-
 ### The Black Choir
 
 Among survivors and even whispering Gravebloomer elders, there is talk of **The Black Choir**, a supposed Blightspore phenomenon where entire hordes move in eerie, perfect unison, not merely through instinct, but through something deeper. A pure, brutal harmony of mindless will.
@@ -596,14 +596,14 @@ No one agrees whether it is a true evolution, or simply the last, horrific illus
     key: myth-black-choir-confirmed
     trigger: discovery
     state: discovered
-    confidence: 74
+    confidence: 75
     unlocks:
         - myth-black-choir-extended
     tags:
         - myth
         - confirmed
         - black-choir
-    source-id: lore-black-choir-expanded
+    source-id: lore-black-choir-expanded-75
 -->
 The few who supposedly survived long enough to speak described it as follows: **the Hum** rising into a deafening, coordinated wail, strong enough to shatter windows, rupture eardrums, and drive animals mad. Blightspores under its spell move with unnatural precision: stopping, pivoting, even forming near-military patterns to encircle prey.
 
@@ -614,14 +614,14 @@ Some scholars (and a few mad Gravebloomer exiles) claim that if enough Blightspo
     key: myth-black-choir-extended
     trigger: discovery
     state: discovered
-    confidence: 56
+    confidence: 55
     unlocks: []
     tags:
         - black-choir
         - myth
         - environmental
         - acoustic
-    source-id: lore-black-choir-secondary
+    source-id: lore-black-choir-secondary-55
 -->
 Other rumors about The Black Choir have been heard:
 
@@ -642,7 +642,7 @@ Other rumors about The Black Choir have been heard:
         - blightspores
         - blight-king
         - gravebloomers
-    source-id: lore-blight-king-core
+    source-id: lore-blight-king-core-20
 -->
 ### The Blight King
 
@@ -663,7 +663,7 @@ Among hushed voices around dying campfires, there persists a terrifying legend. 
         - black-hum
         - gravebloomers
         - coordinated-infection
-    source-id: lore-blight-king-expanded
+    source-id: lore-blight-king-expanded-65
 -->
 Unlike the shrieking hordes bound by instinct and Hum, the Blight King was said to retain a brutal form of intelligence. Not human kindness. Not reason. Pure malevolent cunning fused with the raw, infectious hunger of the Blight.
 
@@ -678,14 +678,14 @@ But how did it end? Nobody knows. Did it really exist, or was it the hallucinati
     key: myth-blight-king-aftermath
     trigger: discovery
     state: discovered
-    confidence: 51
+    confidence: 50
     unlocks: []
     tags:
         - myth
         - blight-king
         - psychic-collapse
         - anomaly
-    source-id: lore-blight-king-rumors
+    source-id: lore-blight-king-rumors-50
 -->
 **Stories are few and varying:**
 
@@ -704,7 +704,7 @@ But how did it end? Nobody knows. Did it really exist, or was it the hallucinati
     key: myth-last-king-of-blight
     trigger: discovery
     state: undiscovered
-    confidence: 19
+    confidence: 20
     unlocks:
         - myth-last-king-of-blight-expanded
     tags:
@@ -712,7 +712,7 @@ But how did it end? Nobody knows. Did it really exist, or was it the hallucinati
         - last-king
         - radiation
         - lore
-    source-id: lore-last-king-base
+    source-id: lore-last-king-base-20
 -->
 ### The Last King of Blight
 
@@ -723,14 +723,14 @@ Some say he was the first of the Bubblers.
     key: myth-last-king-of-blight-expanded
     trigger: discovery
     state: discovered
-    confidence: 54
+    confidence: 55
     unlocks: []
     tags:
         - myth
         - radiation
         - reclaimers
         - hybrid
-    source-id: lore-last-king-complete
+    source-id: lore-last-king-complete-55
 -->
 Others whisper he was the last man who dared rule over the infected, a tyrant who wore the blight like armor and waged war across the poisoned zones. No one agrees on the truth.
 

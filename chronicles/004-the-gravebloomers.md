@@ -34,7 +34,7 @@ These victims of the Necromyce retained intelligence and memory, are organized i
     tags:
         - gravebloomers
         - timeline
-    source-id: lore-gravebloomers-first-recorded
+    source-id: lore-gravebloomers-first-recorded-60
 -->
 ## First Recorded
 
@@ -52,7 +52,7 @@ Approximately 4 months after initial Necromyce outbreak.
     tags:
         - myth
         - hum
-    source-id: lore-gravebloomers-shedding
+    source-id: lore-gravebloomers-shedding-90
 -->
 3rd Shedding, Cycle 9.2. A Shedding marks the birth of a new generation—but generational order is not strictly linear. Some fourth-generation Gravebloomers may be born before others in the third. Each colony tracks time its own way, using shared blood-memory and local rites.
 
@@ -71,7 +71,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - infection
         - behavior
         - confirmed
-    source-id: lore-gravebloomers-known-facts
+    source-id: lore-gravebloomers-known-facts-25
 -->
 ## Known Facts
 
@@ -86,7 +86,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - infection
         - behavior
         - confirmed
-    source-id: lore-blightspores-known-facts
+    source-id: lore-gravebloomers-known-facts-85
 -->
 - Collaborate with their own kind; may occasionally cooperate with uninfected.
 <!-- /show-if -->
@@ -103,7 +103,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - myth
         - gravebloomers
         - leadership
-    source-id: lore-myth-bloodrites
+    source-id: lore-myth-bloodrites-20
 -->
 ## Unconfirmed Myths or Rumors
 
@@ -121,7 +121,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - gravebloomers
         - shroud
         - memory
-    source-id: lore-shroud-memory
+    source-id: lore-shroud-memory-70
 -->
 - They maintain an archive similar to **The Living Chronicles** and it is believed to be called **The Shroud Memory**.
 <!-- /show-if -->
@@ -138,7 +138,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - gravebloomers
         - mimics
         - behavior
-    source-id: lore-variant-mimics
+    source-id: lore-variant-mimics-90
 -->
 ## Variants
 
@@ -160,7 +160,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - gravebloomers
         - kingpins
         - behavior
-    source-id: lore-discovered-kingpins
+    source-id: lore-discovered-kingpins-90
 -->
 **Threat Level:** Low on their own, but devastating under group mind control by Bishops or Kingpins.
 <!-- /show-if -->
@@ -178,7 +178,7 @@ Approximately 4 months after initial Necromyce outbreak.
         - gravebloomers
         - mimics
         - behavior
-    source-id: lore-variant-wretches
+    source-id: lore-variant-wretches-90
 -->
 ### Wretches
 
@@ -188,14 +188,14 @@ Approximately 4 months after initial Necromyce outbreak.
     key: variant-wretches-fightdata
     trigger: discovery
     state: discovered
-    confidence: 90
+    confidence: 60
     unlocks: []
     tags:
         - variant
         - gravebloomers
         - wretches
         - behavior
-    source-id: lore-variant-wretches-fightdata
+    source-id: lore-variant-wretches-fightdata-60
 -->
 Their minds are sharp but fractured. They are able to mimic strategic thinking but prone to sudden, violent rages. Alone, a Wretch is a manageable threat. In numbers, they can outmaneuver and cripple entire survivor enclaves before Bishops move in to claim the ruins.
 <!-- /show-if -->
@@ -213,7 +213,7 @@ Their minds are sharp but fractured. They are able to mimic strategic thinking b
         - gravebloomers
         - wretches
         - behavior
-    source-id: lore-variant-wretches-fightdata
+    source-id: lore-variant-wretches-fightdata-90
 -->
 **Stealth:** ⚡⚡⚡⚡
 **Threat Level:** Medium (high if undetected)
@@ -224,7 +224,7 @@ Their minds are sharp but fractured. They are able to mimic strategic thinking b
     key: variant-bishops
     trigger: discovery
     state: discovered
-    confidence: 90
+    confidence: 60
     unlocks:
         - variant-bishops-fightdata
     tags:
@@ -232,7 +232,7 @@ Their minds are sharp but fractured. They are able to mimic strategic thinking b
         - gravebloomers
         - bishops
         - behavior
-    source-id: lore-variant-bishops
+    source-id: lore-variant-bishops-60
 -->
 ### Bishops
 
@@ -250,7 +250,7 @@ These Gravebloomers are the field commanders of the their colonies. Ruthless and
         - gravebloomers
         - bishops
         - behavior
-    source-id: lore-variant-bishops-fightdata
+    source-id: lore-variant-bishops-fightdata-90
 -->
 **Strength:** ⚡⚡
 **Stealth:** ⚡⚡⚡
@@ -262,7 +262,7 @@ These Gravebloomers are the field commanders of the their colonies. Ruthless and
     key: variant-tenders
     trigger: discovery
     state: discovered
-    confidence: 90
+    confidence: 85
     unlocks:
         - variant-tenders-fightdata
     tags:
@@ -270,7 +270,7 @@ These Gravebloomers are the field commanders of the their colonies. Ruthless and
         - gravebloomers
         - tenders
         - behavior
-    source-id: lore-variant-tenders
+    source-id: lore-variant-tenders-85
 -->
 ### Tenders
 
@@ -281,14 +281,14 @@ These Gravebloomers are the field commanders of the their colonies. Ruthless and
     key: variant-tenders-fightdata
     trigger: discovery
     state: discovered
-    confidence: 90
+    confidence: 60
     unlocks: []
     tags:
         - variant
         - gravebloomers
         - tenders
         - behavior
-    source-id: lore-variant-tenders-fightdata
+    source-id: lore-variant-tenders-fightdata-60
 -->
 **Strength:** ⚡⚡⚡
 **Stealth:** ⚡ (none once active)
@@ -308,7 +308,7 @@ These Gravebloomers are the field commanders of the their colonies. Ruthless and
         - gravebloomers
         - tenders
         - behavior
-    source-id: lore-variant-tenders
+    source-id: lore-variant-tenders-90
 -->
 ### Kingpins
 
@@ -327,7 +327,7 @@ These are the oldest and most mentally resilient Gravebloomers. Weak in body but
         - gravebloomers
         - kingpins
         - behavior
-    source-id: lore-variant-kingpins-fightdata
+    source-id: lore-variant-kingpins-fightdata-90
 -->
 **Stealth:** None
 **Threat Level:** Apocalyptic (always surrounded by hundreds of minions)
@@ -338,7 +338,7 @@ These are the oldest and most mentally resilient Gravebloomers. Weak in body but
     key: myth-bloodroot-rites
     trigger: discovery
     state: undiscovered
-    confidence: 28
+    confidence: 25
     unlocks:
         - myth-bloodroot-rites-confirmed
     tags:
@@ -346,7 +346,7 @@ These are the oldest and most mentally resilient Gravebloomers. Weak in body but
         - gravebloomers
         - bloodroot
         - rites
-    source-id: lore-myth-bloodroot-rites
+    source-id: lore-myth-bloodroot-rites-25
 -->
 ## Rumours
 
@@ -367,7 +367,7 @@ In the deeper wastelands, survivors speak of **The Bloodroot Rites**—grim ritu
         - bloodroot
         - rites
         - ceremonies
-    source-id: lore-myth-bloodroot-rites-ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies-80
 -->
 Through grotesque ceremonies involving the ingestion of rare fungal blooms, ritual mutilation, or violent rites of passage, they believe they can strengthen their minds against decay... or accelerate their evolution into something "purer" than either human or Gravebloomer.
 <!-- /show-if -->
@@ -385,7 +385,7 @@ Through grotesque ceremonies involving the ingestion of rare fungal blooms, ritu
         - bloodroot
         - rites
         - ceremonies
-    source-id: lore-myth-bloodroot-rites-ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies-20
 -->
 **Stories vary:**
 
@@ -405,7 +405,7 @@ Through grotesque ceremonies involving the ingestion of rare fungal blooms, ritu
         - bloodroot
         - rites
         - ceremonies
-    source-id: lore-myth-bloodroot-rites-ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies-40
 -->
 - Although not heard often, there are rumors of Bloom Ascendants, rare evolved leaders resulting from a successful Bloodroot Rite. Rumored to be stronger than its root variant, and might be able to mutate.
 - Perhaps scarier than any of the other rumors if true, is the one of Failed Rites. There are talks of whole colonies of Gravebloomers that are stronger than any Gravebloomer ever seen before—as strong as a Bishop physically, but needs more assistance from a Kingpin to control his minions.
@@ -423,7 +423,7 @@ Through grotesque ceremonies involving the ingestion of rare fungal blooms, ritu
         - bloodroot
         - rites
         - ceremonies
-    source-id: lore-myth-bloodroot-rites-ceremonies
+    source-id: lore-myth-gravebloomers-survivor-stories-80
 -->
 It remains uncertain whether these Bloodroot Rites are real, exaggerated by fear, or fabricated as warnings to the uninfected and Gravebloomers alike. But one thing is clear: when a Gravebloomer colony changes overnight, it's never good news for anyone nearby.
 <!-- /show-if -->
@@ -441,7 +441,7 @@ It remains uncertain whether these Bloodroot Rites are real, exaggerated by fear
         - gravebloomers
         - bloodroot
         - rites
-    source-id: lore-myth-the-shroud-memory
+    source-id: lore-myth-the-shroud-memory-20
 -->
 ### The Shroud Memory
 
@@ -460,7 +460,7 @@ No written record has ever been found. No Gravebloomer has ever confirmed its ex
         - gravebloomers
         - shroud
         - memory
-    source-id: lore-myth-the-shroud-memory-names
+    source-id: lore-myth-the-shroud-memory-names-20
 -->
 **It is called by many names:**
 
@@ -487,7 +487,7 @@ It is said that within this psychic web, Gravebloomers pass their history not th
         - gravebloomers
         - colonies
         - memory
-    source-id: myth-gravebloomer-colonies-memory
+    source-id: myth-gravebloomer-colonies-memory-20
 -->
 Those born into Gravebloomer colonies—even second or third generations who never knew a human life—inherit these memories. They remember hate before they know language.
 

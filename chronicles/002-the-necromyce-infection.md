@@ -15,7 +15,7 @@ Cataclysmic Event
         - origin
         - infection
         - unconfirmed
-    source-id: lore-infection-character-unconfirmed
+    source-id: lore-infection-character-unconfirmed-50
 -->
 Some describe Necromyce as a sickness. Others call it a blight, or a curse. All agree on one thing: wherever it appeared, things stopped being what they were.
 <!-- /show-if -->
@@ -23,13 +23,13 @@ Some describe Necromyce as a sickness. Others call it a blight, or a curse. All 
 <!-- show-if
     discovery: infection-character
     state: discovered
-    confidence: 87
+    confidence: 80
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-infection-character-confirmed
+    source-id: lore-infection-character-confirmed-80
 -->
 The **Necromyce infection** marked the end of the Old World. An unstoppable fungal plague that rose from the earth, warping and decaying all organic life it touched. It did not burn or bleed... it bloomed.
 <!-- /show-if -->
@@ -186,7 +186,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - origin
         - infection
         - unconfirmed
-    source-id: lore-infection-lingering-unconfirmed
+    source-id: lore-infection-lingering-unconfirmed-60
 -->
 - Some believe the ground itself still breathes the infection, even where no bloom has been seen in years.
 <!-- /show-if -->
@@ -200,7 +200,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - origin
         - infection
         - confirmed
-    source-id: lore-infection-lingering-confirmed
+    source-id: lore-infection-lingering-confirmed-90
 -->
 - The infection still lingers in the earth itself, even in places that appear to have never been infected.
 <!-- /show-if -->
@@ -358,7 +358,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - origin
         - infection
         - confirmed
-    source-id: lore-infection-behavior-unconfirmed
+    source-id: lore-infection-behavior-unconfirmed-25
 -->
 Reports vary. Some say symptoms take hold instantly. Others claim infection can lie dormant for days. A few insist the infected retain some awareness before they turn. No one agrees on the rules, only that the change always comes, and it's never gentle.
 <!-- /show-if -->
@@ -372,7 +372,7 @@ Reports vary. Some say symptoms take hold instantly. Others claim infection can 
         - origin
         - infection
         - confirmed
-    source-id: lore-infection-behavior-confirmed
+    source-id: lore-infection-behavior-confirmed-90
 -->
 Infection follows a consistent but rapid pattern. Initial exposure is asymptomatic. Within hours, minor symptoms such as fatigue, irritability, sensory sensitivity begin to surface. Once the infection reaches neural tissue, hosts experience disorientation, memory loss, and hallucinations, followed by total behavioral collapse. Transition into a Blightspore or Gravebloomer form is dictated by environmental and genetic factors.
 <!-- /show-if -->
@@ -388,7 +388,7 @@ Infection follows a consistent but rapid pattern. Initial exposure is asymptomat
         - origin
         - infection
         - unconfirmed
-    source-id: lore-containment-history-undiscovered
+    source-id: lore-containment-history-undiscovered-20
 -->
 Some survivors talk about sealed cities, burn zones, or spore fences that once held the infection back. Others say nothing worked at all. Whatever the truth, no known containment method survives today.
 <!-- /show-if -->
@@ -402,7 +402,7 @@ Some survivors talk about sealed cities, burn zones, or spore fences that once h
         - origin
         - infection
         - confirmed
-    source-id: lore-containment-history-discovered
+    source-id: lore-containment-history-discovered-100
 -->
 In the early days, governments deployed rapid-quarantine units and constructed exclusion zones. Entire districts were burned or buried, or even bombed when the government deemed uninfected count to be insignificant in the district, often under heavy criticism.
 
@@ -420,7 +420,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
         - origin
         - infection
         - unconfirmed
-    source-id: lore-origin-confirmed-not-discovered
+    source-id: lore-origin-confirmed-not-discovered-15
 -->
 - Some believe Necromyce was artificially engineered, possibly as a failed weapon.
 - Others say it didn't start here at all, that it arrived long ago, buried in soil not native to this world, awaiting its time to shine... or shall we say bloom.
@@ -437,7 +437,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
         - origin
         - infection
         - confirmed
-    source-id: lore-origin-confirmed-discovered
+    source-id: lore-origin-confirmed-discovered-65
 -->
 - Early conspiracy theories about Necromyce being engineered were debunked after geothermal and mineral mining in remote regions uncovered spore colonies — not ancient, not alien, but previously undiscovered extremophile fungi thriving in deep pressure environments. Brought to the surface, they mutated rapidly under atmospheric exposure.
 <!-- /show-if -->
@@ -451,7 +451,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
         - origin
         - infection
         - unconfirmed
-    source-id: lore-evolutionary-cap-not-discovered
+    source-id: lore-evolutionary-cap-not-discovered-30
 -->
 - A few claim it is still evolving, learning, waiting. Ready to adapt to circumstances, ready to destroy. The infection has only one goal: its own survival.
 <!-- /show-if -->

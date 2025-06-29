@@ -9,7 +9,7 @@
         - lore
         - introduction
         - chronicle-system
-    source-id: lore-living-chronicles-intro
+    source-id: lore-living-chronicles-intro-100
 -->
 # The Living Chronicles
 
@@ -36,7 +36,7 @@ The Living Chronicles are not static. They shift. They breathe. They remember. W
         - necromyce
         - collapse
         - cycle
-    source-id: lore-fractured-world-overview
+    source-id: lore-fractured-world-overview-100
 -->
 ## The Fractured World
 
@@ -64,7 +64,7 @@ The original Necromyce strain eventually burned itself out. But in its wake, two
         - blightspores
         - fungal
         - hive-mind
-    source-id: lore-infected-blightspores
+    source-id: lore-infected-blightspores-100
 -->
 ### The Blightspores
 
@@ -85,7 +85,7 @@ Yet they weren't without structure. A sound, low and droning, called **the Hum**
         - gravebloomers
         - cognition
         - religion
-    source-id: lore-infected-gravebloomers
+    source-id: lore-infected-gravebloomers-100
 -->
 ### The Gravebloomers
 
@@ -108,7 +108,7 @@ What remained hardened into doctrine. Stories became scripture. Victories became
         - uninfected
         - struggle
         - survival
-    source-id: lore-uninfected-overview
+    source-id: lore-uninfected-overview-100
 -->
 ### The Uninfected
 
