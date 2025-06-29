@@ -1,38 +1,145 @@
+<!-- show-if
+    key: gravespores-overview
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - infection
+        - gravespores
+        - overview
+    source-id: lore-gravespores-overview
+-->
 # The Gravebloomers
 
 ## Type
 
-Fungal Strain / Emergent Species
+* Fungal Strain
+* Threat
+* Emergent Species
 
 ## Description
 
 The second known surviving strain of Necromyce. Once considered superstition, Gravebloomers evolved in silence—first scavengers, then thinkers, then warlords. They age, reproduce, and remember. Their memories define time, not the sun or the stars.
 
 These victims of the Necromyce retained intelligence and memory, are organized into colonies, capable of speech, aging, and reproduction.
+<!-- /show-if -->
 
+<!-- show-if
+    key: gravebloomers-first-recorded
+    trigger: discovery
+    state: discovered
+    confidence: 60
+    unlocks: []
+    tags:
+        - gravebloomers
+        - timeline
+    source-id: lore-gravebloomers-first-recorded
+-->
 ## First Recorded
 
 Approximately 4 months after initial Necromyce outbreak.
+<!-- /show-if -->
 
 ## Date Reference
 
+<!-- show-if
+    key: gravebloomers-shedding
+    trigger: discovery
+    state: undiscovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - myth
+        - hum
+    source-id: lore-gravebloomers-shedding
+-->
 3rd Shedding, Cycle 9.2. A Shedding marks the birth of a new generation—but generational order is not strictly linear. Some fourth-generation Gravebloomers may be born before others in the third. Each colony tracks time its own way, using shared blood-memory and local rites.
 
 ### Date Example
 
 3rd generation since awakening, 9th year, 2nd month.
+<!-- /show-if -->
 
+<!-- show-if
+    key: gravebloomers-known-facts
+    trigger: discovery
+    state: discovered
+    confidence: 25
+    unlocks: []
+    tags:
+        - infection
+        - behavior
+        - confirmed
+    source-id: lore-gravebloomers-known-facts
+-->
 ## Known Facts
 
-- Collaborate with their own kind; may occasionally cooperate with uninfected.
-- Grow increasingly unstable across generations.
 - View uninfected as "thieves" who stole their rightful humanity.
+<!-- show-if
+    key: gravebloomers-known-facts
+    trigger: discovery
+    state: discovered
+    confidence: 85
+    unlocks: []
+    tags:
+        - infection
+        - behavior
+        - confirmed
+    source-id: lore-blightspores-known-facts
+-->
+- Collaborate with their own kind; may occasionally cooperate with uninfected.
+<!-- /show-if -->
+- Grow increasingly unstable across generations.
+<!-- /show-if -->
 
+<!-- show-if
+    key: myth-bloodrights
+    trigger: discovery
+    state: undiscovered
+    confidence: 20
+    unlocks: []
+    tags:
+        - myth
+        - gravebloomers
+        - leadership
+    source-id: lore-myth-bloodrites
+-->
 ## Unconfirmed Myths or Rumors
 
 - Some Gravebloomer colonies practice dark rituals in an attempt to "purify" their bloodline, believe to be called **The Bloodroot Rites**.
-- They maintain an archive similar to **The Living Chronicles** and it is believed to be called **The Shroud Memory**.
+<!-- /show-if -->
 
+<!-- show-if
+    key: shroud-memory
+    trigger: discovery
+    state: undiscovered
+    confidence: 70
+    unlocks: []
+    tags:
+        - lore
+        - gravebloomers
+        - shroud
+        - memory
+    source-id: lore-shroud-memory
+-->
+- They maintain an archive similar to **The Living Chronicles** and it is believed to be called **The Shroud Memory**.
+<!-- /show-if -->
+
+<!-- show-if
+    key: variant-mimics
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks:
+        - variant-mimics-fightdata
+    tags:
+        - variant
+        - gravebloomers
+        - mimics
+        - behavior
+    source-id: lore-variant-mimics
+-->
 ## Variants
 
 ### Mimics
@@ -43,6 +150,7 @@ Approximately 4 months after initial Necromyce outbreak.
 **Strength:** ⚡
 **Stealth:** ⚡
 **Threat Level:** Low on their own, but devastating under group mind control by Bishops or Kingpins.
+<!-- /show-if -->
 
 ### Wretches
 
