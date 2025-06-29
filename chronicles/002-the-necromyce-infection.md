@@ -9,7 +9,7 @@ Cataclysmic Event
 <!-- show-if
     discovery: infection-character
     state: undiscovered
-    confidence: 52
+    confidence: 50
     unlocks: []
     tags:
         - origin
@@ -31,16 +31,13 @@ Some describe Necromyce as a sickness. Others call it a blight, or a curse. All 
         - confirmed
     source-id: lore-infection-character-confirmed
 -->
-The **Necromyce infection** marked the end of the Old World—an unstoppable fungal plague that rose from the earth, warping and decaying all organic life it touched. It did not burn or bleed. It bloomed.
+The **Necromyce infection** marked the end of the Old World. An unstoppable fungal plague that rose from the earth, warping and decaying all organic life it touched. It did not burn or bleed... it bloomed.
 <!-- /show-if -->
-
-
-## First Recorded
 
 <!-- show-if
     discovery: day-zero-origin
     state: undiscovered
-    confidence: 61
+    confidence: 50
     unlocks: []
     tags:
         - origin
@@ -48,7 +45,9 @@ The **Necromyce infection** marked the end of the Old World—an unstoppable fun
         - unconfirmed
     source-id: lore-day-zero-origin-unconfirmed
 -->
-Many survivors mark the Collapse as a blur of symptoms, riots, and disappearances. No one agrees on when it began—only that it spread too fast, and no one was ready.
+## First Recorded
+
+**Day Zero**, exact origin point disputed. No seismic or meteorological events were recorded that day. Oonly silence, panic, death, and spores.
 <!-- /show-if -->
 
 <!-- show-if
@@ -62,15 +61,14 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-day-zero-origin-confirmed
 -->
-**Day Zero**, exact origin point unknown. No seismic or meteorological events were recorded that day—only silence, and spores.
+Many survivors mark the Collapse as a blur of symptoms, riots, and disappearances. There are some disagreements on when it began, but the event is remembered by the term **The First Bloom**. They remember that it spread too fast, and that no one was ready. First responders were overwhelmed, hospitals and clinics were overflowing. Death and infection reigned.
 <!-- /show-if -->
 
 ## Known Facts
-
 <!-- show-if
     discovery: transmission-modes
     state: undiscovered
-    confidence: 23
+    confidence: 20
     unlocks: []
     tags:
         - origin
@@ -78,13 +76,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-transmission-modes-unconfirmed
 -->
-- Survivors claim the infection spreads through everything—soil, water, maybe even the air itself.
+- Survivors claim the infection spreads through everything: soil, water, maybe even the air itself.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: transmission-modes
     state: discovered
-    confidence: 94
+    confidence: 60
     unlocks: []
     tags:
         - origin
@@ -98,7 +96,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: carriers
     state: undiscovered
-    confidence: 39
+    confidence: 40
     unlocks: []
     tags:
         - origin
@@ -106,13 +104,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-carriers-unconfirmed
 -->
-- Some swear the animals don't act infected—but everything they touch seems to rot faster. Plants too.
+- Some swear the animals didn't act infected, but everything they touched seemed to rot faster. Plants too.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: carriers
     state: discovered
-    confidence: 94
+    confidence: 80
     unlocks: []
     tags:
         - origin
@@ -120,13 +118,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-carriers-confirmed
 -->
-- Vegetation and animals became silent carriers—no symptoms, no warning.
+- Vegetation and animals became silent carriers, showing no symptoms, echoing no warning.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: early-symptoms
     state: undiscovered
-    confidence: 59
+    confidence: 30
     unlocks: []
     tags:
         - origin
@@ -134,13 +132,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-early-symptoms-unconfirmed
 -->
-- First signs were brushed off as exhaustion, stress, or flu. By the time people realized it was more, it was too late.
+- Early symptoms in humans were mistaken for fatigue or anxiety.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: early-symptoms
     state: discovered
-    confidence: 98
+    confidence: 60
     unlocks: []
     tags:
         - origin
@@ -148,13 +146,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-early-symptoms-confirmed
 -->
-- Early symptoms in humans were mistaken for fatigue or anxiety.
+- First signs were brushed off as exhaustion, stress, or flu. By the time people realized it was more, it was too late.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: collapse-timeline
     state: undiscovered
-    confidence: 47
+    confidence: 40
     unlocks: []
     tags:
         - origin
@@ -168,7 +166,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: collapse-timeline
     state: discovered
-    confidence: 92
+    confidence: 90
     unlocks: []
     tags:
         - origin
@@ -182,7 +180,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: infection-lingering
     state: undiscovered
-    confidence: 63
+    confidence: 60
     unlocks: []
     tags:
         - origin
@@ -196,7 +194,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: infection-lingering
     state: discovered
-    confidence: 99
+    confidence: 90
     unlocks: []
     tags:
         - origin
@@ -204,13 +202,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-infection-lingering-confirmed
 -->
-- The infection still lingers in the earth itself.
+- The infection still lingers in the earth itself, even in places that appear to have never been infected.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: treatment-efforts
     state: undiscovered
-    confidence: 17
+    confidence: 20
     unlocks: []
     tags:
         - origin
@@ -218,13 +216,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-treatment-efforts-unconfirmed
 -->
-- Fire seems to slow it. Nothing else works. But even that’s rumor. No one’s found a cure, and most stopped looking.
+- Fire seems to slow it... slightly. Nothing else seems to work. But even that's rumor, spreading from camp to camp.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: treatment-efforts
     state: discovered
-    confidence: 79
+    confidence: 70
     unlocks: []
     tags:
         - origin
@@ -232,7 +230,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-treatment-efforts-confirmed
 -->
-- No known cure. Fire slows it, but never stops it.
+- Fire slows it, but does not stop it. No one's found a cure, and most stopped looking, opting to quietly scavenge and survive, rather than to be heroes.
 <!-- /show-if -->
 
 ## Biological Notes
@@ -240,7 +238,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: soil-survival
     state: undiscovered
-    confidence: 28
+    confidence: 25
     unlocks: []
     tags:
         - origin
@@ -248,13 +246,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-soil-survival-unconfirmed
 -->
-- Some claim Necromyce spores can linger in soil for years—long after a bloom dies off—but no one's lived long enough to test it.
+- Some claim Necromyce spores can linger in soil for years, long after a bloom dies off, but no one's lived long enough to test it.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: soil-survival
     state: discovered
-    confidence: 94
+    confidence: 75
     unlocks: []
     tags:
         - origin
@@ -262,13 +260,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-soil-survival-confirmed
 -->
-- Necromyce spores are confirmed to survive in soil for decades without a host.
+- Necromyce spores are confirmed to survive in soil for years without a host.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: biomass-conversion
     state: undiscovered
-    confidence: 9
+    confidence: 10
     unlocks: []
     tags:
         - origin
@@ -276,7 +274,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-biomass-conversion-unconfirmed
 -->
-- Some survivors report seeing corpses collapse into rot, then rise again—covered in thick fungal growth. Others say it’s just what happens when you leave meat out in the rain.
+- Some survivors report seeing corpses collapse into rot, then rise again, covered in a thick fungal growth. Others say it's just what happens when you leave meat out in the rain.
 <!-- /show-if -->
 
 <!-- show-if
@@ -296,7 +294,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: neural-spread
     state: undiscovered
-    confidence: 13
+    confidence: 20
     unlocks: []
     tags:
         - origin
@@ -304,13 +302,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - unconfirmed
     source-id: lore-neural-spread-unconfirmed
 -->
-- Many believe the infection alters behavior once it reaches the brain—but no one survives long enough to prove it.
+- Many believe the infection alters behavior once it reaches the brain, but no one survives long enough to prove it.
 <!-- /show-if -->
 
 <!-- show-if
     discovery: neural-spread
     state: discovered
-    confidence: 96
+    confidence: 75
     unlocks: []
     tags:
         - origin
@@ -324,7 +322,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: autopsy-sample
     state: undiscovered
-    confidence: 34
+    confidence: 30
     unlocks: []
     tags:
         - origin
@@ -338,7 +336,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: autopsy-sample
     state: discovered
-    confidence: 74
+    confidence: 60
     unlocks: []
     tags:
         - origin
@@ -354,7 +352,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: infection-behavior
     state: undiscovered
-    confidence: 22
+    confidence: 25
     unlocks: []
     tags:
         - origin
@@ -362,7 +360,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
         - confirmed
     source-id: lore-infection-behavior-unconfirmed
 -->
-Reports vary. Some say symptoms take hold instantly. Others claim infection can lie dormant for days. A few insist the infected retain some awareness before they turn. No one agrees on the rules—only that the change always comes, and it's never gentle.
+Reports vary. Some say symptoms take hold instantly. Others claim infection can lie dormant for days. A few insist the infected retain some awareness before they turn. No one agrees on the rules, only that the change always comes, and it's never gentle.
 <!-- /show-if -->
 
 <!-- show-if
@@ -376,7 +374,7 @@ Reports vary. Some say symptoms take hold instantly. Others claim infection can 
         - confirmed
     source-id: lore-infection-behavior-confirmed
 -->
-Infection follows a consistent but rapid pattern. Initial exposure is asymptomatic. Within hours, minor symptoms—fatigue, irritability, sensory sensitivity—begin to surface. Once the infection reaches neural tissue, hosts experience disorientation, memory loss, and hallucinations, followed by total behavioral collapse. Transition into a Blightspore or Gravebloomer form is dictated by environmental and genetic factors.
+Infection follows a consistent but rapid pattern. Initial exposure is asymptomatic. Within hours, minor symptoms such as fatigue, irritability, sensory sensitivity begin to surface. Once the infection reaches neural tissue, hosts experience disorientation, memory loss, and hallucinations, followed by total behavioral collapse. Transition into a Blightspore or Gravebloomer form is dictated by environmental and genetic factors.
 <!-- /show-if -->
 
 ## Containment Efforts
@@ -384,7 +382,7 @@ Infection follows a consistent but rapid pattern. Initial exposure is asymptomat
 <!-- show-if
     discovery: containment-history
     state: undiscovered
-    confidence: 12
+    confidence: 20
     unlocks: []
     tags:
         - origin
@@ -406,7 +404,9 @@ Some survivors talk about sealed cities, burn zones, or spore fences that once h
         - confirmed
     source-id: lore-containment-history-discovered
 -->
-In the early days, governments deployed rapid-quarantine units and constructed exclusion zones. Entire districts were burned or buried. These efforts slowed transmission in isolated regions but failed globally due to airborne spread and carrier ambiguity. "Spore walls," chemical sterilants, and bio-scanners were deployed in select urban centers, but none proved sustainable. Most containment facilities were overrun or self-terminated by Cycle 2.
+In the early days, governments deployed rapid-quarantine units and constructed exclusion zones. Entire districts were burned or buried, or even bombed when the government deemed uninfected count to be insignificant in the district, often under heavy criticism.
+
+These efforts slowed transmission in isolated regions but failed globally due to airborne spread and carrier ambiguity. "Spore walls," chemical sterilants, and bio-scanners were deployed in select urban centers, but none proved sustainable. Most containment facilities were overrun or self-terminated by Cycle 2.
 <!-- /show-if -->
 
 ## Unconfirmed Myths
@@ -422,8 +422,8 @@ In the early days, governments deployed rapid-quarantine units and constructed e
         - unconfirmed
     source-id: lore-origin-confirmed-not-discovered
 -->
-- Some believe Necromyce was artificially engineered—possibly as a failed weapon.
-- Others say it didn’t start here at all—that it arrived long ago, buried in soil not native to this world.
+- Some believe Necromyce was artificially engineered, possibly as a failed weapon.
+- Others say it didn't start here at all, that it arrived long ago, buried in soil not native to this world, awaiting its time to shine... or shall we say bloom.
 <!-- /show-if -->
 
 <!-- show-if
@@ -445,7 +445,7 @@ In the early days, governments deployed rapid-quarantine units and constructed e
 <!-- show-if
     discovery: evolutionary-cap
     state: undiscovered
-    confidence: 32
+    confidence: 30
     unlocks: []
     tags:
         - origin
@@ -453,5 +453,5 @@ In the early days, governments deployed rapid-quarantine units and constructed e
         - unconfirmed
     source-id: lore-evolutionary-cap-not-discovered
 -->
-- A few claim it is still evolving, learning, waiting.
+- A few claim it is still evolving, learning, waiting. Ready to adapt to circumstances, ready to destroy. The infection has only one goal: its own survival.
 <!-- /show-if -->
