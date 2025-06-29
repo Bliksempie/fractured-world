@@ -149,68 +149,319 @@ Approximately 4 months after initial Necromyce outbreak.
 **Speed:** ⚡⚡⚡
 **Strength:** ⚡
 **Stealth:** ⚡
+<!-- show-if
+    key: discovered-kingpins
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - kingpins
+        - behavior
+    source-id: lore-discovered-kingpins
+-->
 **Threat Level:** Low on their own, but devastating under group mind control by Bishops or Kingpins.
 <!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: variant-wretches
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks:
+        - variant-wretches-fightdata
+    tags:
+        - variant
+        - gravebloomers
+        - mimics
+        - behavior
+    source-id: lore-variant-wretches
+-->
 ### Wretches
 
-**Wretches** are Gravebloomers that have failed to become Bishops—driven mad by their inability to rise in the colony's hierarchy. Fast, twitchy, and unstable, they act as scouts and saboteurs, prowling the edges of Uninfected territories. Their minds are sharp but fractured—able to mimic strategic thinking but prone to sudden, violent rages. Alone, a Wretch is a manageable threat. In numbers, they can outmaneuver and cripple entire survivor enclaves before Bishops move in to claim the ruins.
+**Wretches** are Gravebloomers that have failed to become Bishops—driven mad by their inability to rise in the colony's hierarchy. Fast, twitchy, and unstable, they act as scouts and saboteurs, prowling the edges of Uninfected territories.
+
+<!-- show-if
+    key: variant-wretches-fightdata
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - wretches
+        - behavior
+    source-id: lore-variant-wretches-fightdata
+-->
+Their minds are sharp but fractured. They are able to mimic strategic thinking but prone to sudden, violent rages. Alone, a Wretch is a manageable threat. In numbers, they can outmaneuver and cripple entire survivor enclaves before Bishops move in to claim the ruins.
+<!-- /show-if -->
 
 **Speed:** ⚡⚡⚡⚡
 **Strength:** ⚡
+<!-- show-if
+    key: variant-wretches-fightdata
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - wretches
+        - behavior
+    source-id: lore-variant-wretches-fightdata
+-->
 **Stealth:** ⚡⚡⚡⚡
 **Threat Level:** Medium (high if undetected)
+<!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: variant-bishops
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks:
+        - variant-bishops-fightdata
+    tags:
+        - variant
+        - gravebloomers
+        - bishops
+        - behavior
+    source-id: lore-variant-bishops
+-->
 ### Bishops
 
 These Gravebloomers are the field commanders of the their colonies. Ruthless and charismatic, they maintain the cohesion of Mimics through loyalty and fear. They have been in service of the Gravebloomers for some time, and have earned their position of power. A Bishop's voice carries weight, even in the carnage of battle. When they call, the hordes of Mimics does not hesitate—they obey.
 
 **Speed:** ⚡⚡⚡
+<!-- show-if
+    key: variant-bishops-fightdata
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - bishops
+        - behavior
+    source-id: lore-variant-bishops-fightdata
+-->
 **Strength:** ⚡⚡
 **Stealth:** ⚡⚡⚡
 **Threat Level:** Medium (always surrounded by tens of minions)
+<!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: variant-tenders
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks:
+        - variant-tenders-fightdata
+    tags:
+        - variant
+        - gravebloomers
+        - tenders
+        - behavior
+    source-id: lore-variant-tenders
+-->
 ### Tenders
 
 **Tenders** are grotesque Gravebloomers who have fused partially with their own fungal structures. Assigned to "grow"' colonies deeper into the earth, they drag heavy organic growths behind them like decaying gardeners. Their breath spores seed new Mimics in sleeping humans, and their bodies act as slow-moving nurseries for fresh infections. A single Tender left unchecked will turn an entire region into a spawning ground within months. They do not speak. They do not fight in the traditional sense. They infect the world itself.
 
 **Speed:** ⚡
+<!-- show-if
+    key: variant-tenders-fightdata
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - tenders
+        - behavior
+    source-id: lore-variant-tenders-fightdata
+-->
 **Strength:** ⚡⚡⚡
 **Stealth:** ⚡ (none once active)
 **Threat Level:** Catastrophic (over time, not immediately)
+<!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: variant-tenders
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks:
+        - variant-tenders-fightdata
+    tags:
+        - variant
+        - gravebloomers
+        - tenders
+        - behavior
+    source-id: lore-variant-tenders
+-->
 ### Kingpins
 
 These are the oldest and most mentally resilient Gravebloomers. Weak in body but powerful in will, they anchor the colony's memory, myths, and vendettas through subtle psychic influence passed down through generations. Among their kind, they preserve their own version of **The Living Chronicles**—a lore never written, never spoken aloud, and known only through whispered transmissions of thought. No Uninfected has ever seen evidence of it, or even knows what the Gravebloomers call it, but rumours exist of a journal called **The Shroud Memory**. When a Kingpin hums its bitter song into the minds of its followers, even death itself seems afraid to step too near.
 
 **Speed:** ⚡
 **Strength:** ⚡
+<!-- show-if
+    key: variant-kingpins-fightdata
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - variant
+        - gravebloomers
+        - kingpins
+        - behavior
+    source-id: lore-variant-kingpins-fightdata
+-->
 **Stealth:** None
 **Threat Level:** Apocalyptic (always surrounded by hundreds of minions)
+<!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: myth-bloodroot-rites
+    trigger: discovery
+    state: undiscovered
+    confidence: 28
+    unlocks:
+        - myth-bloodroot-rites-confirmed
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+    source-id: lore-myth-bloodroot-rites
+-->
 ## Rumours
 
 ### The Bloodroot Rites
 
 In the deeper wastelands, survivors speak of **The Bloodroot Rites**—grim rituals performed by Gravebloomer colonies seeking to "purify" their bloodline. The goal, it is said, is not to reclaim their lost humanity, but to sever the last fragile ties to it.
 
+<!-- show-if
+    key: myth-bloodroot-rites-ceremonies
+    trigger: discovery
+    state: undiscovered
+    confidence: 80
+    unlocks:
+        - myth-bloodroot-rites-ceremonies-confirmed
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+        - ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies
+-->
 Through grotesque ceremonies involving the ingestion of rare fungal blooms, ritual mutilation, or violent rites of passage, they believe they can strengthen their minds against decay... or accelerate their evolution into something "purer" than either human or Gravebloomer.
+<!-- /show-if -->
 
+<!-- show-if
+    key: myth-gravebloomers-survivor-stories
+    trigger: discovery
+    state: undiscovered
+    confidence: 20
+    unlocks:
+        - myth-bloodroot-rites-ceremonies-confirmed
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+        - ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies
+-->
 **Stories vary:**
 
 - In some tellings, entire colonies are consumed by madness after the Rites, reduced to husks worse than Blightspores.
 - In others, rare individuals survive, becoming twisted savants—revered, feared, and utterly alien.
 - Survivors claim some Gravebloomers bear scars or fungal tattoos from undergoing the Rites. These are known as Bloodmarked Gravebloomers.
+<!-- show-if
+    key: myth-gravebloomers-survivor-stories
+    trigger: discovery
+    state: discovered
+    confidence: 40
+    unlocks:
+        - myth-bloodroot-rites-ceremonies-confirmed
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+        - ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies
+-->
 - Although not heard often, there are rumors of Bloom Ascendants, rare evolved leaders resulting from a successful Bloodroot Rite. Rumored to be stronger than its root variant, and might be able to mutate.
 - Perhaps scarier than any of the other rumors if true, is the one of Failed Rites. There are talks of whole colonies of Gravebloomers that are stronger than any Gravebloomer ever seen before—as strong as a Bishop physically, but needs more assistance from a Kingpin to control his minions.
+<!-- /show-if -->
+<!-- show-if
+    key: myth-gravebloomers-survivor-stories
+    trigger: discovery
+    state: discovered
+    confidence: 80
+    unlocks:
+        - myth-bloodroot-rites-ceremonies-confirmed
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+        - ceremonies
+    source-id: lore-myth-bloodroot-rites-ceremonies
+-->
 It remains uncertain whether these Bloodroot Rites are real, exaggerated by fear, or fabricated as warnings to the uninfected and Gravebloomers alike. But one thing is clear: when a Gravebloomer colony changes overnight, it's never good news for anyone nearby.
+<!-- /show-if -->
+<!-- /show-if -->
 
+<!-- show-if
+    key: myth-the-shroud-memory
+    trigger: discovery
+    state: discovered
+    confidence: 20
+    unlocks:
+        - myth-the-shroud-memory-names
+    tags:
+        - myth
+        - gravebloomers
+        - bloodroot
+        - rites
+    source-id: lore-myth-the-shroud-memory
+-->
 ### The Shroud Memory
 
 Among wandering scholars and in the broken whispers of survivor camps, there persists a tale—not of a place or a person, but of a living memory, carried deep within the Gravebloomers.
 
 No written record has ever been found. No Gravebloomer has ever confirmed its existence. Yet still the rumors grow.
 
+<!-- show-if
+    key: myth-the-shroud-memory-names
+    trigger: discovery
+    state: discovered
+    confidence: 20
+    unlocks: []
+    tags:
+        - myth
+        - gravebloomers
+        - shroud
+        - memory
+    source-id: lore-myth-the-shroud-memory-names
+-->
 **It is called by many names:**
 
 - The Shroud Memory.
@@ -223,7 +474,21 @@ It is said that within this psychic web, Gravebloomers pass their history not th
 - They remember the wrongs done to them.
 - They remember the cities that burned and the faces that cursed their names.
 - They remember grievances, not as cold history, but as bleeding, personal wounds.
+<!-- /show-if -->
 
+<!-- show-if
+    key: myth-gravebloomer-colonies-memory
+    trigger: discovery
+    state: discovered
+    confidence: 20
+    unlocks: []
+    tags:
+        - myth
+        - gravebloomers
+        - colonies
+        - memory
+    source-id: myth-gravebloomer-colonies-memory
+-->
 Those born into Gravebloomer colonies—even second or third generations who never knew a human life—inherit these memories. They remember hate before they know language.
 
 Some scholars believe **The Shroud Memory** is why Gravebloomers' resentment grows stronger with each passing year.
@@ -231,3 +496,6 @@ Some scholars believe **The Shroud Memory** is why Gravebloomers' resentment gro
 Others fear that somewhere deep within the Shroud, there might still survive the knowledge of the old world—technologies, weapons, horrors—forgotten by the uninfected but preserved in the echoing marrow of their enemies.
 
 If the myth is true, then the Gravebloomers remember more than any Uninfected dares to hope... or fear., and the day they truly awaken those memories might be the day the last light of The Uninfected gutters out.
+<!-- /show-if -->
+<!-- /show-if -->
+<!-- /show-if -->

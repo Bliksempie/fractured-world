@@ -568,9 +568,6 @@ Where Titans are mountains of corrupted muscle, Bloomspawn are something worse: 
 **Threat Level:** Apocalyptic
 <!-- /show-if -->
 
-
-## Rumours
-
 <!-- show-if
     key: myth-black-choir
     trigger: discovery
@@ -584,6 +581,8 @@ Where Titans are mountains of corrupted muscle, Bloomspawn are something worse: 
         - black-choir
     source-id: lore-black-choir-base
 -->
+## Rumours
+
 ### The Black Choir
 
 Among survivors and even whispering Gravebloomer elders, there is talk of **The Black Choir**, a supposed Blightspore phenomenon where entire hordes move in eerie, perfect unison, not merely through instinct, but through something deeper. A pure, brutal harmony of mindless will.
