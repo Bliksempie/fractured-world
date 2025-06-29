@@ -1,22 +1,24 @@
-<!-- THIS DOCUMENT SERVES AS EXAMPLES PRIMARILY - GAME STRUCTURES ARE NOT FINALIZED -->
-
-# Fragments of Wisdon
+# Fragments of Wisdom
 
 Fragments of Wisdom are rare, often cryptic relics scattered across both the **Last Light** campaign and the endless expanse of **Blinding Light**. They are echoes of a world undone—etched into bone, whispered through fungus, carved into rusted steel. No two players will gather the same fragments, and no two **Living Chronicles** will ever tell the same story.
 
-While the **Living Chronicles** can be accessed at any time—halting direct threats to your companions—the world itself does not stop. Winds shift. Shadows grow. The bloom endures. And fragments? They do not shape the Chronicles until they are studied in safety.
+While the **Living Chronicles** can be accessed at any time—halting direct threats to you and your companions—the world itself does not stop. Winds shift. Shadows grow. The bloom endures. And the fragments? They do not shape the Chronicles until they are studied in safety.
 
-But tread carefully. Not all fragments speak truth. Some are fevered mutterings of the broken. Others... deliberate lies, seeded by things that remember being human.
+But tread carefully. Not all fragments speak the truth. Some are fevered mutterings of the broken. Others... deliberate lies, seeded by things that remember being human.
 
 ## The Testament of the Tainted
 
-In the shattered world left behind by Necromyce, memory itself became a casualty. Stories twisted. Facts decayed. _Truths frayed into myth_.
+In the shattered world left behind by Necromyce, memory itself became a casualty. Stories twisted. Facts decayed.
+
+_Truths frayed into myth_.
 
 Yet some remnants—fragments of forgotten knowledge, sacred rituals, bitter confessions—were salvaged by those who refused to let the past be wholly devoured.
 
 These relics of wisdom are gathered into the Testament of the Tainted—a secret vault of humanity's broken memory, stitched together from blood, sorrow, and stubborn hope.
 
-Each Fragment whispers a piece of what was... Or warns of what is yet to come. The Testament remembers. **Even when the world forgets**.
+Each Fragment whispers a piece of what was... Or warns of what is yet to come. The Testament remembers.
+
+_Even when the world forgets._
 
 ## Fragment Timing
 
@@ -68,6 +70,36 @@ Each Fragment whispers a piece of what was... Or warns of what is yet to come. T
 <!-- fragment-meta
     affects-living-chronicles: false
     converts-myth-to-confirmed: false
+    fragment-id: fragment-cursed-reclaimers
+    myth-id: null
+    fragment-timing: midgame
+    fragment-lore-type: wisdom
+    is-unlocked-by: null
+    unlocks-chronicle: null
+    unlock-behavior: on-acquisition
+-->
+### The Cursed Reclaimers
+
+**[Midgame]**: Found etched into the inside of a decontamination visor recovered from the edge of a dead zone.
+
+> _"They weren't just mad. They were precise. Silent. Focused. One would draw the Bubbler out. The rest would wait. Then run. Then die."_
+> _"They didn’t do it for loot. Or for maps. They did it because they believed in something worse than dying."_
+> _"Letting the Blight grow."_
+
+No one knows if they had a leader. Some say they wore no masks so they could hear the Hum’s tone shift when a Bubbler took the bait. Some say they branded themselves with melted rad-tags. Others say they kept score — not in kills, but in **kilometers reclaimed**.
+
+Their stories end the same way: silence, sickness, and glowing earth where they once stood.
+
+But once in a while, someone finds **dry ground** inside a zone where there shouldn’t be any. A clearing. Clean earth. No Hum. No spores.
+
+Maybe the Reclaimers were real.
+Maybe they won.
+A little.
+<!-- /fragment-meta -->
+
+<!-- fragment-meta
+    affects-living-chronicles: false
+    converts-myth-to-confirmed: false
     fragment-id: fragment-bloomwars
     myth-id: null
     fragment-timing: midgame
@@ -85,6 +117,49 @@ Each Fragment whispers a piece of what was... Or warns of what is yet to come. T
 _- Old survivor wisdom_
 
 These old wisdoms claim that colonies remember the first fights between brothers of the Bloom. Now, when the Hum falters, the claws come out.
+<!-- /fragment-meta -->
+
+<!-- fragment-meta
+    affects-living-chronicles: false
+    converts-myth-to-confirmed: false
+    fragment-id: fragment-it-didnt-kill-me
+    myth-id: null
+    fragment-timing: midgame
+    fragment-lore-type: wisdom
+    is-unlocked-by: null
+    unlocks-chronicle: null
+    unlock-behavior: on-acquisition
+-->
+<!-- show-if
+    key: fragment-it-didnt-kill-me
+    trigger: discovery
+    state: discovered
+    confidence: 46
+    unlocks: []
+    tags:
+        - fragment
+        - bloomspawn
+        - survivor
+        - anomaly
+    source-id: fragment-it-didnt-kill-me
+-->
+### It Didn't Kill Me
+
+**[Midgame]**: Found scribbled in dry blood on the inside of a locked freight container in the ruins of Harren Junction.
+
+> _"It didn’t kill me."_
+> _"It stood there. Or… slithered. Or pulsed. I don’t know what it did. But it didn’t move."_
+> _"I stepped on bone. My breathing was too loud. My boots scraped the floor. I thought it would charge."_
+> _"It didn’t."_
+
+> _"It watched me. I think it watched me. I couldn't hear anything except the Hum, but not the normal one. It was deeper. Like the earth was listening."_
+> _"I backed out. Step by step. It didn't follow."_
+> _"I made it to the ridge and vomited until blood came."_
+
+> _"I haven't slept in four days. I don't think I should've survived. It let me go."_
+> _"Why?"_
+
+<!-- /show-if -->
 <!-- /fragment-meta -->
 
 <!-- fragment-meta

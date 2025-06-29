@@ -1,6 +1,20 @@
-# ☍ Gravity Mechanic
+<!-- show-if
+    key: gravity-mechanic
+    trigger: step
+    state: step-reached:ghosts-by-the-stream
+    confidence: 100
+    unlocks:
+        - gravity-voice
+    tags:
+        - game-mechanic
+        - morality
+        - gravity
+        - soul
+    source-id: lore-gravity-mechanic
+-->
+# Gravity Mechanic
 
-## 🜏 The Gravity of the Soul
+## The Gravity of the Soul
 > "In the end, the world does not ask what you knew. Only what you chose."
 > _— Fragment from The Testament of the Tainted_
 
@@ -27,11 +41,27 @@ Gravity is a hidden value adjusted throughout gameplay based on:
 
 At the end, a "voice" appears — not a real person, but a manifestation of accumulated moral weight.
 
-## Depending on the Gravity score
+<!-- show-if
+    key: gravity-voice
+    trigger: step
+    state: step-reached:ghosts-by-the-stream
+    confidence: 100
+    unlocks: []
+    tags:
+        - game-mechanic
+        - gravity-voice
+        - morality
+        - gravity
+        - soul
+    source-id: lore-gravity-voice
+-->
+## The Voice
 
-- Significantly below 0 -> the voice tempts, condemns, seduces: "End it. Let the bloom finish what it began."
-- Significantly above 0 -> the voice encourages, questions, inspires: """There is still light. A future waits in blood and ash."
-- Neutral (insignificantly above or below 0, nobody knows the exact threshold) -> the voice is uncertain: """Nothing is certain. Nothing is promised. But you still choose."
+- Significantly below 0, the voice tempts, condemns, seduces: "End it. Let the bloom finish what it began."
+- Significantly above 0, the voice encourages, questions, inspires: "There is still light. A future waits in blood and ash."
+- Neutral (insignificantly above or below 0, nobody knows the exact threshold), the voice is uncertain: "Nothing is certain. Nothing is promised. But you still choose."
+<!-- /show-if -->
+<!-- /show-if -->
 
 # Calendar Systems
 

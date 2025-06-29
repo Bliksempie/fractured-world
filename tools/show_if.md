@@ -8,17 +8,17 @@ This metadata lives inside HTML comments in your `.md` lore files.
 ## Structure
 
 <!-- show-if
-    key: <identifier>                                            # A unique, stable ID for this condition (e.g., infection-behavior)
-    trigger: <discovery | event | step | gravity>                # What kind of system event activates this check
-    state: <(un)discovered|started|ended|reached|gravity<50>     # The condition value
-    confidence: <0–100>                                          # Internal trust score (not shown to players)
-    unlocks:                                                     # Items this condition unlocks (empty if none)
+    key: <identifier>                                                          # A unique, stable ID for this condition (e.g., infection-behavior)
+    trigger: <discovery | event | step | gravity | region-visited >            # What kind of system event activates this check
+    state: <(un)discovered | started | ended | reached | gravity<50 | inside > # The condition value
+    confidence: <0–100>                                                        # Internal trust score (not shown to players)
+    unlocks:                                                                   # Items this condition unlocks (empty if none)
         - <system-key>
         - <system-key>
-    tags:                                                        # e.g., origin, infection, confirmed
+    tags:                                                                      # e.g., origin, infection, confirmed
         - <tag>
         - <tag>
-    source-id: lore-<identifier>-<state>                         # Stable source reference for parsing/debugging
+    source-id: lore-<identifier>-<state>                                       # Stable source reference for parsing/debugging
 -->
 <!-- /show-if -->
 
