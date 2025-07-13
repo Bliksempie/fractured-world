@@ -57,6 +57,7 @@ If you are reading this... you are still uninfected. For now.
     trigger: discovery
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks:
         - infected-blightspores
     tags:
@@ -109,6 +110,7 @@ The original Necromyce strain eventually burned itself out. But in its wake, two
     trigger: discovery
     state: undiscovered
     confidence: 20
+    unlocked-by: []
     unlocks: []
     tags:
         - strain:blightspores
@@ -137,6 +139,7 @@ The first strain became known as the **Blightspores**. They are believed to be f
     trigger: discovery
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks:
         - infected-gravebloomers
     tags:
@@ -168,6 +171,7 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
     trigger: discovery
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks:
         - uninfected-overview
     tags:
@@ -203,6 +207,7 @@ What remained hardened into doctrine. Stories became scripture, victories became
     trigger: discovery
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks:
         - player-paths
     tags:
