@@ -10,6 +10,7 @@ Cataclysmic Event
     discovery: infection-character
     state: undiscovered
     confidence: 50
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -38,12 +39,13 @@ The **Necromyce infection** marked the end of the Old World. An unstoppable fung
     discovery: day-zero-origin
     state: undiscovered
     confidence: 50
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-day-zero-origin-unconfirmed
+    source-id: lore-day-zero-origin-unconfirmed-50
 -->
 ## First Recorded
 
@@ -53,13 +55,14 @@ The **Necromyce infection** marked the end of the Old World. An unstoppable fung
 <!-- show-if
     discovery: day-zero-origin
     state: discovered
-    confidence: 89
+    confidence: 90
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-day-zero-origin-confirmed
+    source-id: lore-day-zero-origin-confirmed-90
 -->
 Many survivors mark the Collapse as a blur of symptoms, riots, and disappearances. There are some disagreements on when it began, but the event is remembered by the term **The First Bloom**. They remember that it spread too fast, and that no one was ready. First responders were overwhelmed, hospitals and clinics were overflowing. Death and infection reigned.
 <!-- /show-if -->
@@ -69,12 +72,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: transmission-modes
     state: undiscovered
     confidence: 20
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-transmission-modes-unconfirmed
+    source-id: lore-transmission-modes-unconfirmed-20
 -->
 - Survivors claim the infection spreads through everything: soil, water, maybe even the air itself.
 <!-- /show-if -->
@@ -83,12 +87,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: transmission-modes
     state: discovered
     confidence: 60
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-transmission-modes-confirmed
+    source-id: lore-transmission-modes-confirmed-60
 -->
 - Spread through soil, water, and air.
 <!-- /show-if -->
@@ -97,12 +102,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: carriers
     state: undiscovered
     confidence: 40
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-carriers-unconfirmed
+    source-id: lore-carriers-unconfirmed-40
 -->
 - Some swear the animals didn't act infected, but everything they touched seemed to rot faster. Plants too.
 <!-- /show-if -->
@@ -111,12 +117,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: carriers
     state: discovered
     confidence: 80
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-carriers-confirmed
+    source-id: lore-carriers-confirmed-80
 -->
 - Vegetation and animals became silent carriers, showing no symptoms, echoing no warning.
 <!-- /show-if -->
@@ -125,12 +132,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: early-symptoms
     state: undiscovered
     confidence: 30
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-early-symptoms-unconfirmed
+    source-id: lore-early-symptoms-unconfirmed-30
 -->
 - Early symptoms in humans were mistaken for fatigue or anxiety.
 <!-- /show-if -->
@@ -139,12 +147,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: early-symptoms
     state: discovered
     confidence: 60
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-early-symptoms-confirmed
+    source-id: lore-early-symptoms-confirmed-60
 -->
 - First signs were brushed off as exhaustion, stress, or flu. By the time people realized it was more, it was too late.
 <!-- /show-if -->
@@ -153,12 +162,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: collapse-timeline
     state: undiscovered
     confidence: 40
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-collapse-timeline-unconfirmed
+    source-id: lore-collapse-timeline-unconfirmed-40
 -->
 - Stories differ, but many agree: within a year, everything fell apart.
 <!-- /show-if -->
@@ -167,12 +177,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: collapse-timeline
     state: discovered
     confidence: 90
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-collapse-timeline-confirmed
+    source-id: lore-collapse-timeline-confirmed-90
 -->
 - Collapse of all major civilizations followed within 8 months.
 <!-- /show-if -->
@@ -181,6 +192,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: infection-lingering
     state: undiscovered
     confidence: 60
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -195,6 +207,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: infection-lingering
     state: discovered
     confidence: 90
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -209,12 +222,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: treatment-efforts
     state: undiscovered
     confidence: 20
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-treatment-efforts-unconfirmed
+    source-id: lore-treatment-efforts-unconfirmed-20
 -->
 - Fire seems to slow it... slightly. Nothing else seems to work. But even that's rumor, spreading from camp to camp.
 <!-- /show-if -->
@@ -223,12 +237,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: treatment-efforts
     state: discovered
     confidence: 70
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-treatment-efforts-confirmed
+    source-id: lore-treatment-efforts-confirmed-70
 -->
 - Fire slows it, but does not stop it. No one's found a cure, and most stopped looking, opting to quietly scavenge and survive, rather than to be heroes.
 <!-- /show-if -->
@@ -239,12 +254,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: soil-survival
     state: undiscovered
     confidence: 25
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-soil-survival-unconfirmed
+    source-id: lore-soil-survival-unconfirmed-25
 -->
 - Some claim Necromyce spores can linger in soil for years, long after a bloom dies off, but no one's lived long enough to test it.
 <!-- /show-if -->
@@ -253,12 +269,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: soil-survival
     state: discovered
     confidence: 75
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-soil-survival-confirmed
+    source-id: lore-soil-survival-confirmed-75
 -->
 - Necromyce spores are confirmed to survive in soil for years without a host.
 <!-- /show-if -->
@@ -267,12 +284,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: biomass-conversion
     state: undiscovered
     confidence: 10
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-biomass-conversion-unconfirmed
+    source-id: lore-biomass-conversion-unconfirmed-10
 -->
 - Some survivors report seeing corpses collapse into rot, then rise again, covered in a thick fungal growth. Others say it's just what happens when you leave meat out in the rain.
 <!-- /show-if -->
@@ -280,13 +298,14 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
 <!-- show-if
     discovery: biomass-conversion
     state: discovered
-    confidence: 78
+    confidence: 80
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-biomass-conversion-confirmed
+    source-id: lore-biomass-conversion-confirmed-80
 -->
 - Infected organic material exhibits accelerated tissue breakdown followed by regrowth into fungal biomass.
 <!-- /show-if -->
@@ -295,12 +314,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: neural-spread
     state: undiscovered
     confidence: 20
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-neural-spread-unconfirmed
+    source-id: lore-neural-spread-unconfirmed-20
 -->
 - Many believe the infection alters behavior once it reaches the brain, but no one survives long enough to prove it.
 <!-- /show-if -->
@@ -309,12 +329,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: neural-spread
     state: discovered
     confidence: 75
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-neural-spread-confirmed
+    source-id: lore-neural-spread-confirmed-75
 -->
 - Once infection reaches neural tissue, behavioral changes occur rapidly and irreversibly.
 <!-- /show-if -->
@@ -323,12 +344,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: autopsy-sample
     state: undiscovered
     confidence: 30
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - unconfirmed
-    source-id: lore-autopsy-sample-unconfirmed
+    source-id: lore-autopsy-sample-unconfirmed-30
 -->
 - Most field observations remain speculative, but some survivors claim to have found clinical data among old world ruins.
 <!-- /show-if -->
@@ -337,12 +359,13 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: autopsy-sample
     state: discovered
     confidence: 60
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
         - infection
         - confirmed
-    source-id: lore-autopsy-sample-confirmed
+    source-id: lore-autopsy-sample-confirmed-60
 -->
 - Samples taken from infected corpses demonstrate resistance to fire, desiccation, and radiation.
 <!-- /show-if -->
@@ -353,6 +376,7 @@ Many survivors mark the Collapse as a blur of symptoms, riots, and disappearance
     discovery: infection-behavior
     state: undiscovered
     confidence: 25
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -367,6 +391,7 @@ Reports vary. Some say symptoms take hold instantly. Others claim infection can 
     discovery: infection-behavior
     state: discovered
     confidence: 90
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -383,6 +408,7 @@ Infection follows a consistent but rapid pattern. Initial exposure is asymptomat
     discovery: containment-history
     state: undiscovered
     confidence: 20
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -397,6 +423,7 @@ Some survivors talk about sealed cities, burn zones, or spore fences that once h
     discovery: containment-history
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -415,6 +442,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
     discovery: origin-confirmed
     state: undiscovered
     confidence: 15
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
@@ -430,6 +458,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
     discovery: origin-confirmed
     state: discovered
     confidence: 65
+    unlocked-by: []
     unlocks:
         - journal:geo-expedition-log
         - dialogue:scientist-response-node-7
@@ -446,6 +475,7 @@ These efforts slowed transmission in isolated regions but failed globally due to
     discovery: evolutionary-cap
     state: undiscovered
     confidence: 30
+    unlocked-by: []
     unlocks: []
     tags:
         - origin
