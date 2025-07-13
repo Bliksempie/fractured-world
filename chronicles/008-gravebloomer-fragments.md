@@ -1,46 +1,68 @@
 <!-- fragment-meta
-    affects-living-chronicles: true
-    converts-myth-to-confirmed: false
-    fragment-id: fragment-shroud-memory
-    fragment-timing: earlygame
-    fragment-lore-type: myth
-    unlock-behavior: on-acquisition
+    fragment-id: fragment-gravebloomers-lab-recorder-message
+    fragment-type: item
+    unlocked-at: []
+    tags:
+        - item-type:recorder
+        - operational:no
+        - color:black
+    dev-notes:
+        - Determine unlocked-at for all these fragments as game coding progresses.
 -->
-### The Shroud Memory
+### Gravebloomers Lab Recorder Message
 
-**Earlygame**: Scattered reports suggest coordinated attacks that hint at a shared hidden knowledge among Gravebloomers.
+You found a black recording device, half-buried in rubble. The red light flickers once... then dies. You'll need a working station to power it up and extract the message.
 
-> "They moved before we did. Like they remembered what we were *about* to do."
+[Audio log added to inventory]
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
-    affects-living-chronicles: true
-    converts-myth-to-confirmed: true
-    fragment-id: fragment-bloodroot-rites
-    fragment-timing: midgame
-    fragment-lore-type: ritual
-    unlock-behavior: on-analysis
+    fragment-id: fragment-the-shroud-memory-intro
+    fragment-type: lore
+    unlocked-at: []
+    tags:
+        - item-type:lore
+        - item-subtype:unconfirmed-eyewitness-account
+    dev-notes: []
+-->
+### The Shroud Memory
+
+Scattered reports suggest coordinated attacks that hint at a shared hidden knowledge among Gravebloomers.
+
+> "They moved before we did. It was like they remembered what we were about to do."
+> _~ Example from a survivor's diary._
+<!-- /fragment-meta -->
+
+<!-- fragment-meta
+    fragment-id: fragment-the-bloodroot-rites-intro
+    fragment-type: lore
+    unlocked-at: []
+    tags:
+        - item-type:lore
+        - item-subtype:unconfirmed-eyewitness-account
+    dev-notes: []
 -->
 ### The Bloodroot Rites
 
-**Midgame**: Confirmed: Survivors witnessed ritualistic sacrifices performed by a Gravebloomer colony near the ruins of Santiago.
+Survivors witnessed ritualistic sacrifices performed by a Gravebloomer colony near the ruins of Santiago.
 
 > "The bodies weren't consumed. They were *offered*. And the ground accepted them."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
-    affects-living-chronicles: true
-    converts-myth-to-confirmed: true
-    fragment-id: fragment-kingpin-hum
-    fragment-timing: midgame
-    fragment-lore-type: signal
-    unlock-behavior: on-analysis
+    fragment-id: fragment-kingpin-sightings
+    fragment-type: lore
+    unlocked-at: []
+    tags:
+        - item-type:lore
+        - item-subtype:unconfirmed-eyewitness-account
+    dev-notes: []
 -->
 ### Kingpin Sightings
 
-**Midgame**: A survivor in New Praga claims to have heard "the hum of sorrow"—a possible Kingpin gathering nearby.
+A survivor in New Praga claims to have heard "the hum of sorrow", believed to be possible Kingpin gathering nearby.
 
-> "It wasn't loud. It was *low*. Like mourning. Like memory turned into noise."
+> "It wasn't loud. It was low, like mourning. Like memory turned into noise."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta

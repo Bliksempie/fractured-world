@@ -5,6 +5,7 @@
     trigger: discovery
     state: discovered
     confidence: 90
+    unlocked-by: []
     unlocks: []
     tags:
         - infection
@@ -26,6 +27,7 @@ These are the first mutated strain. Blightspores are feral, and were thought to 
     trigger: discovery
     state: discovered
     confidence: 60
+    unlocked-by: []
     unlocks: []
     tags:
         - blightspores
@@ -45,6 +47,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: undiscovered
     confidence: 10
+    unlocked-by: []
     unlocks: []
     tags:
         - myth
@@ -59,6 +62,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: discovered
     confidence: 50
+    unlocked-by: []
     unlocks: []
     tags:
         - myth
@@ -77,6 +81,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: undiscovered
     confidence: 30
+    unlocked-by: []
     unlocks: []
     tags:
         - myth
@@ -102,6 +107,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: discovered
     confidence: 85
+    unlocked-by: []
     unlocks: []
     tags:
         - infection
@@ -117,6 +123,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: undiscovered
     confidence: 80
+    unlocked-by: []
     unlocks: []
     tags:
         - infection
@@ -132,6 +139,7 @@ Approximately 2 months after initial Necromyce outbreak.
     trigger: discovery
     state: discovered
     confidence: 100
+    unlocked-by: []
     unlocks: []
     tags:
         - infection
@@ -150,7 +158,27 @@ Approximately 2 months after initial Necromyce outbreak.
     key: myth-blight-king
     trigger: discovery
     state: undiscovered
+    confidence: 10
+    unlocked-by: []
+    unlocks: []
+    tags:
+        - myth
+        - blightspores
+        - leadership
+    source-id: lore-blightspores-myth-blight-king-10
+-->
+### The Blight King
+
+- Some claim a **Blight King** once united multiple colonies before tearing them apart.
+<!-- /show-if -->
+
+<!-- show-if
+    key: myth-blight-king
+    trigger: discovery
+    state: undiscovered
     confidence: 20
+    unlocked-by:
+        - event-campfire-tale-from-elder
     unlocks: []
     tags:
         - myth
@@ -158,7 +186,40 @@ Approximately 2 months after initial Necromyce outbreak.
         - leadership
     source-id: lore-blightspores-myth-blight-king-20
 -->
-- Some claim a **Blight King** once united multiple colonies before tearing them apart.
+### The Blight King
+
+Among hushed voices around dying campfires, there persists a terrifying legend. One so blasphemous that even most Gravebloomers refuse to acknowledge it:
+
+> *"There was once a Blight King. A Blightspore who did not lose his mind."*
+<!-- /show-if -->
+
+<!-- show-if
+    key: myth-blight-king
+    trigger: discovery
+    state: discovered
+    confidence: 90
+    unlocks: []
+    tags:
+        - myth
+        - blightspores
+        - leadership
+    source-id: lore-blightspores-myth-blight-king-90
+-->
+### The Blight King
+
+Rumors persist that a massive Blightspore horde moves with unnatural coordination in the wastes of Western Russia.
+
+> "They say it has a face, and that it remembers orders."
+
+Most write it off as a myth — a story whispered to scare scouts and children. Yet across settlements, the tale repeats: not just of a massive Blightspore, but one that **leads**.
+
+Some say it once united dozens of colonies into a single force, wielding **the Hum** like a weapon, weaving it into rhythm and order. Entire survivor outposts vanished in nights of eerie silence, no signs of battle — only patterns in the dirt, like marching.
+
+Few claim to have seen it and lived. They describe a towering figure cloaked in fungal regalia, limbs twisted into shapes that echo human posture, but not human mercy.
+
+Its name is never spoken twice by the same lips. Most who speak of it fall into a silence that no one dares disturb.
+
+> "We thought the Blight stripped the mind. But maybe... it just gave it new purpose."
 <!-- /show-if -->
 
 <!-- show-if
@@ -628,27 +689,6 @@ Other rumors about The Black Choir have been heard:
 - **Choirstones**: Crumbled ruins found at supposed Black Choir incident sites, where strange fungal growths vibrate with faint echoes of long-past Hums.
 - **The Dissonance**: Rare survivors speak of trying to counter a Black Choir by disrupting their Hum with loud noise or conflicting signals, a near-suicidal act.
 - **Silent Choirs**: In extremely rare cases, Blightspores have been seen moving without any sound at all, coordinated entirely by some unseen force.
-<!-- /show-if -->
-
-<!-- show-if
-    key: myth-blight-king
-    trigger: discovery
-    state: undiscovered
-    confidence: 20
-    unlocks:
-        - myth-blight-king-expanded
-    tags:
-        - myth
-        - blightspores
-        - blight-king
-        - gravebloomers
-    source-id: lore-blight-king-core-20
--->
-### The Blight King
-
-Among hushed voices around dying campfires, there persists a terrifying legend. One so blasphemous that even most Gravebloomers refuse to acknowledge it:
-
-> *"There was once a Blight King. A Blightspore who did not lose his mind."*
 <!-- /show-if -->
 
 <!-- show-if

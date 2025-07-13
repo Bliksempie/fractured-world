@@ -1,29 +1,65 @@
 <!-- fragment-meta
-    affects-living-chronicles: false
-    converts-myth-to-confirmed: false
-    fragment-id: fragment-blight-king-rumor
-    fragment-timing: earlygame
-    fragment-lore-type: myth
-    unlock-behavior: on-acquisition
+    fragment-id: fragment-blightspores-informational-poster
+    fragment-type: item
+    unlocked-at: player-location-street-poster-outside-home
+    tags:
+        - item-type:poster
+        - strain:blightspores
+        - color:white-on-red
+        - theme:early-outbreak
+        - theme:survivor-warning
+        - theme:government-warning
+        - mechanic:environmental-cue
+    dev-notes:
+        - Determine unlocked-at for all these fragments as game coding progresses.
 -->
-### The Blight King
+### Blightspores Informational Poster
 
-**Earlygame**: Rumors persist that a massive Blightspore horde moves with unnatural coordination in the wastes of Western Russia.
+A poster flaps in the wind, stapled to a splintered telephone pole. You tear it off. The ink is faded, but readable. It says:
 
-> "They say it has a face, and that it remembers orders."
+"**WARNING:** SPORE-ACTIVATED HOSTILE BEHAVIOR. AVOID ALL INFECTED."
+
+Below the warning is a picture of an early-stage infected person.
+
+A smudged seal from some long-gone health department is visible on the bottom right corner.
+
+Below it, a crude note is scrawled in charcoal:
+
+> "They scream before they kill. If you hear the Hum, run. Or shoot with everything you've got."
 <!-- /fragment-meta -->
 
 <!-- fragment-meta
-    affects-living-chronicles: false
-    converts-myth-to-confirmed: false
+    fragment-id: fragment-the-blight-king
+    fragment-type: lore
+    unlocked-at: []
+    tags:
+        - myth:blight-king
+        - strain:blightspores
+        - trait:intelligence
+        - behavior:horde-coordination
+        - location:western-russia
+        - theme:legend
+        - theme:lost-history
+    dev-notes:
+        - Determine actual encounter or confirmation possibility for late-game.
+-->
+### Faded Wall Note — The Blight King?
+
+A charcoal message in Russian, barely legible:
+
+> "They say it has a face... and it remembers orders."
+<!-- /fragment-meta -->
+
+<!-- fragment-meta
     fragment-id: fragment-new-hum-north-africa
-    fragment-timing: earlygame
-    fragment-lore-type: signal
-    unlock-behavior: on-acquisition
+    fragment-type: lore
+    unlocked-at: []
+    tags: []
+    dev-notes: []
 -->
 ### New Hum Detected
 
-**Earlygame**: Scouts report a chilling, unfamiliar Hum vibration near collapsed settlements in Northern Africa. Colony unknown.
+Scouts report a chilling, unfamiliar Hum vibration near collapsed settlements in Northern Africa. Colony unknown.
 
 > "It hums in chords. And it waits until the wind dies to begin."
 <!-- /fragment-meta -->
