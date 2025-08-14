@@ -1,38 +1,64 @@
 <!-- show-if
-    key: living-chronicles-intro
-    observed-at: player-location-start
+    key: living-chronicles-intro-100
     discovered-at: player-location-start
+    prompt: []
     trigger: discovery
-    state: discovered
+    discovery-requires:
+        - visited: player-location-start
+    discovery-requires-any:
+        - visited: player-location-start
+    analysis-requires: []
     confidence: 100
+    unlocked-by: []
     unlocks:
-        - fractured-world-overview
+        - infected-blightspores-20
     tags:
-        - narrative:living-chronicles
-        - narrative:chronicle-system
-        - narrative:fragment-narration
-        - narrative:meta-lore
-        - narrative:player-journal
-        - narrative:lore-personalization
-        - narrative:subjective-truth
-        - theme:memory
-        - theme:truth
-        - theme:subjectivity
-        - theme:perspective
-        - theme:uncertainty
-        - theme:discovery
-        - theme:cautionary-lore
-        - theme:interpretation
-        - quote-and-attribution:archivist-quote
-        - quote-and-attribution:ironroot-vault
-        - quote-and-attribution:in-universe-quote
-        - quote-and-attribution:lore-fragment
-        - gameplay-and-mechanic:player-variation
-        - gameplay-and-mechanic:chronicle-divergence
-        - gameplay-and-mechanic:lore-reliability
-        - gameplay-and-mechanic:discovery-dependent
-        - gameplay-and-mechanic:player-driven-lore
-        - gameplay-and-mechanic:chronicle
+        - narrative: living-chronicles
+        - narrative: fragment
+        - narrative: lore
+        - narrative: in-universe-quote
+        - narrative: player-journal
+        - narrative: player-context
+        - narrative: lore-personalization
+        - narrative: subjective-truth
+        - narrative: cycle-78
+        - narrative: first-bloom
+        - narrative: post-collapse
+        - narrative: early-infection
+        - environment: necromyce
+        - environment: infection
+        - environment: fungal
+        - environment: infection-origin
+        - environment: pathogen-evolution
+        - environment: collapse
+        - environment: infrastructure-failure
+        - environment: environmental-threats
+        - environment: contaminated-water
+        - environment: contaminated-food
+        - environment: animal-carriers
+        - theme: memory
+        - theme: truth
+        - theme: subjectivity
+        - theme: perspective
+        - theme: uncertainty
+        - theme: discovery
+        - theme: cautionary-lore
+        - theme: interpretation
+        - theme: first-responders
+        - theme: governments-fall
+        - theme: slow-apocalypse
+        - theme: societal-collapse
+        - theme: psychological-dread
+        - quote-and-attribution: archivist-quote
+        - quote-and-attribution: ironroot-vault
+        - quote-and-attribution: in-universe-quote
+        - quote-and-attribution: lore-fragment
+        - gameplay-and-mechanic: player-variation
+        - gameplay-and-mechanic: chronicle-divergence
+        - gameplay-and-mechanic: lore-reliability
+        - gameplay-and-mechanic: discovery-dependent
+        - gameplay-and-mechanic: player-driven-lore
+        - gameplay-and-mechanic: chronicle
     source-id: lore-living-chronicles-intro-100
 -->
 # The Living Chronicles
@@ -48,47 +74,7 @@ If you are reading this... you are still uninfected. For now.
 
 > The world doesn't lie to you. It just tells you what it knows — and hopes you survive long enough to learn better.
 > _~ Fragment from an archivist at Ironroot Vault_
-<!-- /show-if -->
 
-<!-- show-if
-    key: fractured-world-overview
-    observed-at: player-location-start
-    discovered-at: player-location-start
-    trigger: discovery
-    state: discovered
-    confidence: 100
-    unlocked-by: []
-    unlocks:
-        - infected-blightspores
-    tags:
-        - narrative:cycle-78
-        - narrative:first-bloom
-        - narrative:post-collapse
-        - narrative:early-infection
-        - narrative:chronicle-intro
-        - narrative:journal-fragment
-        - narrative:in-universe-quote
-        - narrative:fragment-narration
-        - narrative:player-context
-        - environment:necromyce
-        - environment:infection
-        - environment:fungal
-        - environment:infection-origin
-        - environment:pathogen-evolution
-        - environment:collapse
-        - environment:infrastructure-failure
-        - environment:environmental-threats
-        - environment:contaminated-water
-        - environment:contaminated-food
-        - environment:animal-carriers
-        - theme:first-responders
-        - theme:governments-fall
-        - theme:slow-apocalypse
-        - theme:societal-collapse
-        - theme:psychological-dread
-        - gameplay-and-mechanic:chronicle
-    source-id: lore-fractured-world-overview-100
--->
 ## The Fractured World
 
 You are living in Cycle 78 — nearly eight decades after the incident called **The First Bloom**, remembered by a rush of sick people to local hospitals. The first responders did not know what hit them. They had lost the battle even before it really started.
@@ -104,27 +90,35 @@ The original Necromyce strain eventually burned itself out. But in its wake, two
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-blightspores
-    observed-at: fragment-blightspores-informational-poster
-    discovered-at: fragment-blightspores-informational-poster
+    key: infected-blightspores-20
+    discovered-at: fragment-blightspores-informational-poster-outside-home
+    prompt:
+        - id: <TODO>
+        - type: action-description
+        - mood: informative
+        - template: You see a poster flapping in the wind against a fallen-over lamp post. You tell {{child-name}} to stay back while you go to retrieve it.
     trigger: discovery
-    state: undiscovered
+    discovery-requires:
+        - visited: lamp-post-outside-starting-location
+        - collected: fragment-blightspores-informational-poster-outside-home
+    discovery-requires-any:
+        - visited: lamp-post-outside-starting-location
+        - visited: lamp-post-outside-building-after-first-encounter
+    analysis-requires: []
     confidence: 20
-    unlocked-by: []
-    unlocks: []
+    unlocked-by:
+        - living-chronicles-intro-100
+    unlocks:
+        - infected-blightspores-100
     tags:
-        - strain:blightspores
-        - trait:feral
-        - trait:mindless
-        - trait:short-lived
-        - behavior:aggressive
-        - gameplay-and-mechanic:hum
-        - gameplay-and-mechanic:regional-dialects
-        - gameplay-and-mechanic:chronicle
-        - effect:madness
-        - effect:hostile-to-non-dialect
-        - theme:infection
-        - theme:loss-of-control
+        - strain: blightspores
+        - trait: feral
+        - trait: mindless
+        - trait: short-lived
+        - trait: aggressive
+        - gameplay-and-mechanic: chronicle
+        - theme: infection
+        - theme: loss-of-control
     source-id: lore-infected-blightspores-20
 -->
 ### The Blightspores
@@ -133,28 +127,37 @@ The first strain became known as the **Blightspores**. They are believed to be f
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-blightspores
-    observed-at: fragment-blightspores-informational-poster
-    discovered-at: fragment-blightspores-informational-poster
-    trigger: discovery
-    state: discovered
+    key: infected-blightspores-100
+    discovered-at: fragment-blightspores-informational-poster-outside-home
+    prompt:
+        - id: <TODO>
+        - type: discussion-blightspores-informational-poster
+        - mood: heart-felt
+        - template: You discuss the poster's content with {{child-name}}. {{child-pronoun}} takes your caution to heart and promises to be careful and vigilant.
+    trigger: analysis
+    discovery-requires: []
+    analysis-requires:
+        - discussion: infected-discussion-at-player-location-start
+        - location: safe-location
     confidence: 100
-    unlocked-by: []
+    unlocked-by:
+        - infected-blightspores-20
     unlocks:
-        - infected-gravebloomers
+        - infected-gravebloomers-100
     tags:
-        - strain:blightspores
-        - trait:feral
-        - trait:mindless
-        - trait:short-lived
-        - behavior:aggressive
-        - gameplay-and-mechanic:hum
-        - gameplay-and-mechanic:regional-dialects
-        - gameplay-and-mechanic:chronicle
-        - effect:madness
-        - effect:hostile-to-non-dialect
-        - theme:infection
-        - theme:loss-of-control
+        - strain: blightspores
+        - trait: feral
+        - trait: mindless
+        - trait: short-lived
+        - trait: aggressive
+        - trait: hostile
+        - gameplay-and-mechanic: hum
+        - gameplay-and-mechanic: regional-dialects
+        - gameplay-and-mechanic: chronicle
+        - effect: madness
+        - effect: hostile-to-non-dialect
+        - theme: infection
+        - theme: loss-of-control
     source-id: lore-infected-blightspores-100
 -->
 ### The Blightspores
@@ -165,15 +168,24 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-gravebloomers
-    observed-at: fragment-gravebloomers-lab-recorder-message
-    discovered-at: safe-location
-    trigger: discovery
-    state: discovered
+    key: infected-gravebloomers-100
+    discovered-at: fragment-gravebloomers-lab-recorder-message
+    prompt:
+        - id: <TODO>
+        - type: discussion
+        - mood: matter-of-factly
+        - template: {{child-name}} asks you whether there are more types of infected. "I know about the Gravebloomers. I will tell you more later. Let's fix this recorder first. Maybe there is something important on it."
+    trigger: analysis
+    discovery-requires: []
+    analysis-requires:
+        - item: charged-battery
+        - item: screwdriver
+        - location: safe-location
     confidence: 100
-    unlocked-by: []
+    unlocked-by:
+        - infected-blightspores-100
     unlocks:
-        - uninfected-overview
+        - uninfected-overview-100
     tags:
         - strain:gravebloomers
         - trait:cognitive
@@ -202,14 +214,19 @@ What remained hardened into doctrine. Stories became scripture, victories became
 <!-- /show-if -->
 
 <!-- show-if
-    key: uninfected-overview
+    key: uninfected-overview-100
     discovered-at: safe-location
-    trigger: discovery
-    state: discovered
+    prompt: []
+    trigger: analysis
+    discovery-requires: []
+    analysis-requires:
+        - analysis:infected-gravebloomers-100
+        - location:safe-location
     confidence: 100
-    unlocked-by: []
+    unlocked-by:
+        - infected-gravebloomers-100
     unlocks:
-        - player-paths
+        - infection-character-10
     tags:
         - group:uninfected
         - theme:survival
@@ -230,7 +247,7 @@ What remained hardened into doctrine. Stories became scripture, victories became
 
 The uninfected endure. They are scattered across the wastes, living like ghosts in the ruins. Food is rare. Clean water even rarer, and trust is nearly extinct.
 
-You are one of these uninfected survivors. Every decision and every step you take shapes not only your fate but also the future of those who walk beside you.
+You and {{child-name}} do not have any of the symptoms mentioned in the lab recorder message. Thus, you and {{child-name}} are two of these uninfected survivors. For now. Every decision and every step you take shapes not only your fate but also the future of those who walk beside you.
 
 There **is no cure**. There **are no saviors**. There is only the **fractured world**, and what you choose to build from the ashes.
 

@@ -1,3 +1,22 @@
+<!-- show-if
+    key: infection-character-10
+    discovered-at: old-ruins-fragment
+    prompt: []
+    trigger: discovery
+    discovery-requires: []
+    analysis-requires: []
+    confidence: 10
+    unlocked-by:
+        - uninfected-overview-100
+    unlocks:
+        - infection-character-50
+    tags:
+        - theme:infection
+        - theme:necromyce
+        - theme:origin
+        - theme:cataclysmic-event
+    source-id: lore-infection-character-10
+-->
 # The Necromyce Infection
 
 ## Type
@@ -5,26 +24,36 @@
 Cataclysmic Event
 
 ## Description
+<!-- /show-if -->
 
 <!-- show-if
-    discovery: infection-character
-    state: undiscovered
+    key: infection-character-50
+    discovered-at: old-ruins-fragment
+    prompt: []
+    trigger: analysis
+    discovery-requires: []
+    analysis-requires: []
     confidence: 50
-    unlocked-by: []
+    unlocked-by:
+        - infection-character-10
     unlocks: []
     tags:
-        - origin
-        - infection
-        - unconfirmed
+        - theme:infection
+        - theme:necromyce
+        - theme:origin
+        - theme:cataclysmic-event
+        - theme:blight
+        - theme:curse
+        - theme:sickness
     source-id: lore-infection-character-unconfirmed-50
 -->
 Some describe Necromyce as a sickness. Others call it a blight, or a curse. All agree on one thing: wherever it appeared, things stopped being what they were.
 <!-- /show-if -->
 
 <!-- show-if
-    discovery: infection-character
+    discovery: infection-character-90
     state: discovered
-    confidence: 80
+    confidence: 90
     unlocks: []
     tags:
         - origin
