@@ -1,65 +1,45 @@
 <!-- show-if
-    key: living-chronicles-intro-100
-    discovered-at: player-location-start
-    prompt: []
-    trigger: discovery
-    discovery-requires:
-        - visited: player-location-start
-    discovery-requires-any:
-        - visited: player-location-start
-    analysis-requires: []
-    confidence: 100
-    unlocked-by: []
-    unlocks:
-        - infected-blightspores-20
+    audience:
+        type:
+            - player
+            - lore-explorer
+        locale:
+            - default
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    unlocked-by:[]
+    unlocks:[]
+    context:
+        all:
+            - at-location:player-location-start
+        any:[]
+        none:[]
     tags:
-        - narrative: living-chronicles
-        - narrative: fragment
-        - narrative: lore
-        - narrative: in-universe-quote
-        - narrative: player-journal
-        - narrative: player-context
-        - narrative: lore-personalization
-        - narrative: subjective-truth
-        - narrative: cycle-78
-        - narrative: first-bloom
-        - narrative: post-collapse
-        - narrative: early-infection
-        - environment: necromyce
-        - environment: infection
-        - environment: fungal
-        - environment: infection-origin
-        - environment: pathogen-evolution
-        - environment: collapse
-        - environment: infrastructure-failure
-        - environment: environmental-threats
-        - environment: contaminated-water
-        - environment: contaminated-food
-        - environment: animal-carriers
-        - theme: memory
-        - theme: truth
-        - theme: subjectivity
-        - theme: perspective
-        - theme: uncertainty
-        - theme: discovery
-        - theme: cautionary-lore
-        - theme: interpretation
-        - theme: first-responders
-        - theme: governments-fall
-        - theme: slow-apocalypse
-        - theme: societal-collapse
-        - theme: psychological-dread
-        - quote-and-attribution: archivist-quote
-        - quote-and-attribution: ironroot-vault
-        - quote-and-attribution: in-universe-quote
-        - quote-and-attribution: lore-fragment
-        - gameplay-and-mechanic: player-variation
-        - gameplay-and-mechanic: chronicle-divergence
-        - gameplay-and-mechanic: lore-reliability
-        - gameplay-and-mechanic: discovery-dependent
-        - gameplay-and-mechanic: player-driven-lore
-        - gameplay-and-mechanic: chronicle
-    source-id: lore-living-chronicles-intro-100
+        - type:narrative
+        - canon:core
+    confidence:100
+    keywords:
+        - necromyce
+        - infection
+        - fungal
+        - infection-origin
+        - pathogen-evolution
+        - collapse
+        - infrastructure-failure
+        - contaminated-water
+        - contaminated-food
+        - animal-carriers
+        - cycle-78
+        - first-bloom
+        - early-infection
+        - apocalypse
+        - dread
+    source-id:lore-living-chronicles-intro-100
+    prompt:[]
 -->
 # The Living Chronicles
 
@@ -84,42 +64,49 @@ You are living in Cycle 78 — nearly eight decades after the incident called **
 
 The **Necromyce infection** rose from the soil like a curse: silent, fungal, inescapable. In weeks, it spread. In months, the world crumbled.
 
+<!-- only:audience:lore-explorer -->
 The land turned treacherous. Water, crops, and animals all became carriers. Infrastructure failed. Communication collapsed. Governments were devoured by the rot. Civilization did not fall with a scream, but with a slow, suffocating silence.
 
 The original Necromyce strain eventually burned itself out. But in its wake, two divergent horrors emerged: adaptations that could survive the unforgiving world it had created.
+<!-- /only -->
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-blightspores-20
-    discovered-at: fragment-blightspores-informational-poster-outside-home
-    prompt:
-        - id: <TODO>
-        - type: action-description
-        - mood: informative
-        - template: You see a poster flapping in the wind against a fallen-over lamp post. You tell {{child-name}} to stay back while you go to retrieve it.
-    trigger: discovery
-    discovery-requires:
-        - visited: lamp-post-outside-starting-location
-        - collected: fragment-blightspores-informational-poster-outside-home
-    discovery-requires-any:
-        - visited: lamp-post-outside-starting-location
-        - visited: lamp-post-outside-building-after-first-encounter
-    analysis-requires: []
-    confidence: 20
-    unlocked-by:
-        - living-chronicles-intro-100
-    unlocks:
-        - infected-blightspores-100
+    audience:
+        type:
+            - player
+            - lore-explorer
+        locale:
+            - default
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    unlocked-by:[]
+    unlocks:[]
+    context:
+        all:
+            - found-item:fragment-blightspores-informational-poster-outside-home
+        any:
+            - found-item:lamp-post-outside-starting-location
+            - found-item:lamp-post-outside-building-after-first-encounter
+        none:[]
     tags:
-        - strain: blightspores
-        - trait: feral
-        - trait: mindless
-        - trait: short-lived
-        - trait: aggressive
-        - gameplay-and-mechanic: chronicle
-        - theme: infection
-        - theme: loss-of-control
-    source-id: lore-infected-blightspores-20
+        - type:narrative
+        - canon:core
+    confidence:100
+    keywords:
+        - blightspores
+        - feral
+        - mindless
+        - short-lived
+        - aggressive
+        - infection
+        - loss-of-control
+    source-id:lore-infected-blightspores-20
+    prompt:You see a poster flapping in the wind against a fallen-over lamp post. You tell {{child-name}} to stay back while you go to retrieve it.
 -->
 ### The Blightspores
 
@@ -127,38 +114,42 @@ The first strain became known as the **Blightspores**. They are believed to be f
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-blightspores-100
-    discovered-at: fragment-blightspores-informational-poster-outside-home
-    prompt:
-        - id: <TODO>
-        - type: discussion-blightspores-informational-poster
-        - mood: heart-felt
-        - template: You discuss the poster's content with {{child-name}}. {{child-pronoun}} takes your caution to heart and promises to be careful and vigilant.
-    trigger: analysis
-    discovery-requires: []
-    analysis-requires:
-        - discussion: infected-discussion-at-player-location-start
-        - location: safe-location
-    confidence: 100
-    unlocked-by:
-        - infected-blightspores-20
-    unlocks:
-        - infected-gravebloomers-100
+    audience:
+        - player
+        - lore-explorer
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    context:
+        all:
+            - discussed-item:infected-discussion-at-player-location-start
+            - at-location:safe-location
+        any:[]
+        none:[]
+    unlocked-by:[]
+    unlocks:[]
     tags:
-        - strain: blightspores
-        - trait: feral
-        - trait: mindless
-        - trait: short-lived
-        - trait: aggressive
-        - trait: hostile
-        - gameplay-and-mechanic: hum
-        - gameplay-and-mechanic: regional-dialects
-        - gameplay-and-mechanic: chronicle
-        - effect: madness
-        - effect: hostile-to-non-dialect
-        - theme: infection
-        - theme: loss-of-control
-    source-id: lore-infected-blightspores-100
+        - type:narrative
+        - canon:core
+    confidence:100
+    keywords:
+        - blightspores
+        - feral
+        - mindless
+        - short-lived
+        - aggressive
+        - hostile
+        - infection
+        - loss-of-control
+        - madness
+        - hostile-to-non-dialect
+        - hum
+        - regional-dialects
+    source-id:lore-infected-blightspores-100
+    prompt:You discuss the poster's content with {{child-name}}. {{child-pronoun}} takes your caution to heart and promises to be careful and vigilant.
 -->
 ### The Blightspores
 
@@ -168,13 +159,7 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
 <!-- /show-if -->
 
 <!-- show-if
-    key: infected-gravebloomers-100
     discovered-at: fragment-gravebloomers-lab-recorder-message
-    prompt:
-        - id: <TODO>
-        - type: discussion
-        - mood: matter-of-factly
-        - template: {{child-name}} asks you whether there are more types of infected. "I know about the Gravebloomers. I will tell you more later. Let's fix this recorder first. Maybe there is something important on it."
     trigger: analysis
     discovery-requires: []
     analysis-requires:
@@ -187,22 +172,25 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
     unlocks:
         - uninfected-overview-100
     tags:
-        - strain:gravebloomers
-        - trait:cognitive
-        - trait:strategic
-        - trait:sentient
-        - trait:hateful
-        - behavior:alliance-forming
-        - behavior:hostile
-        - behavior:generational-memory
-        - theme:remembrance
-        - theme:arrogance
-        - theme:post-human-evolution
-        - gameplay-and-mechanic:chronicle
-        - culture:scripture
-        - culture:doctrine
-        - culture:gravebloomer-gospel
+        - type:narrative
+        - canon:core
+    keywords:
+        - gravebloomers
+        - cognitive
+        - strategic
+        - sentient
+        - hateful
+        - alliance-forming
+        - hostile
+        - generational-memory
+        - remembrance
+        - arrogance
+        - post-human-evolution
+        - scripture
+        - doctrine
+        - gravebloomer-gospel
     source-id: lore-infected-gravebloomers-100
+    prompt:{{child-name}} asks you whether there are more types of infected. "I know about the Gravebloomers. I will tell you more later. Let's fix this recorder first. Maybe there is something important on it."
 -->
 ### The Gravebloomers
 
