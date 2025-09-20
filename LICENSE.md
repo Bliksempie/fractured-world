@@ -15,6 +15,7 @@ This project is open to contributions from the public under the following condit
    - That your contributions become the joint property of the Fractured World universe.
    - That you waive any exclusive claims to derivative works within this project.
    - That **Impero Consulting (Pty) Ltd.** reserves the right to use, modify, or redistribute your contributions in any official capacity.
+5. See CONTRIBUTING.md for mor details and terms.
 
 This license is inspired by **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 (CC BY-NC-SA 4.0)** but includes additional clauses for contributor IP transfer.
 

@@ -6,10 +6,10 @@ We're honored that you wish to help shape the world of **Fractured World**. To k
 
 ## ✅ What You Can Contribute
 
-- **Lore expansions** (new regions, mythologies, world events)
-- **Fragments of Wisdom** (rumors, survivor tales, mysterious journals)
-- **Player Decisions** (epilogue consequences, branching outcomes)
-- **Environmental Effects** (natural disasters, resource shifts)
+- **Lore expansions** (new regions, mythologies, world events).
+- **Fragments of Wisdom** (rumors, survivor tales, mysterious journals).
+- **Player Decisions** (epilogue consequences, branching outcomes).
+- **Environmental Effects** (natural disasters, resource shifts).
 
 ## 📦 Structure Your Pull Request
 
@@ -23,15 +23,15 @@ We're honored that you wish to help shape the world of **Fractured World**. To k
 
 ## 💡 Lore Voice and Style
 
-- Keep the tone grounded, mythic, and consistent with post-collapse themes
-- Use in-universe uncertainty where appropriate ("Some believe...", "It is whispered...")
-- Avoid modern slang, tech that implies pre-apocalypse standards, or comedic breaks
+- Keep the tone grounded, mythic, and consistent with post-collapse themes.
+- Use in-universe uncertainty where appropriate ("Some believe...", "It is whispered...").
+- Avoid modern slang, tech that implies pre-apocalypse standards, or comedic breaks.
 
 ## 🛑 Do Not
 
-- Break world consistency (no magic, aliens, or outside timelines)
-- Add real-world political commentary (fictionalize, abstract)
-- Overwrite core events without agreement from maintainers
+- Break world consistency (no magic, aliens, or outside timelines).
+- Add real-world political commentary (fictionalize, abstract).
+- Overwrite core events without agreement from maintainers.
 
 All contributions are reviewed for thematic consistency and may be edited before merging, or merging may be declined if too many guidelines are broken.
 

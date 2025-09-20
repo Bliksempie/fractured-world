@@ -6,8 +6,8 @@ Welcome, survivor.
 
 ## 🧠 What This Repository Contains
 
-- **The Living Chronicles**: Canon lore used to inform all adaptive gameplay
-- **Fragments of Wisdom**: Player-triggered rumors, legends, and half-truths
+- **The Living Chronicles**: Canon lore used to inform all adaptive gameplay.
+- **Fragments of Wisdom**: Player-triggered rumors, legends, and half-truths.
 - **Narratives and Epilogues**: Modular story content for structured campaigns.
 - **The Old World**: Environmental traits, resources, and survivor advantages, as well as descriptions of in-world features like merchants and salvage vaults.
 

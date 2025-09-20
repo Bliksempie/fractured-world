@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fractured World — Last Light (Ash & Rain) Prototype v3</title>
+  <style>
+    :root { --pad: 16px; --gap: 12px; }
+    html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { background: #111; color: #eee; }
+    .screen { display: none; min-height: 100vh; box-sizing: border-box; padding: var(--pad); }
+    .screen.active { display: block; }
+    .title { font-size: 28px; margin: 24px 0 8px; }
+    .subtitle { opacity: 0.8; margin-bottom: 24px; }
+    .row { margin: 8px 0; }
+    .btn { display: block; width: 100%; padding: 14px 16px; margin: 10px 0; background: #2a2a2a; color: #fff; border: 1px solid #444; border-radius: 6px; cursor: pointer; text-align: center; }
+    .btn:active { transform: translateY(1px); }
+    input, select { width: 100%; padding: 12px; box-sizing: border-box; background: #1b1b1b; border: 1px solid #444; color: #fff; border-radius: 6px; }
+
+    .nav { position: fixed; left: 0; right: 0; bottom: 0; background: #0b0b0b; border-top: 1px solid #333; display: flex; gap: var(--gap); padding: 8px; box-sizing: border-box; }
+    .nav button { flex: 1; }
+
+    .card { background: #151515; border: 1px solid #2d2d2d; border-radius: 8px; padding: 18px; margin-bottom: 12px; }
+    .muted { opacity: 0.8; }
+    .small { font-size: 12px; opacity: 0.8; }
+    .badge { display: inline-block; background: #6f42c1; color: #fff; padding: 2px 8px; border-radius: 999px; font-size: 12px; margin-left: 6px; }
+
+    .drawer { position: fixed; left: 0; right: 0; bottom: -70%; background: #141414; border-top: 1px solid #333; box-shadow: 0 -4px 24px rgba(0,0,0,0.5); padding: var(--pad); transition: bottom 0.25s ease; max-height: 70%; overflow: auto; }
+    .drawer.open { bottom: 0; }
+    .drawer h3 { margin-top: 0; }
+    .drawer .item { padding: 12px; border: 1px solid #2a2a2a; border-radius: 8px; margin-bottom: 8px; }
+
+    .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: none; align-items: center; justify-content: center; }
+    .modal.open { display: flex; }
+    .modal .box { background: #131313; border: 1px solid #333; border-radius: 8px; padding: 16px; width: min(720px, 92vw); max-height: 86vh; overflow: auto; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+    .tab { padding: 8px 10px; border: 1px solid #333; border-radius: 999px; background: #1a1a1a; cursor: pointer; }
+    .tab.active { background: #2a2a2a; }
+
+    .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: 86px; background: #222; color: #fff; padding: 8px 12px; border-radius: 6px; border: 1px solid #444; display: none; }
+    .toast.show { display: block; }
+
+    .debug { position: fixed; right: 8px; top: 8px; font-size: 12px; opacity: .7; }
+  </style>
+</head>
+<body>
+  <div class="debug">Difficulty: <span id="dbg-diff">easy</span></div>
+
+  <!-- Title Screen -->
+  <section id="screen-title" class="screen active">
+    <div class="title">FRACTURED WORLD</div>
+    <div class="subtitle">LAST LIGHT — Campaign Prototype (v3)</div>
+    <button class="btn" id="btn-continue" disabled>Continue</button>
+    <button class="btn" id="btn-new">New Story</button>
+    <button class="btn" id="btn-toggle-diff">Toggle Difficulty</button>
+    <div class="small muted" style="margin-top:24px;">© Syntax & Soul — Static HTML Prototype</div>
+  </section>
+
+  <!-- Setup Screen -->
+  <section id="screen-setup" class="screen">
+    <div class="title">Set Up Your Story</div>
+    <div class="row">
+      <label for="inp-player">Survivor name</label>
+      <input id="inp-player" placeholder="Elias" />
+    </div>
+    <div class="row">
+      <label for="inp-child">Child name</label>
+      <input id="inp-child" placeholder="Brandon" />
+    </div>
+    <div class="row">
+      <label for="sel-pronouns">Pronouns</label>
+      <select id="sel-pronouns">
+        <option value="he">he/him</option>
+        <option value="she">she/her</option>
+        <option value="they">they/them</option>
+      </select>
+    </div>
+    <button class="btn" id="btn-start">Start Story</button>
+  </section>
+
+  <!-- Story Screen -->
+  <section id="screen-story" class="screen">
+    <div class="card">
+      <div id="story-section-title" class="muted small">Section</div>
+      <div id="story-text" style="min-height: 40vh; white-space: pre-wrap; line-height: 1.6;"></div>
+      <div class="small muted">(Tap anywhere in this card to continue)</div>
+    </div>
+
+    <div id="choice-card" class="card" style="display:none">
+      <div id="choice-prompt" style="margin-bottom:8px;"></div>
+      <div id="choice-buttons"></div>
+    </div>
+
+    <div class="nav">
+      <button id="btn-lore" class="btn">Lore <span id="lore-badge" class="badge" style="display:none">0</span></button>
+      <button id="btn-journal" class="btn">Journal</button>
+      <button id="btn-menu" class="btn">Menu</button>
+    </div>
+  </section>
+
+  <!-- Lore Drawer -->
+  <div id="drawer-lore" class="drawer" aria-hidden="true">
+    <h3>Lore Updates</h3>
+    <div id="lore-items"></div>
+    <button class="btn" id="btn-close-lore">Close</button>
+  </div>
+
+  <!-- Journal Modal -->
+  <div id="modal-journal" class="modal" aria-hidden="true">
+    <div class="box">
+      <div class="title" style="margin-top:0">The Living Chronicle</div>
+      <div class="tabs">
+        <div class="tab active" data-tab="story">Story</div>
+        <div class="tab" data-tab="lore">Lore</div>
+        <div class="tab" data-tab="people">People</div>
+        <div class="tab" data-tab="places">Places</div>
+      </div>
+      <div id="journal-content"></div>
+      <div style="margin-top:12px; display:flex; justify-content:flex-end; gap:8px;">
+        <button class="btn" id="btn-close-journal" style="width:auto;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast">✔ Checkpoint saved</div>
+
+  <script>
+  // --- State ---
+  const STATE = {
+    player: 'Elias',
+    child: 'Brandon',
+    pronouns: 'he',
+    difficulty: 'easy',
+    sectionIndex: 0,
+    beatIndex: 0,
+    hasChoiceShown: false,
+    unlockedLore: new Set(),
+    unreadLore: new Set(),
+    storyLog: [],
+    items: {}, // stash for {{item:key}}
+  };
+
+  const PRONOUN = {
+    he: { subj: 'he', obj: 'him', poss: 'his', possCap: 'His' },
+    she: { subj: 'she', obj: 'her', poss: 'her', possCap: 'Her' },
+    they: { subj: 'they', obj: 'them', poss: 'their', possCap: 'Their' },
+  };
+
+  // --- Inline directive parser ---
+  // Supports:
+  //   {{ai:choice||opt|opt|opt}}
+  //   {{ai:choice||difficulty:easy:text|difficulty:hard:text|default:text}}
+  //   {{ai:choice:weighted||text:3|other:1}}
+  //   {{ai:choice:as-key||opt|opt}}  (stores chosen in STATE.items[key])
+  //   {{ai:choice:as-key,weighted||text:3|other:1}}
+  //   {{item:key}}
+  function parseInline(text){
+    if (!text) return text;
+
+    const choiceRe = /\{\{ai:choice(?::([^|}]+))?\|\|([^}]+)\}\}/g;
+    text = text.replace(choiceRe, (m, modifierRaw, optionsBlob) => {
+      const modifiers = (modifierRaw || '').split(',').map(s => s.trim()).filter(Boolean);
+      const asKey = (modifiers.find(x => x.startsWith('as-')) || '').replace(/^as-/, '') || null;
+      const weightedMode = modifiers.includes('weighted');
+
+      const rawParts = optionsBlob.split('|').map(s => s.trim()).filter(Boolean);
+      const matches = []; // options matching current context (e.g., difficulty)
+      const untagged = []; // options without tags
+      const fallbacks = []; // default options
+
+      for (const part of rawParts){
+        const segs = part.split(':');
+
+        // Helper to detect a trailing numeric weight
+        const last = segs[segs.length - 1];
+        const lastIsNumber = /^\d+(?:\.\d+)?$/.test(last);
+
+        // Tagged (e.g., difficulty:easy:text[:weight])
+        if (segs.length >= 3 && (segs[0] === 'difficulty' || segs[0] === 'default')){
+          const tag = segs[0];
+          const value = segs[1];
+          const textStart = 2;
+          const textEnd = lastIsNumber ? segs.length - 1 : segs.length;
+          const optText = segs.slice(textStart, textEnd).join(':');
+          const weight = weightedMode && lastIsNumber ? parseFloat(last) : 1;
+
+          if (tag === 'difficulty' && value === STATE.difficulty){ matches.push({ text: optText, weight }); }
+          else if (tag === 'default'){ fallbacks.push({ text: optText, weight }); }
+          continue;
+        }
+
+        // Untagged (text[:weight])
+        const textEnd = weightedMode && lastIsNumber ? segs.length - 1 : segs.length;
+        const optText = segs.slice(0, textEnd).join(':');
+        const weight = weightedMode && lastIsNumber ? parseFloat(last) : 1;
+        untagged.push({ text: optText, weight });
+      }
+
+      function pickWeighted(list){
+        if (!list.length) return null;
+        const total = list.reduce((s, o) => s + (o.weight > 0 ? o.weight : 0), 0) || list.length;
+        let r = Math.random() * total;
+        for (const o of list){
+          const w = o.weight > 0 ? o.weight : 0;
+          r -= w || (total / list.length); // fallback to uniform slice if weights are zero
+          if (r <= 0) return o.text;
+        }
+        return list[list.length - 1].text; // safety
+      }
+
+      let chosen = null;
+      if (matches.length) chosen = weightedMode ? pickWeighted(matches) : matches[Math.floor(Math.random()*matches.length)].text;
+      else if (untagged.length) chosen = weightedMode ? pickWeighted(untagged) : untagged[Math.floor(Math.random()*untagged.length)].text;
+      else if (fallbacks.length) chosen = weightedMode ? pickWeighted(fallbacks) : fallbacks[0].text;
+      else chosen = '';
+
+      if (asKey){ STATE.items[asKey] = chosen; }
+      return chosen;
+    });
+
+    // Resolve {{item:key}}
+    text = text.replace(/\{\{item:([a-zA-Z0-9_-]+)\}\}/g, (m, key) => (STATE.items && STATE.items[key]) ? STATE.items[key] : '');
+
+    return text;
+  }
+
+  const STORY = {
+    sections: [
+      {
+        id: 'ash-and-rain',
+        title: 'Ash and Rain',
+        beats: [
+          {
+            id: 'A',
+            text: () => `The world stank of old rain and ash.\n\n${STATE.player} adjusted the fraying strap on ${PRONOUN[STATE.pronouns].poss} shoulder, the battered pack digging into skin that hadn't known comfort in years. Beside ${PRONOUN[STATE.pronouns].obj}, ${PRONOUN[STATE.pronouns].poss} child trudged silently; a smaller figure, hollow-eyed but unbroken. ${PRONOUN[STATE.pronouns].possCap} name was ${STATE.child}. Sometimes it slipped ${PRONOUN[STATE.pronouns].obj} mind in the fatigue of survival, but tonight, in the mist, ${PRONOUN[STATE.pronouns].subj} remembered.\n\nNames mattered less now than breathing, bleeding, surviving.\n\n` + AI('atmo1'),
+            loreUnlock: 'necromyce-intro'
+          },
+          {
+            id: 'B',
+            text: () => `Ahead, the ruins of Old Haven loomed: twisted steel and hollowed concrete, buildings slumped like blind giants in the gloom. Fungal rot strangled the land itself. Gravebloom tendrils and Blightspore colonies clinging to every surface like desperate hands.\n\nInside, the shelves were {{ai:choice||difficulty:easy:sparsely filled|difficulty:hard:stripped bare|default:ruined and empty}}. Desperation had long since picked the carcass clean.`,
+            loreUnlock: null
+          },
+          {
+            id: 'C',
+            text: () => `Yet, in the back, half-buried under rotted beams, the corner of a rusted crate stuck out. A relic of a more stubborn time. ${STATE.player} strained to lift the beams while ${STATE.child} pulled the crate out. ${STATE.player} pried it open with a grim smile. Inside was a cracked {{ai:choice||canteen|can|bottle}}, two unopened {{ai:choice:as-haul,weighted||protein bars:2|cans of tinned beans:1}} and, miraculously, a {{ai:choice:weighted||spool of fishing line:1|small container of 9mm bullets:1}}.\n\nA laughable haul in the old world. A feast in this one.\n\n"We'll eat tonight," ${PRONOUN[STATE.pronouns].subj} said, tossing ${STATE.child} one of the {{item:haul}}.`,
+            loreUnlock: null
+          }
+        ],
+        choice: {
+          prompt: () => `You reach the overpass. The Hum is absent, but the wind lies. ` + AI('refl1'),
+          options: [
+            { id: 'move', label: 'Keep moving into the mist', outcomeText: 'You press on, trading certainty for distance. The road answers with broken glass and the hush of drowned engines.', loreUnlock: null },
+            { id: 'shelter', label: 'Shelter under the girders', outcomeText: 'You crouch in the skeleton of the overpass. Drips count time. The child leans on you and does not speak.', loreUnlock: 'uninfected-intro' },
+            { id: 'scavenge', label: 'Scavenge the cars (risky)', outcomeText: 'A child’s shoe hangs from a mirror by a red lace. You look away first. You always do. (You find a scrap of cloth.)', loreUnlock: 'blightspores-hint' }
+          ]
+        },
+        closingBeat: {
+          text: () => `${STATE.child} looks up. "Is the safe place… real?"\n\n"It’s real enough to walk toward," ${STATE.player} says.`,
+          loreUnlock: null
+        }
+      }
+    ],
+    ai: {
+      atmo1: 'The rain carried the taste of metal, as if the clouds had bled.',
+      refl1: 'You listen to the quiet and decide it isn’t mercy; it’s teeth waiting to close.'
+    },
+    lore: {
+      'necromyce-intro': { title: 'Necromyce: The First Bloom', text: 'The world ended not with fire or war, but with a whisper pulled from the soil. Hospitals filled. Then the air emptied.' },
+      'uninfected-intro': { title: 'The Uninfected', text: 'The uninfected endure, scattered like ghosts. You and the child are among them—for now.' },
+      'blightspores-hint': { title: 'The Hum', text: 'Some swear the Hum binds the mad. Those who fail to echo it are torn apart.' }
+    }
+  };
+
+  function AI(key){ return STORY.ai[key] ? `\n\n${STORY.ai[key]}` : ''; }
+
+  // --- DOM refs ---
+  const scrTitle = document.getElementById('screen-title');
+  const scrSetup = document.getElementById('screen-setup');
+  const scrStory = document.getElementById('screen-story');
+  const btnContinue = document.getElementById('btn-continue');
+  const btnNew = document.getElementById('btn-new');
+  const btnToggleDiff = document.getElementById('btn-toggle-diff');
+  const btnStart = document.getElementById('btn-start');
+  const inpPlayer = document.getElementById('inp-player');
+  const inpChild = document.getElementById('inp-child');
+  const selPronouns = document.getElementById('sel-pronouns');
+  const storySectionTitle = document.getElementById('story-section-title');
+  const storyText = document.getElementById('story-text');
+  const choiceCard = document.getElementById('choice-card');
+  const choicePrompt = document.getElementById('choice-prompt');
+  const choiceButtons = document.getElementById('choice-buttons');
+  const btnLore = document.getElementById('btn-lore');
+  const loreBadge = document.getElementById('lore-badge');
+  const drawerLore = document.getElementById('drawer-lore');
+  const loreItems = document.getElementById('lore-items');
+  const btnCloseLore = document.getElementById('btn-close-lore');
+  const btnJournal = document.getElementById('btn-journal');
+  const modalJournal = document.getElementById('modal-journal');
+  const journalContent = document.getElementById('journal-content');
+  const btnCloseJournal = document.getElementById('btn-close-journal');
+  const tabs = document.querySelectorAll('.tab');
+  const toast = document.getElementById('toast');
+  const dbgDiff = document.getElementById('dbg-diff');
+
+  // --- Routing ---
+  function show(id){
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+
+  // --- Title actions ---
+  btnNew.addEventListener('click', () => { show('screen-setup'); });
+  btnContinue.addEventListener('click', () => { show('screen-story'); renderCurrentBeat(); });
+  btnToggleDiff.addEventListener('click', () => {
+    STATE.difficulty = STATE.difficulty === 'easy' ? 'hard' : 'easy';
+    dbgDiff.textContent = STATE.difficulty;
+    showToast('Difficulty: ' + STATE.difficulty);
+  });
+
+  // --- Setup actions ---
+  btnStart.addEventListener('click', () => {
+    STATE.player = (inpPlayer.value || 'Elias').trim();
+    STATE.child = (inpChild.value || 'Brandon').trim();
+    STATE.pronouns = selPronouns.value || 'he';
+
+    STATE.sectionIndex = 0;
+    STATE.beatIndex = 0;
+    STATE.hasChoiceShown = false;
+    STATE.unlockedLore = new Set();
+    STATE.unreadLore = new Set();
+    STATE.storyLog = [];
+    STATE.items = {};
+
+    btnContinue.disabled = false;
+    show('screen-story');
+    renderCurrentBeat();
+  });
+
+  // --- Story rendering ---
+  function currentSection(){ return STORY.sections[STATE.sectionIndex]; }
+
+  function renderCurrentBeat(){
+    const sec = currentSection();
+    storySectionTitle.textContent = sec.title;
+
+    if (STATE.beatIndex < sec.beats.length){
+      const b = sec.beats[STATE.beatIndex];
+      storyText.textContent = parseInline(b.text());
+      choiceCard.style.display = 'none';
+      STATE.storyLog.push({ type:'beat', text: storyText.textContent, sectionId: sec.id });
+      if (b.loreUnlock){ unlockLore(b.loreUnlock); }
+      storyText.onclick = () => { STATE.beatIndex++; renderCurrentBeat(); };
+    } else if (!STATE.hasChoiceShown) {
+      choiceCard.style.display = 'block';
+      choicePrompt.textContent = parseInline(sec.choice.prompt());
+      choiceButtons.innerHTML = '';
+      sec.choice.options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'btn';
+        btn.textContent = opt.label;
+        btn.onclick = () => {
+          storyText.textContent = parseInline(opt.outcomeText);
+          STATE.storyLog.push({ type:'outcome', text: storyText.textContent, sectionId: sec.id });
+          if (opt.loreUnlock){ unlockLore(opt.loreUnlock); }
+          showToast('✔ Checkpoint saved');
+          choiceCard.style.display = 'none';
+          storyText.onclick = () => { STATE.hasChoiceShown = true; renderCurrentBeat(); };
+        };
+        choiceButtons.appendChild(btn);
+      });
+      storyText.onclick = null;
+    } else {
+      storyText.textContent = parseInline(sec.closingBeat.text());
+      STATE.storyLog.push({ type:'beat', text: storyText.textContent, sectionId: sec.id });
+      storyText.onclick = () => { showToast('End of Ash & Rain demo'); };
+    }
+
+    updateLoreBadge();
+  }
+
+  // --- Lore logic ---
+  function unlockLore(id){
+    if (!STORY.lore[id]) return;
+    STATE.unlockedLore.add(id);
+    STATE.unreadLore.add(id);
+    updateLoreBadge();
+  }
+
+  function updateLoreBadge(){
+    const n = STATE.unreadLore.size;
+    loreBadge.textContent = n;
+    loreBadge.style.display = n > 0 ? 'inline-block' : 'none';
+  }
+
+  btnLore.addEventListener('click', () => {
+    loreItems.innerHTML = '';
+    const ids = Array.from(STATE.unlockedLore);
+    if (ids.length === 0){
+      const div = document.createElement('div');
+      div.className = 'item muted';
+      div.textContent = 'No lore discovered yet.';
+      loreItems.appendChild(div);
+    } else {
+      ids.forEach(id => {
+        const l = STORY.lore[id];
+        const item = document.createElement('div');
+        item.className = 'item';
+        const h = document.createElement('div');
+        h.style.fontWeight = '600';
+        h.textContent = l.title;
+        const p = document.createElement('div');
+        p.className = 'muted';
+        p.textContent = l.text;
+        item.appendChild(h);
+        item.appendChild(p);
+        loreItems.appendChild(item);
+      });
+    }
+    STATE.unreadLore.clear();
+    updateLoreBadge();
+    drawerLore.classList.add('open');
+    drawerLore.setAttribute('aria-hidden', 'false');
+  });
+
+  document.getElementById('btn-close-lore').addEventListener('click', closeLore);
+  function closeLore(){ drawerLore.classList.remove('open'); drawerLore.setAttribute('aria-hidden', 'true'); }
+
+  // --- Journal logic ---
+  btnJournal.addEventListener('click', () => { setActiveTab('story'); renderJournal('story'); modalJournal.classList.add('open'); modalJournal.setAttribute('aria-hidden', 'false'); });
+  btnCloseJournal.addEventListener('click', () => { modalJournal.classList.remove('open'); modalJournal.setAttribute('aria-hidden', 'true'); });
+  document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => { setActiveTab(t.dataset.tab); renderJournal(t.dataset.tab); }));
+
+  function setActiveTab(name){ document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name)); }
+
+  function renderJournal(tab){
+    journalContent.innerHTML = '';
+    if (tab === 'story'){
+      if (STATE.storyLog.length === 0){ journalContent.innerHTML = '<div class="muted">No entries yet.</div>'; return; }
+      STATE.storyLog.forEach((e) => {
+        const c = document.createElement('div'); c.className = 'card';
+        const h = document.createElement('div'); h.className = 'small muted'; h.textContent = `${e.sectionId.toUpperCase()} · ${e.type}`;
+        const p = document.createElement('div'); p.textContent = e.text;
+        c.appendChild(h); c.appendChild(p); journalContent.appendChild(c);
+      });
+    } else if (tab === 'lore'){
+      const ids = Array.from(STATE.unlockedLore);
+      if (ids.length === 0){ journalContent.innerHTML = '<div class="muted">No lore discovered yet.</div>'; return; }
+      ids.forEach(id => {
+        const l = STORY.lore[id];
+        const c = document.createElement('div'); c.className = 'card';
+        const h = document.createElement('div'); h.style.fontWeight = '600'; h.textContent = l.title;
+        const p = document.createElement('div'); p.className = 'muted'; p.textContent = l.text;
+        c.appendChild(h); c.appendChild(p); journalContent.appendChild(c);
+      });
+    } else {
+      journalContent.innerHTML = '<div class="muted">(Reserved for later.)</div>';
+    }
+  }
+
+  // --- Menu (placeholder) ---
+  document.getElementById('btn-menu').addEventListener('click', () => {
+    alert('Menu placeholder — later: text size, contrast, audio drips, etc.');
+  });
+
+  // --- Toast helper ---
+  let toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 1600);
+  }
+
+  // Click outside drawer to close
+  document.addEventListener('click', (e) => {
+    if (drawerLore.classList.contains('open')){
+      const within = drawerLore.contains(e.target) || e.target.id === 'btn-lore';
+      if (!within) closeLore();
+    }
+  });
+  </script>
+</body>
+</html>
