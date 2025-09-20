@@ -35,6 +35,14 @@ When both player and lore-explorer are allowed in the outer gate, use inline onl
     - any out-of-game regional content.
     - not necessarily in a language for that locale, but could also be relevant to that locale, like special offers.
 
+### Metadata
+
+Describes an item's metadata, as applicable. Particularly useful for items.
+
+- located-at - contains information about where an item is located.
+- origin-at - contains information about where an item was originally located.
+- at-location - contains information where the player currently is located.
+
 ### Context
 
 all|any|none
@@ -44,11 +52,12 @@ all|any|none
 - none - a player must not have any of the items to unlock this section
 
 ### The context section keys are:
-- at-location
-- found-item - posession of item is requirement.
-- discussed-item - need to discuss the item with companions for more clarity before useful.
-- repaired-item - if an item is broken or not working for any reason, needs to be repaired before useful.
-- analyzed-item - if an item requires indepth analysis beyond basic discussion before useful.
+
+- has-item - possession of item is a requirement.
+- has-seen - need to have seen an item is a requirement. Similar to has-item, but more for items that you can't take, like landmarks.
+- has-discussed - need to discuss the item with companions for more clarity before it becomes useful.
+- has-analyzed - if an item requires in-depth analysis beyond basic discussion before it becomes useful. Reveals if an item needs to be repaired.
+- has-repaired - if an item is broken or not working for any reason, needs to be repaired before it becomes useful.
 
 ### Filters
 

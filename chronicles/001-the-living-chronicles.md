@@ -23,21 +23,9 @@
         - canon:core
     confidence:100
     keywords:
-        - necromyce
-        - infection
-        - fungal
-        - infection-origin
-        - pathogen-evolution
-        - collapse
-        - infrastructure-failure
-        - contaminated-water
-        - contaminated-food
-        - animal-carriers
-        - cycle-78
-        - first-bloom
-        - early-infection
-        - apocalypse
-        - dread
+        - chronicles
+        - game-manual
+        - introduction
     source-id:lore-living-chronicles-intro-100
     prompt:[]
 -->
@@ -52,9 +40,52 @@ The Living Chronicles are not static. They shift. They breathe. They remember. W
 
 If you are reading this... you are still uninfected. For now.
 
+<!-- only:audience:lore-explorer -->
 > The world doesn't lie to you. It just tells you what it knows — and hopes you survive long enough to learn better.
 > _~ Fragment from an archivist at Ironroot Vault_
+<!-- /only -->
+<!-- /show-if -->
 
+<!-- show-if
+    audience:
+        type:
+            - player
+            - lore-explorer
+        locale:
+            - default
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    unlocked-by:[]
+    unlocks:[]
+    context:
+        all:
+            - at-location:player-location-start
+            - has-discussed:spoke-with-first-companion
+        any:[]
+        none:[]
+    tags:
+        - type:narrative
+        - canon:core
+    confidence:100
+    keywords:
+        - necromyce
+        - infection
+        - fungal
+        - infection-origin
+        - collapse
+        - infrastructure-failure
+        - contamination
+        - animal-carriers
+        - cycle-78
+        - first-bloom
+        - apocalypse
+    source-id:lore-fractured-world-100
+    prompt:[]
+-->
 ## The Fractured World
 
 You are living in Cycle 78 — nearly eight decades after the incident called **The First Bloom**, remembered by a rush of sick people to local hospitals. The first responders did not know what hit them. They had lost the battle even before it really started.
@@ -88,15 +119,15 @@ The original Necromyce strain eventually burned itself out. But in its wake, two
     unlocks:[]
     context:
         all:
-            - found-item:fragment-blightspores-informational-poster-outside-home
+            - has-item:fragment-blightspores-informational-poster-outside-home
         any:
-            - found-item:lamp-post-outside-starting-location
-            - found-item:lamp-post-outside-building-after-first-encounter
+            - has-item:lamp-post-outside-starting-location
+            - has-item:lamp-post-outside-building-after-first-encounter
         none:[]
     tags:
         - type:narrative
         - canon:core
-    confidence:100
+    confidence:20
     keywords:
         - blightspores
         - feral
@@ -125,7 +156,7 @@ The first strain became known as the **Blightspores**. They are believed to be f
         - prejudice:[]
     context:
         all:
-            - discussed-item:infected-discussion-at-player-location-start
+            - has-discussed:infected-discussion-at-player-location-start
             - at-location:safe-location
         any:[]
         none:[]
@@ -155,18 +186,28 @@ The first strain became known as the **Blightspores**. They are believed to be f
 
 The first strain became known as the **Blightspores**. They are feral and mindless, usually short-lived. Victims of this strain descended into madness within hours of infection. They didn't live long enough to age or procreate. They fought. They killed. They died.
 
+<!-- only:audience:lore-explorer -->
 Yet, they weren't without structure. A low and droning sound, called **the Hum**, bound them into violent colonies. Each region developed its own frequency. Any being that failed to echo their dialect, be it human, animal, or even other Blightspore variants, was torn apart.
+<!-- /only -->
 <!-- /show-if -->
 
 <!-- show-if
-    discovered-at: fragment-gravebloomers-lab-recorder-message
-    trigger: analysis
-    discovery-requires: []
-    analysis-requires:
-        - item: charged-battery
-        - item: screwdriver
-        - location: safe-location
-    confidence: 100
+    audience:
+        - player
+        - lore-explorer
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    context:
+        all:
+            - has-item: charged-battery
+            - has-item: screwdriver
+            - at-location: safe-location
+        any:[]
+        none:[]
     unlocked-by:
         - infected-blightspores-100
     unlocks:
@@ -174,6 +215,7 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
     tags:
         - type:narrative
         - canon:core
+    confidence:100
     keywords:
         - gravebloomers
         - cognitive
@@ -185,50 +227,59 @@ Yet, they weren't without structure. A low and droning sound, called **the Hum**
         - generational-memory
         - remembrance
         - arrogance
-        - post-human-evolution
         - scripture
         - doctrine
-        - gravebloomer-gospel
-    source-id: lore-infected-gravebloomers-100
+    source-id:lore-infected-gravebloomers-100
     prompt:{{child-name}} asks you whether there are more types of infected. "I know about the Gravebloomers. I will tell you more later. Let's fix this recorder first. Maybe there is something important on it."
+    metadata:
+        - discovered-at:fragment-gravebloomers-lab-recorder-message
 -->
 ### The Gravebloomers
 
 The second strain, the Gravebloomers, did not lose their minds; they sharpened them. They could think, plan, and forge alliances — both with other Gravebloomer clans and, when it suited their aims, even with the uninfected. They could also hate... and there are no known survivors of a Gravebloomer's hatred.
 
+<!-- only:audience:lore-explorer -->
 Remembrance gave way to arrogance. The uninfected were no longer seen as survivors, but as stunted echoes — unfinished, aging relics too afraid to embrace the bloom. Gravebloomers aged, procreated, and with each generation, more of what it meant to be human slipped away.
 
 What remained hardened into doctrine. Stories became scripture, victories became legend. From colony to colony, their gospel spread — preached in bone and whispered through spores. They did not mourn what was lost. They preached what had replaced it.
+<!-- /only -->
 <!-- /show-if -->
 
 <!-- show-if
-    key: uninfected-overview-100
-    discovered-at: safe-location
-    prompt: []
-    trigger: analysis
-    discovery-requires: []
-    analysis-requires:
-        - analysis:infected-gravebloomers-100
-        - location:safe-location
-    confidence: 100
+    audience:
+        - player
+        - lore-explorer
+    filters:
+        - spoiler:[]
+        - violence:[]
+        - language:[]
+        - sex:[]
+        - prejudice:[]
+    context:
+        all:
+            - has-analyzed:infected-gravebloomers-100
+            - at-location: safe-location
+        any:[]
+        none:[]
     unlocked-by:
         - infected-gravebloomers-100
     unlocks:
         - infection-character-10
     tags:
-        - group:uninfected
-        - theme:survival
-        - theme:isolation
-        - theme:scarcity
-        - theme:trust-collapse
-        - theme:ashes
-        - theme:bleak
-        - theme:resilient
-        - narrative:post-collapse
-        - narrative:player-perspective
-        - narrative:choice-driven
-        - gameplay-and-mechanic:chronicle
-        - gameplay-and-mechanic:player-agency
+        - type:narrative
+        - canon:core
+    confidence:100
+    keywords:
+        - uninfected
+        - survival
+        - isolation
+        - trust-collapse
+        - resilience
+        - post-collapse
+    source-id:lore-infected-gravebloomers-100
+    prompt:[]
+    metadata:
+        - discovered-at:fragment-gravebloomers-lab-recorder-message
     source-id: lore-uninfected-overview-100
 -->
 ### The Uninfected
